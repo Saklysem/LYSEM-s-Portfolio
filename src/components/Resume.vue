@@ -1,0 +1,355 @@
+<script>
+export default{
+
+};
+</script>
+<template>
+<div class="software">
+    <div class="softwareSt">
+        <h1 class="softwareCov">Resume</h1>
+        <div class="sotfwareStyle">
+        <h1 >Resume</h1>
+        </div>
+        <div class="line_1">
+            <div class="longLine"></div>
+            <div class="shortLine"></div>
+        </div>
+    </div>
+    <div class="title">
+        <div class="Ex">
+            <h1>Experience</h1>
+        </div>
+        <div class="Ed">
+            <h1>Education</h1>
+        </div>
+    </div>
+<!-- The Resume style  -->
+    <div class="ResumeStyle">
+<!-- the left wall style -->
+        <div class="leftWall">
+            <div class="circle1">
+                <div></div>
+            </div>
+            <div class="circle2">
+                <div></div>
+            </div>
+            <div class="line1"></div>
+        </div>
+<!-- The Experience description style (left side)-->
+        <div class="left">
+<!-- Experience job 1 -->
+            <div class="ex1">
+                <div class="exTitle1">Video Edtior & Motion Graphics</div>
+                <div class="date">2023 - Present</div>
+                <div class="exTitle1s">Infinity Information & Apps Dev</div>
+                <div class="description">
+                    <ul class="listEx1">
+                        <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
+                        <li>Make Highlights Video, 2D Graphic Animations, Promotional Videos, Tutorial Videos ...</li>
+                        <li>manage fully on Video Productions within Deadline plus Client’s Requirement</li>
+                    </ul>
+                </div>
+            </div>
+<!-- Experience job 2 -->
+            <div class="ex2">
+                <div class="exTitle2">Video Edtior & Motion Graphics</div>
+                <div class="date">2023 - Present</div>
+                <div class="exTitle1s">Infinity Information & Apps Dev</div>
+                <div class="description">
+                    <ul class="listEx2">
+                        <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
+                        <li>Make Highlights Video, 2D Graphic Animations, Promotional Videos, Tutorial Videos ...</li>
+                        <li>manage fully on Video Productions within Deadline plus Client’s Requirement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!-- the right wall style -->
+        <div class="rightWall">
+            <div class="circle1">
+                <div></div>
+            </div>
+            <div class="circle2">
+                <div></div>
+            </div>
+            <div class="line1"></div>
+        </div>
+<!-- The Experience description style (right side)-->
+        <div class="right">
+<!-- Education 1 -->
+            <div class="ex1">
+                <div class="exTitle1">Video Edtior & Motion Graphics</div>
+                <div class="date">2023 - Present</div>
+                <div class="exTitle1s">Infinity Information & Apps Dev</div>
+                <div class="description">
+                    <ul class="listEx1">
+                        <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
+                        <li>Make Highlights Video, 2D Graphic Animations, Promotional Videos, Tutorial Videos ...</li>
+                        <li>manage fully on Video Productions within Deadline plus Client’s Requirement</li>
+                    </ul>
+                </div>
+            </div>
+<!-- Education 2 -->
+            <div class="ex2">
+                <div class="exTitle2">Video Edtior & Motion Graphics</div>
+                <div class="date">2023 - Present</div>
+                <div class="exTitle1s">Infinity Information & Apps Dev</div>
+                <div class="description">
+                    <ul class="listEx2">
+                        <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
+                        <li>Make Highlights Video, 2D Graphic Animations, Promotional Videos, Tutorial Videos ...</li>
+                        <li>manage fully on Video Productions within Deadline plus Client’s Requirement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</template>
+<style lang="scss" scoped>
+
+.software {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(17, 24, 39);
+    position: absolute;
+    z-index: 5;
+    margin-top: 1940px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        	
+}
+.softwareSt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}       
+.softwareCov {
+
+    width: 100%;
+    height: 120px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    opacity: 10%;
+    
+}
+.sotfwareStyle {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ffd700;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+// line style below  About text
+.line_1 {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    // background-color: #ffd700;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+
+}
+.longLine {
+    width: 200px;
+    height: 2px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    border-radius: 100%;
+}
+.shortLine {
+    position: absolute;
+    width:  90px;
+    height: 2px;
+    background-color: #ffd700;
+    display: flex;
+    border-radius: 100%;
+}
+.title {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title .Ex{
+    width: 630px;
+    color: white;
+    // background-color: #003a97;
+}
+.title .Ed {
+    width: 630px;
+    color: white;
+    // background-color: rgb(14, 70, 120);
+}
+// Resume descrition style
+.ResumeStyle {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+// The left wall style
+.leftWall {
+    width: 30px;
+    height: 700px;
+    // background-color: rgb(0, 68, 140);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color:rgb(81, 81, 81);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle1 div{
+    width: 12px;
+    height: 12px;
+    background-color: rgba(17, 24, 39, 0.90);
+    border-radius: 100%;
+}
+.circle1 div:hover{
+    animation-duration: 1s;
+    background-color: #ffd700;
+
+}
+// Circle dot 2
+.circle2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color:rgb(81, 81, 81);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 270px;
+}
+.circle2 div{
+    width: 12px;
+    height: 12px;
+    background-color: rgba(17, 24, 39, 0.90);
+    border-radius: 100%;
+}
+.circle2 div:hover{
+    animation-duration: 1s;
+    background-color: #ffd700;
+
+}
+.line1{
+    width: 2px;
+    height: 100%;
+    background-color: rgb(81, 81, 81);
+    border-radius: 3px;
+}
+// The Experience description style at left side
+.left {
+    width: 600px;
+    height: 700px;
+    padding-left: 15px;
+    margin-top: -15px;
+    // background-color: #696969;
+    display: flex;
+    flex-direction: column;
+}
+.ex1 {
+    width: 100%;
+    height: auto;
+    // background-color: rgb(14, 45, 72);
+}
+// Experience job 1
+.ex1 .exTitle1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #ffd700;
+}
+.ex1 .date{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.ex1 .exTitle1s{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.ex1 .listEx1{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+    // visibility: visible;
+    // animation-duration: 1.5s;
+    // animation-delay: 0.5s;
+    // animation-name: fadeInLeft;
+}
+// Experience job 2
+.ex2 .exTitle2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #ffd700;
+    margin-top: 30px;
+}
+.ex2 .date{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.ex2 .exTitle1s{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.ex2 .listEx2{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+}
+// The right wall style
+.rightWall {
+    width: 30px;
+    height: 700px;
+    // background-color: rgb(0, 68, 140);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+// The Experience description style at right side
+.right {
+    width: 600px;
+    height: 700px;
+    // background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-top: -15px;
+}
+.ex1 {
+    width: 100%;
+    height: auto;
+    // background-color: rgb(14, 45, 72);
+}
+
+</style>
