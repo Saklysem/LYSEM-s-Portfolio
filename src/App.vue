@@ -31,7 +31,7 @@ export default{
     <div class="cover">
       <SEM />
     </div>
-    <div>
+    <div id="about">
       <About />
     </div>
     <div>
