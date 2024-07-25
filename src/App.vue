@@ -6,6 +6,7 @@ import Software from"./components/Software.vue";
 import About from"./components/About.vue";
 import SEM from "./components/Sem.vue";
 import NavBar from "./components/NavBar.vue";
+import RippleEffect from "./components/RippleEffect.vue";
 export default{
   name: "App",
   components: {
@@ -16,6 +17,7 @@ export default{
     Resume,
     Portfolio,
     Contact,
+    RippleEffect,
   },
 };
   
@@ -46,6 +48,9 @@ export default{
     <div>
       <Contact />
     </div>
+    <!-- <div class="rippleEffect">
+      <RippleEffect />
+    </div> -->
   </div>
 </template>
 
@@ -57,6 +62,13 @@ export default{
   padding: 0;
   font-family: "Raleway", sans-serif; 
   font-weight: 400;
+}
+.cover {
+  z-index: 1;
+}
+.rippleEffect {
+  margin-top: -1100px;
+  z-index: 2;
 }
 </style>
 
