@@ -352,8 +352,8 @@ export default{
 }
 
 .cardC1{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     background-color: rgb(25, 34, 53);
     display: flex;
     justify-content: center;
@@ -364,8 +364,8 @@ export default{
 }
 
 .cardC1 img {
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
 
 
 }

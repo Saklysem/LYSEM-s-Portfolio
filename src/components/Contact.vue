@@ -1,9 +1,9 @@
 <script>
 import { faSitemap } from '@fortawesome/free-solid-svg-icons';
 export default{
-    components  :{
-        faSitemap
-    }
+    // components  :{
+    //     faSitemap,
+    // }
 };
 </script>
 <template>

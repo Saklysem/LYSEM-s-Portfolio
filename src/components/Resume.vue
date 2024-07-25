@@ -197,10 +197,24 @@ export default{
     color: white;
     // background-color: #003a97;
 }
+.Ex h1{
+    display: flex;
+    align-items: center;
+}
+.Ex svg{
+    margin-right: 10px;
+}
 .title .Ed {
     width: 630px;
     color: white;
     // background-color: rgb(14, 70, 120);
+}
+.Ed h1{
+    display: flex;
+    align-items: center;
+}
+.Ed svg{
+    margin-right: 10px;
 }
 // Resume descrition style
 .ResumeStyle {

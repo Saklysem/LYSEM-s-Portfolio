@@ -1,19 +1,18 @@
 <script>
 export default{
-
 };
 </script>
 <template>
   <div >
     <div class="cover">
-        <div class="image">
+        <div class="image st-hero st-style2 st-bg st-dynamic-bg st-ripple-version jquery-ripples">
           <img src="../assets/BG/Cover.png" alt="Cover">
-          <div class="bgEffect"></div>
+          <!-- <div id="bgEffect"></div> -->
         </div>
         <div class="profile">
           <div class="profile_style">
             <div class="img_Radious"></div>
-            <div class="img"><img src="../assets/BG/Profile.jpg" alt=""></div>
+            <div class="img"><img src="../assets/BG/Profile.jpg" alt="Loading"></div>
           </div>
           <div class="about">
               <div class="greeting">
@@ -24,11 +23,17 @@ export default{
                 <h3 class="skill">Motion Graphic | Video Editor | Cameraman | 3D Motion</h3>
               </div>
               <!-- Icon -->
-              <div class="SCicon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
-              </div>
+              <div class="SMIcon">
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        </p>
+                        <p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-youtube"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+                        </p>
+                </div>
           </div>
         </div>
       </div>
@@ -43,7 +48,6 @@ export default{
 .cover  {
   max-width: 100%;
   height: 1100px;
-  
 }
 
 
@@ -59,7 +63,7 @@ export default{
 } 
 
 // Apply water wave effect on cover 
-.bgEffect {
+#bgEffect {
   position: absolute;
   width: 100%;   
   height: 100%;
@@ -67,7 +71,7 @@ export default{
   justify-content: center;
   align-items: center;
   background-color: #303030;
-  opacity: 30%;
+  opacity: 50%;
 }
 // Social icon style
 .SCicon {
@@ -110,7 +114,6 @@ export default{
   border-radius: 50%;
   background-image: radial-gradient(white, #006db1);
   opacity: 30%;
-
 }
 
 .img {
@@ -157,5 +160,37 @@ export default{
   font-size: 20px;
   color: white;
   opacity: 70%;
+  margin-top: -15px;
 }
+// Icon style 
+.SMIcon {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-left: -20px;
+    // background-color: #ffd90053;
+}
+.SMIcon p{
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1.5px solid rgba(139, 139, 139, 0.7);
+    // background-color: #004186;   
+}
+.SMIcon P:hover{
+    // width: 100px;
+    // border-radius: 50px;
+    border: 1.5px solid #ffd700;
+}
+
+// Ripple Style effect
+
 </style>
