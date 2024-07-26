@@ -199,7 +199,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 100px;
-    border: 1.5px solid rgba(139, 139, 139, 0.7);
+    border: 1.5px solid white;
     // background-color: #004186;   
 }
 .SMIcon P:hover{
