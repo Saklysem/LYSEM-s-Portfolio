@@ -17,13 +17,11 @@
   };
 </script>
 <template>
-  <div >
     <div class="cover">
         <div ref="rippleContainer" class="image">
           <!-- <img src="../assets/BG/Cover.png" alt="Cover"> -->
           <!-- <div id="bgEffect"></div> -->
            <!-- <div class="content"></div> -->
-        
           <div class="profile">
             <div class="profile_style">
               <div class="img_Radious"></div>
@@ -53,28 +51,24 @@
           </div>
         </div>
     </div>
-  </div>
 </template>
 
 <style lang="scss">
 
-
-
-
 .cover  {
-  max-width: 100%;
-  height: 1080px;
+  max-width: 100vw;
+  height: 680px;
+  z-index: 1;
+  margin-top: auto;
 }
-
-
 .image {
-  position: relative;
-  width: 100%;   
-  height: 100%;
+  width: 100%;
+  height: 100%;   
   display: flex;
   justify-content: center;
   align-items: center;
   background: url('../assets/BG/Cover.png') no-repeat center center;
+  margin-top: auto;
 //background-size: cover;
 //overflow: hidden;
 } 
@@ -109,9 +103,9 @@
 .profile {
   width: fit-content;
   height: fit-content;
-  margin-top: -150px;
+  margin-top: 70px;
   position: absolute;
-  z-index: 100;
+  z-index: 2;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,20 +116,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -90px;
+  margin-top: 0px;
 }
 
 .img_Radious {
-  width: 215px;
-  height: 215px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   background-image: radial-gradient(white, #006db1);
   opacity: 30%;
 }
 
 .img {
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -159,7 +153,7 @@
 .greeting {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
 }
 .greeting .hi{
@@ -175,9 +169,13 @@
 
 .skill {
   font-size: 20px;
-  color: white;
-  opacity: 70%;
+  font-family: sans-serif;
+  //background: linear-gradient(45deg, #ffd700, #ffffff, #00939e);
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
+  opacity: 100%;
   margin-top: -15px;
+  color: white;
 }
 // Icon style 
 .SMIcon {
@@ -208,6 +206,159 @@
     border: 1.5px solid #ffd700;
 }
 
-// Ripple Style effect
+// Responsive size
+@media (max-width: 600px){
+  .cover  {
+    max-width: 600px;
+    height: 400px;
+    margin: auto;
+    z-index: 1;
+    background-color: #006db1;
+  }
 
+  .image {
+    margin: auto;
+    width: 100%; 
+    height: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: url('../assets/BG/Cover2.png')  no-repeat center center;
+  //background-size: cover;
+  //overflow: hidden;
+  } 
+  // Apply water wave effect on cover 
+  #bgEffect {
+    position: absolute;
+    width: 100%;   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    opacity: 50%;
+  }
+  // Social icon style
+  .SCicon {
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    // background-color: #006db1;
+  }
+  // .SCicon svg{
+  //   width: 50px;
+  //   height: 50px;
+  //   border: 1.5px solid white;
+  //   border-radius: 50px;
+  // }
+  .profile {
+    width: fit-content;
+    height: fit-content;
+    margin-top: auto;
+    position: absolute;
+    z-index: 13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+  }
+  
+  .img_Radious {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-image: radial-gradient(white, #006db1);
+    opacity: 30%;
+  }
+  
+  .img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;       
+  }
+  
+  .profile img{
+    width: 160px;
+    height: auto;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .greeting {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: white;
+  }
+  .greeting .hi{
+    font-family: roboto;
+    color: white;
+  }
+  
+  .greeting .name {
+    font-family: roboto;
+    color: #ffd700;
+    margin-left: 15px;
+  }
+  
+  .skill {
+    font-size: 20px;
+    color: white;
+    opacity: 100%;
+    margin-top: -15px;
+  }
+  // Icon style 
+  .SMIcon {
+      width: 250px;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 0px;
+      margin-left: -20px;
+      // background-color: #ffd90053;
+  }
+  .SMIcon p{
+      width: 40px;
+      height: 40px;
+      font-size: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100px;
+      border: 1.5px solid white;
+      // background-color: #004186;   
+  }
+  .SMIcon p svg{
+    width: 20px;
+  }
+  .SMIcon P:hover{
+      // width: 100px;
+      // border-radius: 50px;
+      border: 1.5px solid #ffd700;
+  }
+}
 </style>

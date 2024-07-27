@@ -46,14 +46,17 @@ export default{
 
 <style lang="scss" scoped>
 .navberCover{
-  width: 100%;
+  width: 100vw;
+  height: 62px;
   display: flex;
   justify-content: center;
-  background-color:  rgba(17, 24, 39, 1);
+  background-color:  rgb(17, 24, 39, 1);
+  position: fixed;
+  z-index: 11;
 
 }
 .nav{
-  background-color:  rgba(17, 24, 39, 1);
+  background-color:  rgb(17, 24, 39, 1);
   max-width: 1200px;
   height: fit-content;
   padding: 5px;
@@ -62,7 +65,6 @@ export default{
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: 10;
   
 }
 .logo{
@@ -119,65 +121,50 @@ li a:hover:not(.active){
   color: white;
   float: right;
   margin-right: 30px;
-  display: flex;align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   display: none;
-
 }
+
 //checkbox for bar hide
 #check {
   display: none;
 }
 //Nav bar Responsive 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
+  .navberCover{
+    width: 100vw;
+    margin:auto;
+    height: auto;
+  }
   .nav {
-    width: 600px;
-    display: flex;
-    flex-direction: row;
-  }
-  .logo {
-    margin-right: -450px;
-  }
-  .logo img {
-    height: 30px;
-  }
-  li a{
-    font-size: 12px;
-  }
-  .Phone {
-    font-size: 10px;
-    background-color: rgba(240, 248, 255, 0.199);
-  }
-  .contact {
-    display: block;
-    margin-right: 0px; 
-    justify-content: none;
-  }
-  .contact p{
-    margin-right: 0px;
-  }
-  .Phone svg{
-    margin-right: 0px;
-  }
-}
-@media (max-width:600px) {
-  .nav {
-    width: 600px;
+    max-width: 600px;
+    height: 60px;
     display: flex;
     flex-direction: column;
   }
 
   .logo {
     margin-right: auto;
-    padding: 15px;
+    margin-top: 0px;
+    padding: 10px;
+    width: fit-content;
   }
   .logo img {
     height: 35px;
+    margin-top: -10px;
   }
   .checkbtn {
-    display: block;
-    margin-top: -310px;
-    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -300px;
+    padding: 6x;
+    margin-left: auto;
+  }
+  .checkbtn svg{
+    margin-top: -13px;
   }
   .checkbtn:hover{
     color: #ffd700;
@@ -189,11 +176,14 @@ li a:hover:not(.active){
     width: fit-content;
     display: block;
     background-color:  rgba(17, 24, 39, 1);
+
   }
   .menu-open{
-    margin-left: 470px;
+    margin-left: 490px;
+    margin-top: 0px;
     opacity: 100%;
     transition: all 0.3s ease;
+
   }
 
   li a{

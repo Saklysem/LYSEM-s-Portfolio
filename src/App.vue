@@ -33,10 +33,11 @@ export default{
     <div class="cover">
       <SEM />
     </div>
-    <div id="about">
+     <div id="about">
       <About />
     </div>
-    <div>
+    
+    <!--<div>
       <Software />
     </div>
     <div>
@@ -62,13 +63,7 @@ export default{
   padding: 0;
   font-family: "Raleway", sans-serif; 
   font-weight: 400;
-}
-.cover {
-  z-index: 1;
-}
-.rippleEffect {
-  margin-top: -1100px;
-  z-index: 2;
+  //background-color: rgba(0, 87, 137, 0.406);
 }
 </style>
 
