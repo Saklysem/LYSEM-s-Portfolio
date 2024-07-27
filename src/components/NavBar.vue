@@ -47,7 +47,7 @@ export default{
 <style lang="scss" scoped>
 .navberCover{
   width: 100vw;
-  height: 62px;
+  height: 62.5px;
   display: flex;
   justify-content: center;
   background-color:  rgb(17, 24, 39, 1);
@@ -120,7 +120,7 @@ li a:hover:not(.active){
   font-size: 30px;
   color: white;
   float: right;
-  margin-right: 30px;
+  margin-right: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,13 +155,14 @@ li a:hover:not(.active){
   .logo img {
     height: 35px;
     margin-top: -10px;
+    margin-left: auto;
   }
   .checkbtn {
     display: flex;
     flex-direction: row;
     margin-top: -300px;
     padding: 6x;
-    margin-left: auto;
+    margin-left: 550px;
   }
   .checkbtn svg{
     margin-top: -13px;
@@ -179,7 +180,7 @@ li a:hover:not(.active){
 
   }
   .menu-open{
-    margin-left: 490px;
+    margin-left: 450px;
     margin-top: 0px;
     opacity: 100%;
     transition: all 0.3s ease;
