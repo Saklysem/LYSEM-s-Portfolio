@@ -405,7 +405,7 @@ export default{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 15px;
+        margin-top: 35px;
     }
     .hi {
         display: flex;
