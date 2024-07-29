@@ -334,7 +334,7 @@ export default{
         font-family: sans-serif;
         font-weight: bold;
         letter-spacing: 6px;
-        font-size: 80px;
+        font-size: 60px;
         display: flex;
         justify-content: center;
         text-transform: uppercase;
@@ -346,7 +346,7 @@ export default{
         position: absolute;
         display: flex;
         justify-content: center;
-        margin-top: -95px;
+        margin-top: -70px;
         text-transform: uppercase;
         color: #ffd700;
         font-family: sans-serif;
@@ -361,7 +361,7 @@ export default{
         //background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: -50px;
+        margin-top: -30px;
     
     }
     .longLine {
@@ -392,23 +392,24 @@ export default{
     }
     
     .briefdMe img {
-        width: 500px;
-        height: 500px;
+        width: 450px;
+        height: 450px;
         margin: auto;
         //box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
     }
     .script {
         width: 100%;
         height: 600px;
-        font-size: 16px;
+        font-size: 12px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 15px;
     }
     .hi {
         display: flex;
-        font-size: 20px;
+        font-size: 16px;
     }
     .hi .hiThere {
         color: white;
@@ -416,7 +417,7 @@ export default{
     }
     .hi .name {
         color: #ffd700;
-        margin-left: 10px;
+        margin-left: 3px;
         margin-top: -15px
     }
     
@@ -440,7 +441,7 @@ export default{
         width: 100%;
         height: 60px;
         //background-color: #ffd700;
-        margin-top: -45px;
+        margin-top: -10px;
         display: flex;
         justify-content: center;
         align-items: center;

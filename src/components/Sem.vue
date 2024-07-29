@@ -207,12 +207,12 @@
 }
 
 // Responsive size
-@media (max-width: 600px){
+@media (max-width: 500px){
   .cover  {
     max-width: 600px;
     height: 400px;
     margin: auto;
-    z-index: 1;
+    z-index: 0;
     background-color: #006db1;
   }
 
@@ -261,7 +261,7 @@
     height: fit-content;
     margin-top: auto;
     position: absolute;
-    z-index: 13;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -272,7 +272,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 60px;
   }
   
   .img_Radious {
@@ -324,7 +324,7 @@
   }
   
   .skill {
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     opacity: 100%;
     margin-top: -15px;

@@ -52,7 +52,7 @@ export default{
   justify-content: center;
   background-color:  rgb(17, 24, 39, 1);
   position: fixed;
-  z-index: 11;
+  z-index: 1;
 
 }
 .nav{
@@ -65,6 +65,7 @@ export default{
   justify-content: center;
   align-items: center;
   position: fixed;
+  z-index: 3;
   
 }
 .logo{
@@ -140,7 +141,7 @@ li a:hover:not(.active){
     height: auto;
   }
   .nav {
-    max-width: 500px;
+    max-width: 400px;
     height: 60px;
     display: flex;
     flex-direction: column;
@@ -155,7 +156,7 @@ li a:hover:not(.active){
   .logo img {
     height: 35px;
     margin-top: -10px;
-    margin-left: 50px;
+    margin-left: 30px;
   }
   .checkbtn {
     display: flex;
