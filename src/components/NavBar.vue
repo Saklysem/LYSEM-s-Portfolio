@@ -133,7 +133,7 @@ li a:hover:not(.active){
   display: none;
 }
 //Nav bar Responsive 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   .navberCover{
     width: 100vw;
     margin:auto;

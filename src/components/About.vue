@@ -311,7 +311,7 @@ export default{
     font-size: 18px;
 }
 //About Responsive
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     .About{
         width: 100%;
         height: fit-content;
