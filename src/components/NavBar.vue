@@ -140,7 +140,7 @@ li a:hover:not(.active){
     height: auto;
   }
   .nav {
-    max-width: 600px;
+    max-width: 500px;
     height: 60px;
     display: flex;
     flex-direction: column;
@@ -155,14 +155,14 @@ li a:hover:not(.active){
   .logo img {
     height: 35px;
     margin-top: -10px;
-    margin-left: auto;
+    margin-left: 20px;
   }
   .checkbtn {
     display: flex;
     flex-direction: row;
     margin-top: -300px;
     padding: 6x;
-    margin-left: 550px;
+    margin-left: 450px;
   }
   .checkbtn svg{
     margin-top: -13px;
