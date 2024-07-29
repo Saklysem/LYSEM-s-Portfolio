@@ -26,16 +26,16 @@ export default{
 //Run project in App.vue File
 
 <template>
-  <div>
+  <div class="General">
     <div class="navBar">
       <NavBar/>
     </div>
-    <div class="cover">
-      <SEM />
-    </div>
-     <div id="about">
-      <About />
-    </div>
+      <div class="cover">
+        <SEM />
+      </div>
+      <div id="about">
+        <About />
+      </div>
     
     <!--<div>
       <Software />
@@ -48,7 +48,7 @@ export default{
     </div>
     <div>
       <Contact />
-    </div>
+    </div>-->
     <!-- <div class="rippleEffect">
       <RippleEffect />
     </div> -->
@@ -58,12 +58,11 @@ export default{
 <style lang="scss">
 
 
-
 *{
   padding: 0;
   font-family: "Raleway", sans-serif; 
   font-weight: 400;
-  //background-color: rgba(0, 87, 137, 0.406);
+    //background-color: rgba(0, 87, 137, 0.406);
 }
 </style>
 

@@ -150,15 +150,14 @@ export default{
 <style lang="scss" scoped>
 
 .About{
-    width: 100%;
+    max-width: 100vw;
     height: fit-content;
     background-color: rgb(17, 24, 39);
-    position: absolute;
     margin-top: auto;
 }
 .About_2 {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     // background-color: #ffd700;
@@ -196,7 +195,7 @@ export default{
     position: absolute;
     width: 100%;
     height: 6px;
-    // background-color: #ffd700;
+    //background-color: #ffd700;
     display: flex;
     justify-content: center;
     margin-top: -50px;
@@ -227,54 +226,60 @@ export default{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    //background-color: #ffd700;
 }
 
 .briefdMe img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin-top: -60px;
-    margin-right: 50px;
+    margin-right: 30px;
     // box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
 }
 
 .script {
     width: 700px;
-    height: 500px;
+    height: 420px;
     font-size: 20px;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    //background-color: #424242;
 
 }
 
 .hi {
+    height: fit-content;
     display: flex;
     font-size: 20px;
-    margin-top: -22px;
+    margin-top: 0px;
 }
 .hi .hiThere {
     color: white;
-    margin-top: -15px
+    margin-top: -25px;
+    //background-color: aqua;
 }
 .hi .name {
     color: #ffd700;
     margin-left: 10px;
-    margin-top: -15px
+    margin-top: -25px
 }
 
 .script h2{
     color: white;
+    font-size: 20px;
 }
 
 .promo {
     width: 700px;
     text-align: justify;
     text-justify: inter-word;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 25px;
 }
 .info {
-    line-height: 35px;
+    line-height: 30px;
     font-size: 16px;
     // color: white;
 }
@@ -283,7 +288,7 @@ export default{
     width: 100%;
     height: 60px;
     //background-color: #ffd700;
-    margin-top: -15px;
+    margin-top: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,7 +297,7 @@ export default{
 #downloadCV {
     padding: 15px 25px;
     font-size: 20px;
-    margin-right: -20px;
+    margin-right: 80px;
     background-color: #ffd700;
     text-align: center;
     outline: none;
@@ -429,7 +434,7 @@ export default{
         width: 90%;
         text-align: justify;
         text-justify: inter-word;
-        line-height: 28px;
+        line-height: 20px;
     }
     .info {
         line-height: 35px;
@@ -471,19 +476,19 @@ export default{
 }
 //The skills's card style
 .skills  {
-    width: 100%;
+    max-width: 100%;
     height: 900px;
     background-color: rgb(17, 24, 39);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: -18.3px;
+    margin-top: auto;
 }
 .skills .row-1{
-    width: 1200px;
+    max-width: 1200px;
     height: 500px;
-    //background-color: white;
+    //background-color: rgb(35, 95, 179);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -493,7 +498,7 @@ export default{
     margin-top: -60px;
 }
 .skills .row-2{
-    width: 1200px;
+    max-width: 1200px;
     height: 500px;
     margin-top: 50px;
     // background-color: white;
@@ -518,6 +523,7 @@ export default{
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+    margin: 20px;
 }
 
 .cardC1{
@@ -572,6 +578,7 @@ export default{
     align-items: center;
     justify-content: space-around;
     padding: 10px;
+    margin: 20px;
 }
 @media (max-width: 600px) {
 //The skills's card style

@@ -46,17 +46,20 @@ export default{
 
 <style lang="scss" scoped>
 .navberCover{
-  width: 100vw;
+  max-width: 100vw;
   height: 62.5px;
   display: flex;
   justify-content: center;
   background-color:  rgb(17, 24, 39, 1);
-  position: fixed;
+  //background-color:  rgb(89, 89, 89);
   z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .nav{
   background-color:  rgb(17, 24, 39, 1);
+  //background-color:  rgb(0, 113, 142);
   max-width: 1200px;
   height: fit-content;
   padding: 5px;
@@ -66,16 +69,18 @@ export default{
   align-items: center;
   position: fixed;
   z-index: 3;
+  margin: auto;
   
 }
 .logo{
   display: flex;
   flex-direction: row;
-  width: 50px;
+  width: 120px;
   height: 50px;
   padding: 6px;
   align-items: center;
-  margin-right: 0px;
+  margin-right: -60px;
+  //background-color: #ffd700;
 }
 .logo img{
   height: 60px
@@ -141,14 +146,14 @@ li a:hover:not(.active){
     height: auto;
   }
   .nav {
-    max-width: 450px;
+    max-width: 500px;
     height: 60px;
     display: flex;
     flex-direction: column;
   }
 
   .logo {
-    margin-right: auto;
+    margin-right: 300px;
     margin-top: 0px;
     padding: 10px;
     width: fit-content;
@@ -196,7 +201,7 @@ li a:hover:not(.active){
     font-size: 10px;
   }
   .contact {
-    margin-right: 0px;
+    margin-left: 0px;
     justify-content: none;
   }
   .contact p{
@@ -218,10 +223,10 @@ li a:hover:not(.active){
   flex-direction: row;
   justify-content: space-between 30px;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 5px;
 }
 .contact p {
-  margin-right: 30px;
+  margin-right: 10px;
   text-decoration: none;
   color: #ffd700;
   

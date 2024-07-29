@@ -113,7 +113,7 @@ export default{
 <style lang="scss" scoped>
 
 .software {
-    width: 100%;
+    width: 100vw;
     height: 1000px;
     background-color: rgb(17, 24, 39);
     position: absolute;

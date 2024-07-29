@@ -59,18 +59,19 @@
   max-width: 100vw;
   height: 680px;
   z-index: 1;
-  margin-top: auto;
+  margin-top: 0px;
+  background-color: #00590d;
 }
 .image {
-  width: 100%;
-  height: 100%;   
+  max-width: 100%;
+  height: 680px;   
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
   background: url('../assets/BG/Cover.png') no-repeat center center;
-  margin-top: auto;
-//background-size: cover;
-//overflow: hidden;
+  //background-size: cover;
+  //overflow: hidden;
 } 
 // Apply water wave effect on cover 
 #bgEffect {
@@ -116,7 +117,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0px;
 }
 
 .img_Radious {
@@ -168,7 +168,7 @@
 }
 
 .skill {
-  font-size: 20px;
+  font-size: 25px;
   font-family: sans-serif;
   //background: linear-gradient(45deg, #ffd700, #ffffff, #00939e);
   //-webkit-background-clip: text;
@@ -212,7 +212,7 @@
     max-width: 600px;
     height: 400px;
     margin: auto;
-    z-index: 0;
+    z-index: -1;
     background-color: #006db1;
   }
 

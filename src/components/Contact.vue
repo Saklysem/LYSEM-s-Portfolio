@@ -102,7 +102,7 @@ export default{
 <style lang="scss" scoped>
 
 .Contact {
-    width: 100%;
+    max-width: 100vw;
     height: 700px;
     background-color: rgb(17, 24, 39);
     // background-color: #33492c;
