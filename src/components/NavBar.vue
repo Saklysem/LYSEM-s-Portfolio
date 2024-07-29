@@ -155,14 +155,14 @@ li a:hover:not(.active){
   .logo img {
     height: 35px;
     margin-top: -10px;
-    margin-left: 20px;
+    margin-left: 50px;
   }
   .checkbtn {
     display: flex;
     flex-direction: row;
     margin-top: -300px;
     padding: 6x;
-    margin-left: 450px;
+    margin-left: 330px;
   }
   .checkbtn svg{
     margin-top: -13px;
@@ -180,7 +180,7 @@ li a:hover:not(.active){
 
   }
   .menu-open{
-    margin-left: 450px;
+    margin-left: 290px;
     margin-top: 0px;
     opacity: 100%;
     transition: all 0.3s ease;
