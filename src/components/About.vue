@@ -233,7 +233,7 @@ export default{
     width: 400px;
     height: 400px;
     margin-top: -60px;
-    margin-right: 30px;
+    margin-right: 45px;
     // box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
 }
 
@@ -410,7 +410,7 @@ export default{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 35px;
+        margin-top: 0px;
     }
     .hi {
         display: flex;
@@ -446,7 +446,7 @@ export default{
         width: 100%;
         height: 60px;
         //background-color: #ffd700;
-        margin-top: -10px;
+        margin-top: -50px;
         display: flex;
         justify-content: center;
         align-items: center;
