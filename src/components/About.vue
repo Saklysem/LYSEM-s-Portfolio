@@ -446,7 +446,7 @@ export default{
         width: 100%;
         height: 60px;
         //background-color: #ffd700;
-        margin-top: -50px;
+        margin-top: -35px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -600,7 +600,6 @@ export default{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
     padding: 0px;
     margin-top: auto;
 }
@@ -612,10 +611,9 @@ export default{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: space-around;
     align-items: center;
     padding: 0px;
-    margin-top: auto;
+    margin-top: -7%;
 }
 
 .skills .row-1 .card{
