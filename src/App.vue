@@ -36,11 +36,10 @@ export default{
       <div id="about">
         <About />
       </div>
-    
-    <!--<div>
+    <div>
       <Software />
     </div>
-    <div>
+    <!-- <div>
       <Resume />
     </div>
     <div>
@@ -48,7 +47,7 @@ export default{
     </div>
     <div>
       <Contact />
-    </div>-->
+    </div> -->
     <!-- <div class="rippleEffect">
       <RippleEffect />
     </div> -->

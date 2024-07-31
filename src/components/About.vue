@@ -233,7 +233,7 @@ export default{
     width: 400px;
     height: 400px;
     margin-top: -60px;
-    margin-right: 45px;
+    margin-right: 30px;
     // box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
 }
 
@@ -241,6 +241,7 @@ export default{
     width: 700px;
     height: 420px;
     font-size: 20px;
+    margin-right: -2%;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -580,7 +581,7 @@ export default{
     padding: 10px;
     margin: 20px;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 //The skills's card style
 .skills  {
     width: 100%;

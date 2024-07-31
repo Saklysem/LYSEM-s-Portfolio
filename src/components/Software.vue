@@ -117,12 +117,13 @@ export default{
 </template>
 <style lang="scss" scoped>
 .software {
-    width: 100vw;
+    width: 100% ;
     height: 550px;
     background-color: rgb(17, 24, 39);
+    //background-color: rgb(145, 145, 145);
     position: absolute;
     z-index: 5;
-    margin-top: 1390px;
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;	
@@ -192,19 +193,19 @@ export default{
     justify-content: center;
 }
 .softwareScript {
-    width: 600px;
+    width: 550px;
     height: 400px;
 
 }
 .softwareScript h1{
     font-size: 35px;
     font-family: sans-serif;
-    line-height: 50px;
+    line-height: 35px;
     color: white
 }
 .softwareScript .phrase{
     margin-top: 0px;
-    line-height: 33px;
+    line-height: 30px;
 }
 .softwareScript .phrase p{
     font-size: 16px;    
@@ -213,10 +214,10 @@ export default{
 }
 // style on status skill
 .softwareStatus {
-    width: 600px;
+    width: 550px;
     height: 400px;
-    padding: 0px;
-    // background-color: rgb(47, 96, 3);
+    padding: 5px;
+    //background-color: rgb(47, 96, 3);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,9 +227,9 @@ export default{
 
 }
 .softwareStatus .AF{
-    width: 550px;
+    width: 500px;
     margin-left: 30px;
-    // background-color: #ffd90051;
+    //background-color: #ffd90051;
 }
 .AF .level {
     width: 100%;
@@ -302,5 +303,201 @@ export default{
     height: 3px;
     margin-top: -20px;
     background-color: #ffd700;   
+}
+@media (max-width: 500px) {
+    .software {
+        width: 100% ;
+        height: fit-content;
+        background-color: rgb(17, 24, 39);
+        //background-color: rgb(145, 145, 145);	
+        margin-top: 4230px;
+    }
+    .softwareSt{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }       
+    .softwareCov {
+        width: 100%;
+        height: 120px;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 6px;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        opacity: 10%;
+    }
+    .sotfwareStyle {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #ffd700;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-top: 25px;
+    }
+    // line style below  About text
+    .line_1 {
+        position: absolute;
+        width: 100%;
+        height: 6px;
+        // background-color: #ffd700;
+        display: flex;
+        justify-content: center;
+        margin-top: 66px;
+    
+    }
+    .longLine {
+        width: 200px;
+        height: 2px;
+        background-color: rgb(73, 73, 73);
+        display: flex;
+        border-radius: 100%;
+    }
+    .shortLine {
+        position: absolute;
+        width:  90px;
+        height: 2px;
+        background-color: #ffd700;
+        display: flex;
+        border-radius: 100%;
+    }
+    // software descrition style
+    .softwareTool {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        //background-color: #ffd700;
+    }
+    .softwareScript {
+        width: 500px;
+        height: 500px;
+        padding: 35px;
+        margin-top: -15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        //background-color: #006d1d;
+        text-align:center;
+    
+    }
+    .softwareScript h1{
+        font-size: 30px;
+        font-family: sans-serif;
+        line-height: 35px;
+        display: flex;
+        justify-content: center;
+        color: white
+    }
+    .softwareScript .phrase{
+        margin-top: 0px;
+        line-height: 30px;
+    }
+    .softwareScript .phrase p{
+        font-size: 14px;    
+        font-family: sans-serif;
+        
+    }
+    // style on status skill
+    .softwareStatus {
+        width: 500px;
+        height: fit-content;
+        padding: 10px;
+        //background-color: rgb(47, 96, 3);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: -6%;
+    
+    }
+    .softwareStatus .AF{
+        width: 90%;
+        margin-left: 0px;
+        //background-color: #ffd90051;
+    }
+    .AF .level {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        display: row;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .AF .level h1{
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+    .status {
+        width: 100%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #303030;
+    
+    }
+    .status .line-1{
+        width: 80%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;   
+    }
+    .status .line-2{
+        width: 90%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;   
+    }
+    .status .line-3{
+        width: 75%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;       
+    }
+    .status .line-3a{
+        width: 60%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;   
+    }
+    .status .line-5{
+        width: 60%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;   
+    }
+    .status .line-6{
+        width: 90%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;   
+    }
+    .status .line-7{
+        width: 75%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;   
+    }
+    .status .line-8{
+        width: 90%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;   
+    }
+    .status .line-9{
+        width: 60%;
+        height: 3px;
+        margin-top: -20px;
+        background-color: #ffd700;   
+    }
 }
 </style>
