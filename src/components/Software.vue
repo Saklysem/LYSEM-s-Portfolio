@@ -375,11 +375,12 @@ export default{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         //background-color: #ffd700;
     }
     .softwareScript {
-        width: 500px;
-        height: 500px;
+        width: 400px;
+        height: fit-content;
         padding: 35px;
         margin-top: -15%;
         display: flex;
@@ -408,7 +409,7 @@ export default{
     }
     // style on status skill
     .softwareStatus {
-        width: 500px;
+        width: 400px;
         height: fit-content;
         padding: 10px;
         //background-color: rgb(47, 96, 3);
