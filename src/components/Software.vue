@@ -122,7 +122,7 @@ export default{
     background-color: rgb(17, 24, 39);
     //background-color: rgb(145, 145, 145);
     position: absolute;
-    z-index: 5;
+    z-index: 0;
     margin-top: auto;
     display: flex;
     flex-direction: column;
@@ -311,6 +311,7 @@ export default{
         background-color: rgb(17, 24, 39);
         //background-color: rgb(145, 145, 145);	
         margin-top: 4230px;
+        z-index: 0;
     }
     .softwareSt{
         width: 100%;
