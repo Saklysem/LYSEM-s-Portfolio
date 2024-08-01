@@ -39,10 +39,10 @@ export default{
     <div>
       <Software />
     </div>
-    <!-- <div>
+    <div>
       <Resume />
     </div>
-    <div>
+    <!-- <div>
       <Portfolio />
     </div>
     <div>
