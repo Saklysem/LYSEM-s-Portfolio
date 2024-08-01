@@ -542,7 +542,7 @@ export default{
         // background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: 17%;
+        margin-top: 15%;
     
     }
     .longLine {
@@ -568,7 +568,7 @@ export default{
         justify-content: center;
         align-items: center;
         margin-top: -23.5%;
-        margin-left: -8%;
+        margin-left: -8.5%;
         //background-color: aqua;
     }
     .title .Ex{
@@ -617,7 +617,7 @@ export default{
         flex-direction: column;
         align-items: center;
         z-index: 3;
-        margin-top: -250%;
+        margin-top: -238%;
     }
     .circle1{
         position: absolute;
@@ -650,7 +650,7 @@ export default{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 960%;
+        margin-top: 1035%;
     }
     .circle2 div{
         width: 12px;
@@ -728,7 +728,7 @@ export default{
     .ex2 .listEx2{
         font-family: sans-serif;
         font-size: 16px;
-        margin-left: 30px;
+        margin-left: px;
     }
     // The right wall style
     .rightWall {
@@ -774,7 +774,7 @@ export default{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 75%;
+    margin-top: 67%;
 }
 .Edcircle2 div{
     width: 12px;
@@ -802,7 +802,7 @@ export default{
         flex-direction: column;
         padding-left: 15px;
         margin-left: 4%;
-        margin-top: -178%;
+        margin-top: -168%;
     }
     .Ed1 {
         width: 100%;
