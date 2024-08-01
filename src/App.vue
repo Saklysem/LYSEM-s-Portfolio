@@ -44,13 +44,13 @@ export default{
     </div>
     <!-- <div>
       <Portfolio />
-    </div>
-    <div>
-      <Contact />
     </div> -->
+    <!-- <div>
+      <Contact />
+    </div> --> 
     <!-- <div class="rippleEffect">
       <RippleEffect />
-    </div> -->
+    </div>-->
   </div>
 </template>
 

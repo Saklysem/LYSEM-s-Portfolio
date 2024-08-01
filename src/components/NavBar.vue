@@ -130,7 +130,7 @@ li a:hover:not(.active){
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  //cursor: pointer;
   display: none;
 }
 
