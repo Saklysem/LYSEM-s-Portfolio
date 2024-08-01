@@ -617,7 +617,7 @@ export default{
         flex-direction: column;
         align-items: center;
         z-index: 3;
-        margin-top: -238%;
+        margin-top: -248%;
     }
     .circle1{
         position: absolute;
