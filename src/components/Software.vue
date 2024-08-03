@@ -310,7 +310,7 @@ export default{
         height: fit-content;
         background-color: rgb(17, 24, 39);
         //background-color: rgb(145, 145, 145);	
-        margin-top: 4230px;
+        margin-top: 1093%;
         z-index: 0;
     }
     .softwareSt{
@@ -325,7 +325,7 @@ export default{
         font-family: sans-serif;
         font-weight: bold;
         letter-spacing: 6px;
-        font-size: 60px;
+        font-size: 45px;
         display: flex;
         justify-content: center;
         text-transform: uppercase;
@@ -341,7 +341,7 @@ export default{
         color: #ffd700;
         font-family: sans-serif;
         font-weight: bold;
-        margin-top: 25px;
+        margin-top: 3%;
     }
     // line style below  About text
     .line_1 {
@@ -351,7 +351,7 @@ export default{
         // background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: 66px;
+        margin-top: 15%;
     
     }
     .longLine {
@@ -380,10 +380,10 @@ export default{
         //background-color: #ffd700;
     }
     .softwareScript {
-        width: 400px;
+        width: 320px;
         height: fit-content;
-        padding: 35px;
-        margin-top: -15%;
+        padding: 20px;
+        margin-top: -30%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -392,7 +392,8 @@ export default{
     
     }
     .softwareScript h1{
-        font-size: 30px;
+        font-size: 20px;
+        margin-top: 6%;
         font-family: sans-serif;
         line-height: 35px;
         display: flex;
@@ -401,16 +402,17 @@ export default{
     }
     .softwareScript .phrase{
         margin-top: 0px;
-        line-height: 30px;
+        line-height: 25px;
     }
     .softwareScript .phrase p{
         font-size: 14px;    
         font-family: sans-serif;
+        text-align: justify;
         
     }
     // style on status skill
     .softwareStatus {
-        width: 400px;
+        width: 320px;
         height: fit-content;
         padding: 10px;
         //background-color: rgb(47, 96, 3);

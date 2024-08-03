@@ -130,7 +130,6 @@ li a:hover:not(.active){
   display: flex;
   justify-content: center;
   align-items: center;
-  //cursor: pointer;
   display: none;
 }
 
@@ -146,7 +145,7 @@ li a:hover:not(.active){
     height: auto;
   }
   .nav {
-    max-width: 500px;
+    max-width: 100%;
     height: 60px;
     display: flex;
     flex-direction: column;
@@ -161,14 +160,14 @@ li a:hover:not(.active){
   .logo img {
     height: 35px;
     margin-top: -10px;
-    margin-left: 30px;
+    margin-left: 70%;
   }
   .checkbtn {
     display: flex;
     flex-direction: row;
     margin-top: -300px;
     padding: 0px;
-    margin-left: 350px;
+    margin-left: 300px;
   }
   .checkbtn svg{
     margin-top: -13px;
@@ -186,11 +185,10 @@ li a:hover:not(.active){
 
   }
   .menu-open{
-    margin-left: 290px;
+    margin-left: 70%;
     margin-top: 0px;
     opacity: 100%;
     transition: all 0.3s ease;
-
   }
 
   li a{

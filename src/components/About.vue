@@ -340,9 +340,10 @@ export default{
         font-family: sans-serif;
         font-weight: bold;
         letter-spacing: 6px;
-        font-size: 60px;
+        font-size: 45px;
         display: flex;
         justify-content: center;
+        align-items: center;
         text-transform: uppercase;
         opacity: 10%;
     }
@@ -352,7 +353,7 @@ export default{
         position: absolute;
         display: flex;
         justify-content: center;
-        margin-top: -70px;
+        margin-top: -60px;
         text-transform: uppercase;
         color: #ffd700;
         font-family: sans-serif;
@@ -367,7 +368,7 @@ export default{
         //background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: -30px;
+        margin-top: -23px;
     
     }
     .longLine {
@@ -395,11 +396,12 @@ export default{
         justify-content: center;
         align-items: center;
         overflow: hidden;
+        padding: 5px;
     }
     
     .briefdMe img {
-        width: 450px;
-        height: 450px;
+        width: 320px;
+        height: 320px;
         margin: auto;
         //box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
     }
@@ -411,11 +413,11 @@ export default{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 0px;
+        margin-top: 0%;
     }
     .hi {
         display: flex;
-        font-size: 16px;
+        font-size: 13px;
     }
     .hi .hiThere {
         color: white;
@@ -429,6 +431,7 @@ export default{
     
     .script h2{
         color: white;
+        font-size: 15px;
     }
     
     .promo {
@@ -436,6 +439,7 @@ export default{
         text-align: justify;
         text-justify: inter-word;
         line-height: 20px;
+        font-size: 14px;
     }
     .info {
         line-height: 35px;
@@ -445,9 +449,9 @@ export default{
     
     .download {
         width: 100%;
-        height: 60px;
+        height: 50px;
         //background-color: #ffd700;
-        margin-top: -35px;
+        margin-top: -25px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -455,7 +459,7 @@ export default{
     
     #downloadCV {
         padding: 15px 25px;
-        font-size: 20px;
+        font-size: 16px;
         margin-right: 0px;
         background-color: #ffd700;
         text-align: center;
@@ -596,31 +600,30 @@ export default{
 
 .skills .row-1{
     width: 80%;
-    height: 1500px;
+    height: 1200px;
     //background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin-top: auto;
+    margin-top: 0%;
 }
 .skills .row-2{
     width: 80%;
-    height: 1500px;
-    margin-top: auto;
+    height: 1200px;
     //background-color: rgb(70, 70, 70);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin-top: -7%;
+    margin-top: 0%;
 }
 
 .skills .row-1 .card{
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
     border-radius: 15px;
     background-color: rgb(25, 34, 53);
     display: flex;
@@ -628,7 +631,7 @@ export default{
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
+    padding: 6px;
 }
 
 .cardC1{
@@ -672,8 +675,8 @@ export default{
 }
 
 .skills .row-2 .card{
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
     border-radius: 15px;
     background-color: rgb(25, 34, 53);
     display: flex;

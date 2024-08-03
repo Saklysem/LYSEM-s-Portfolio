@@ -248,7 +248,7 @@
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    // background-color: #006db1;
+    //background-color: #006db1;
   }
   // .SCicon svg{
   //   width: 50px;
@@ -320,18 +320,18 @@
   .greeting .name {
     font-family: roboto;
     color: #ffd700;
-    margin-left: 15px;
+    margin-left: 14px;
   }
   
   .skill {
-    font-size: 14px;
+    font-size: 12px;
     color: white;
     opacity: 100%;
     margin-top: -15px;
   }
   // Icon style 
   .SMIcon {
-      width: 250px;
+      width: 150px;
       height: 60px;
       display: flex;
       flex-direction: row;
@@ -339,11 +339,11 @@
       justify-content: space-around;
       margin-top: 0px;
       margin-left: -20px;
-      // background-color: #ffd90053;
+      //background-color: #ffd90053;
   }
   .SMIcon p{
-      width: 40px;
-      height: 40px;
+      width: 30px;
+      height: 30px;
       font-size: 10px;
       display: flex;
       justify-content: center;
@@ -353,7 +353,7 @@
       // background-color: #004186;   
   }
   .SMIcon p svg{
-    width: 20px;
+    width: 16px;
   }
   .SMIcon P:hover{
       // width: 100px;

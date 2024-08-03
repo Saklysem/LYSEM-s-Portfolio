@@ -39,9 +39,9 @@ export default{
     <div>
       <Software />
     </div>
-    <div>
+    <!-- <div>
       <Resume />
-    </div>
+    </div> -->
     <!-- <div>
       <Portfolio />
     </div> -->
@@ -61,7 +61,6 @@ export default{
   padding: 0;
   font-family: "Raleway", sans-serif; 
   font-weight: 400;
-    //background-color: rgba(0, 87, 137, 0.406);
 }
 </style>
 
