@@ -152,7 +152,7 @@ li a:hover:not(.active){
   }
 
   .logo {
-    margin-right: 300px;
+    margin-right: 380px;
     margin-top: 0px;
     padding: 10px;
     width: fit-content;
@@ -167,7 +167,7 @@ li a:hover:not(.active){
     flex-direction: row;
     margin-top: -300px;
     padding: 0px;
-    margin-left: 300px;
+    margin-left: 350px;
   }
   .checkbtn svg{
     margin-top: -13px;

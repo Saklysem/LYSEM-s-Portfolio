@@ -408,12 +408,12 @@ export default{
     .script {
         width: 100%;
         height: 600px;
-        font-size: 12px;
+        font-size: 16px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 0%;
+        margin-top: -8%;
     }
     .hi {
         display: flex;
@@ -439,7 +439,7 @@ export default{
         text-align: justify;
         text-justify: inter-word;
         line-height: 20px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .info {
         line-height: 35px;
@@ -451,7 +451,7 @@ export default{
         width: 100%;
         height: 50px;
         //background-color: #ffd700;
-        margin-top: -25px;
+        margin-top: -12%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -622,8 +622,8 @@ export default{
 }
 
 .skills .row-1 .card{
-    width: 300px;
-    height: 400px;
+    width: 330px;
+    height: 440px;
     border-radius: 15px;
     background-color: rgb(25, 34, 53);
     display: flex;
@@ -675,8 +675,8 @@ export default{
 }
 
 .skills .row-2 .card{
-    width: 300px;
-    height: 400px;
+    width: 330px;
+    height: 440px;
     border-radius: 15px;
     background-color: rgb(25, 34, 53);
     display: flex;

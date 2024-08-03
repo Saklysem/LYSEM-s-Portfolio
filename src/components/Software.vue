@@ -304,13 +304,13 @@ export default{
     margin-top: -20px;
     background-color: #ffd700;   
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .software {
         width: 100% ;
         height: fit-content;
         background-color: rgb(17, 24, 39);
         //background-color: rgb(145, 145, 145);	
-        margin-top: 1093%;
+        margin-top: 799%;
         z-index: 0;
     }
     .softwareSt{
@@ -351,7 +351,7 @@ export default{
         // background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: 15%;
+        margin-top: 11.5%;
     
     }
     .longLine {
@@ -380,10 +380,10 @@ export default{
         //background-color: #ffd700;
     }
     .softwareScript {
-        width: 320px;
+        width: 400px;
         height: fit-content;
         padding: 20px;
-        margin-top: -30%;
+        margin-top: -20%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -412,7 +412,7 @@ export default{
     }
     // style on status skill
     .softwareStatus {
-        width: 320px;
+        width: 400px;
         height: fit-content;
         padding: 10px;
         //background-color: rgb(47, 96, 3);
