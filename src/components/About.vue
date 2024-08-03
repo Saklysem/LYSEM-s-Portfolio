@@ -590,7 +590,7 @@ export default{
 //The skills's card style
 .skills  {
     width: 100%;
-    height: 3000px;
+    height: 3300px;
     background-color: rgb(17, 24, 39);
     display: flex;
     flex-direction: column;
@@ -607,7 +607,7 @@ export default{
     justify-content: center;
     align-items: center;
     padding: 0px;
-    margin-top: -30%;
+    margin-top: -90%;
 }
 .skills .row-2{
     width: 80%;

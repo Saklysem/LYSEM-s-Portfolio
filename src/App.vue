@@ -41,16 +41,16 @@ export default{
     </div>
     <!-- <div>
       <Resume />
-    </div> -->
-    <!-- <div>
+    </div>
+    <div>
       <Portfolio />
-    </div> -->
-    <!-- <div>
+    </div> 
+    <div>
       <Contact />
-    </div> --> 
+    </div>  -->
     <!-- <div class="rippleEffect">
       <RippleEffect />
-    </div>-->
+    </div> -->
   </div>
 </template>
 
