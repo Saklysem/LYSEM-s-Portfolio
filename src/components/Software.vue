@@ -310,7 +310,7 @@ export default{
         height: fit-content;
         background-color: rgb(17, 24, 39);
         //background-color: rgb(145, 145, 145);	
-        margin-top: 920%;
+        margin-top: 930%;
         z-index: 0;
     }
     .softwareSt{

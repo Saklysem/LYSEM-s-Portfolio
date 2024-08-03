@@ -413,7 +413,7 @@ export default{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: -8%;
+        margin-top: -5%;
     }
     .hi {
         display: flex;
@@ -451,7 +451,7 @@ export default{
         width: 100%;
         height: 50px;
         //background-color: #ffd700;
-        margin-top: -12%;
+        margin-top: -6%;
         display: flex;
         justify-content: center;
         align-items: center;
