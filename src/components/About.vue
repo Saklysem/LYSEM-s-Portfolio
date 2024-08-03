@@ -273,7 +273,7 @@ export default{
 }
 
 .promo {
-    width: 700px;
+    width: 680px;
     text-align: justify;
     text-justify: inter-word;
     font-size: 15px;
@@ -340,7 +340,7 @@ export default{
         font-family: sans-serif;
         font-weight: bold;
         letter-spacing: 6px;
-        font-size: 45px;
+        font-size: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -353,7 +353,7 @@ export default{
         position: absolute;
         display: flex;
         justify-content: center;
-        margin-top: -60px;
+        margin-top: -70px;
         text-transform: uppercase;
         color: #ffd700;
         font-family: sans-serif;
@@ -368,7 +368,7 @@ export default{
         //background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: -23px;
+        margin-top: -29px;
     
     }
     .longLine {
@@ -417,7 +417,7 @@ export default{
     }
     .hi {
         display: flex;
-        font-size: 13px;
+        font-size: 16px;
     }
     .hi .hiThere {
         color: white;
@@ -431,7 +431,7 @@ export default{
     
     .script h2{
         color: white;
-        font-size: 15px;
+        font-size: 20px;
     }
     
     .promo {
@@ -600,7 +600,7 @@ export default{
 
 .skills .row-1{
     width: 80%;
-    height: 1200px;
+    height: fit-content;
     //background-color: white;
     display: flex;
     flex-direction: column;
@@ -611,7 +611,7 @@ export default{
 }
 .skills .row-2{
     width: 80%;
-    height: 1200px;
+    height: fit-content;
     //background-color: rgb(70, 70, 70);
     display: flex;
     flex-direction: column;
@@ -630,8 +630,8 @@ export default{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    padding: 6px;
+
+    padding: 3px;
 }
 
 .cardC1{

@@ -331,7 +331,7 @@
   }
   // Icon style 
   .SMIcon {
-      width: 150px;
+      width: 160px;
       height: 60px;
       display: flex;
       flex-direction: row;
@@ -342,8 +342,8 @@
       //background-color: #ffd90053;
   }
   .SMIcon p{
-      width: 30px;
-      height: 30px;
+      width: 45px;
+      height: 45px;
       font-size: 10px;
       display: flex;
       justify-content: center;
@@ -353,7 +353,7 @@
       // background-color: #004186;   
   }
   .SMIcon p svg{
-    width: 16px;
+    width: 20px;
   }
   .SMIcon P:hover{
       // width: 100px;

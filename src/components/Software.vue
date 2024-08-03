@@ -310,7 +310,7 @@ export default{
         height: fit-content;
         background-color: rgb(17, 24, 39);
         //background-color: rgb(145, 145, 145);	
-        margin-top: 799%;
+        margin-top: 920%;
         z-index: 0;
     }
     .softwareSt{
@@ -325,7 +325,7 @@ export default{
         font-family: sans-serif;
         font-weight: bold;
         letter-spacing: 6px;
-        font-size: 45px;
+        font-size: 60px;
         display: flex;
         justify-content: center;
         text-transform: uppercase;
@@ -341,7 +341,7 @@ export default{
         color: #ffd700;
         font-family: sans-serif;
         font-weight: bold;
-        margin-top: 3%;
+        margin-top: 6%;
     }
     // line style below  About text
     .line_1 {
@@ -351,7 +351,7 @@ export default{
         // background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: 11.5%;
+        margin-top: 16%;
     
     }
     .longLine {
@@ -392,7 +392,7 @@ export default{
     
     }
     .softwareScript h1{
-        font-size: 20px;
+        font-size: 25px;
         margin-top: 6%;
         font-family: sans-serif;
         line-height: 35px;
@@ -426,7 +426,7 @@ export default{
     
     }
     .softwareStatus .AF{
-        width: 90%;
+        width: 96%;
         margin-left: 0px;
         //background-color: #ffd90051;
     }
