@@ -62,6 +62,7 @@ export default{
   font-family: "Raleway", sans-serif; 
   font-weight: 400;
 }
+
 </style>
 
 <!-- <template>
