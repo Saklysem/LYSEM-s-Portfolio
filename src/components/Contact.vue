@@ -102,17 +102,16 @@ export default{
 <style lang="scss" scoped>
 
 .Contact {
-    max-width: 100vw;
+    max-width: 100%;
     height: 700px;
     background-color: rgb(17, 24, 39);
     // background-color: #33492c;
     // opacity: 90%;
-    position: absolute;
-    z-index: 6;
+    //position: absolute;
+    z-index: 10;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 4440px;
+    margin-top: 3050px;
 }
 .ContactSt{
     width: 100%;

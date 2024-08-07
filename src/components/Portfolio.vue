@@ -97,12 +97,12 @@ export default{
 </template>
 <style lang="scss" scoped>
 .Portfolio{
-    width: 100vw;
+    width: 100%;
     height: 1500px;
     background-color: rgb(17, 24, 39);
     position: absolute;
-    z-index: 6;
-    margin-top: 2940px;
+    z-index: 1;
+    margin-top: 1550px;
 }
 .Portfolio_2 {
     width: 100%;

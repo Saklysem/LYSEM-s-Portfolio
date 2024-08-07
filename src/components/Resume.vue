@@ -200,7 +200,7 @@ export default{
     align-items: center;
     //background-color: aqua;
     margin-top: -5.5%;
-    margin-left: -7.5%;
+    margin-left: -45px;
 }
 .titleEd {
     width: 100%;
@@ -211,13 +211,13 @@ export default{
     align-items: center;
     //background-color: aqua;
     margin-top: -5.5%;
-    margin-left: -7.5%;
+    margin-left: -45px;
 
 }
 .title .Ex{
     width: 630px;
     color: white;
-    // background-color: #003a97;
+    //background-color: #003a97;
 }
 .Ex h1{
     display: flex;
@@ -245,7 +245,7 @@ export default{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 60px;
 
 }
 // The left wall style
@@ -309,7 +309,7 @@ export default{
 }
 // The Experience description style at left side
 .left {
-    width: 600px;
+    width: 550px;
     height: 700px;
     padding-left: 15px;
     margin-top: -15px;
@@ -429,7 +429,7 @@ export default{
 }
 // The Experience description style at right side
 .right {
-    width: 600px;
+    width: 500px;
     height: 700px;
     // background-color: white;
     display: flex;
@@ -495,7 +495,7 @@ export default{
         background-color: rgb(17, 24, 39);
         position: absolute;
         z-index: 5;
-        margin-top: 5235px;
+        margin-top: 4850px;
         display: flex;
         flex-direction: column;      
         overflow: hidden; 
@@ -595,7 +595,7 @@ export default{
         align-items: center;
     }
     .Ed svg{
-        margin-right: 10px;
+        margin-left: 15px;
     }
     // Resume descrition style
     .ResumeStyle {
@@ -605,7 +605,6 @@ export default{
         flex-direction: column;
         justify-content: center;
         margin-top: 90px;
-    
     }
     // The left wall style
     .leftWall {
