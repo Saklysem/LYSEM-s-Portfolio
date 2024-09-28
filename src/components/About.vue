@@ -516,8 +516,8 @@ export default{
 }
 
 .skills .row-1 .card{
-    width: 330px;
-    height: 400px;
+    width: 310px;
+    height: 380px;
     border-radius: 15px;
     background-color: rgb(25, 34, 53);
     display: flex;

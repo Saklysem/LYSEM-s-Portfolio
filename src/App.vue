@@ -33,9 +33,9 @@ export default{
       <div class="cover">
         <SEM />
       </div>
-      <!-- <div id="about">
+      <div id="about">
         <About />
-      </div> -->
+      </div>
     <!-- <div>
       <Software />
     </div> 
