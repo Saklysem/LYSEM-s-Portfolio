@@ -60,10 +60,10 @@ export default{
                     <div class="line_1">
                         <div class="longLine"></div>
                         <div class="shortLine"></div>
-<!-- The skills card -->
                     </div>
                 </div>
             </div>
+<!-- The skills card -->
             <div class="skills">
                 <div class="row-1">
                     <div class="card">
@@ -95,8 +95,6 @@ export default{
                          Sound EFX and background musics.
                         </div>
                     </div>
-                </div>
-                <div class="row-2">
                     <div class="card">
                         <div class="cardC1">
                             <img src="../assets/icon/Video_editing.png" alt="">
@@ -148,15 +146,16 @@ export default{
     </div>
 </template>
 <style lang="scss" scoped>
-
 .About{
-    max-width: 100vw;
+    width: 100%;
     height: fit-content;
+    //background-color: rgb(17, 24, 39);
     background-color: rgb(17, 24, 39);
     margin-top: auto;
+    
 }
 .About_2 {
-    max-width: 100%;
+    width: 100%;
     height: fit-content;
     display: flex;
     justify-content: center;
@@ -230,8 +229,8 @@ export default{
 }
 
 .briefdMe img {
-    width: 400px;
-    height: 400px;
+    width: 440px;
+    height: 440px;
     margin-top: -60px;
     margin-right: 30px;
     // box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
@@ -298,7 +297,7 @@ export default{
 #downloadCV {
     padding: 15px 25px;
     font-size: 20px;
-    margin-right: 80px;
+    margin-right: 30px;
     background-color: #ffd700;
     text-align: center;
     outline: none;
@@ -482,26 +481,24 @@ export default{
 //The skills's card style
 .skills  {
     max-width: 100%;
-    height: 900px;
+    height: fit-content;
     background-color: rgb(17, 24, 39);
+    //background-color: rgb(18, 236, 204);
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: auto;
 }
 .skills .row-1{
     max-width: 1200px;
-    height: 500px;
+    height: fit-content;
     //background-color: rgb(35, 95, 179);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    //flex-wrap: wrap;
     justify-content: space-around;
     padding: 30px;
-    margin-top: -60px;
+    margin-top: 0px;
 }
 .skills .row-2{
     max-width: 1200px;
@@ -519,7 +516,7 @@ export default{
 }
 
 .skills .row-1 .card{
-    width: 350px;
+    width: 330px;
     height: 400px;
     border-radius: 15px;
     background-color: rgb(25, 34, 53);
@@ -586,7 +583,8 @@ export default{
     padding: 10px;
     margin: 20px;
 }
-@media (max-width: 500px) {
+//Drafted style
+@media (max-width: 10px) {
 //The skills's card style
 .skills  {
     width: 100%;

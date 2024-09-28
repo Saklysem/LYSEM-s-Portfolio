@@ -56,14 +56,13 @@
 <style lang="scss">
 
 .cover  {
-  max-width: 100vw;
-  height: 680px;
+  width: 100vw;
+  height: fit-content;
   z-index: 1;
-  margin-top: 0px;
-  background-color: #00590d;
+  background-color: #af27ee;
 }
 .image {
-  max-width: 100%;
+  width: 100%;
   height: 680px;   
   display: flex;
   flex-direction: column;

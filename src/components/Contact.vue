@@ -69,7 +69,7 @@ export default{
                     </div>
                     <div class="ScAddress3">
                         <h1>Address</h1>
-                        <p>BKK1 Phnom Penh, Cambodia</p>
+                        <p>TK1 ,Phnom Penh, Cambodia</p>
                     </div>
                 </div>
                 <div class="AddSM">

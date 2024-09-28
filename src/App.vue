@@ -26,8 +26,8 @@ export default{
 //Run project in App.vue File
 
 <template>
-  <div class="General">
-    <div class="navBar">
+  <div>
+    <div>
       <NavBar/>
     </div>
       <div class="cover">
@@ -36,13 +36,13 @@ export default{
       <div id="about">
         <About />
       </div>
-    <div>
+    <!-- <div>
       <Software />
-    </div>
+    </div> 
     <div>
       <Resume />
     </div>
-    <!-- <div>
+    <div>
       <Portfolio />
     </div> 
     <div>

@@ -9,7 +9,6 @@ export default{
 </script>
 
 <template>
-<div class="navberCover">
   <div class="nav">
       <div class="logo">
         <img src="../assets/ZER01.png" alt="LOGO">
@@ -39,28 +38,17 @@ export default{
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
       </label>
   </div>
-</div>
 </template>
 
 
 
 <style lang="scss" scoped>
-.navberCover{
-  max-width: 100vw;
-  height: 62.5px;
-  display: flex;
-  justify-content: center;
-  background-color:  rgb(17, 24, 39, 1);
-  //background-color:  rgb(89, 89, 89);
-  z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
 
-}
 .nav{
-  background-color:  rgb(17, 24, 39, 1);
+  background-color:  rgb(17, 24, 39);
   //background-color:  rgb(0, 113, 142);
-  max-width: 1200px;
+  //max-width: 1200px;
+  width: 100%;
   height: fit-content;
   padding: 5px;
   display: flex;
@@ -126,7 +114,7 @@ li a:hover:not(.active){
   font-size: 30px;
   color: white;
   float: right;
-  margin-right: 45px;
+  margin-right: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,15 +128,16 @@ li a:hover:not(.active){
 //Nav bar Responsive 
 @media (max-width: 500px) {
   .navberCover{
-    width: 100vw;
+    width: 100%;
     margin:auto;
     height: auto;
   }
   .nav {
-    max-width: 100%;
+    width: 100%;
     height: 60px;
     display: flex;
     flex-direction: column;
+    //background-color: #ffd700;
   }
 
   .logo {
@@ -185,7 +174,7 @@ li a:hover:not(.active){
 
   }
   .menu-open{
-    margin-left: 70%;
+    margin-left: 77%;
     margin-top: 0px;
     opacity: 100%;
     transition: all 0.3s ease;
