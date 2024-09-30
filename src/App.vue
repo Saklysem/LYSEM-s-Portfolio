@@ -7,6 +7,7 @@ import About from"./components/About.vue";
 import SEM from "./components/Sem.vue";
 import NavBar from "./components/NavBar.vue";
 import RippleEffect from "./components/RippleEffect.vue";
+import Test from "./components/Test.vue";
 export default{
   name: "App",
   components: {
@@ -18,6 +19,7 @@ export default{
     Portfolio,
     Contact,
     RippleEffect,
+    Test,
   },
 };
   
@@ -30,22 +32,25 @@ export default{
     <div>
       <NavBar/>
     </div>
-      <div class="cover">
+      <div>
         <SEM />
       </div>
-      <div id="about">
+      <div>
         <About />
       </div>
-    <!-- <div>
+    <div>
       <Software />
     </div> 
-    <div>
+    <!-- <div>
+      <Test />
+    </div> -->
+    <!-- <div>
       <Resume />
-    </div>
-    <div>
+    </div> -->
+    <!-- <div>
       <Portfolio />
-    </div> 
-    <div>
+    </div>  -->
+    <!-- <div>
       <Contact />
     </div>  -->
     <!-- <div class="rippleEffect">

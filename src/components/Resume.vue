@@ -124,9 +124,6 @@ export default{
     height: 1000px;
     background-color: rgb(17, 24, 39);
     //background-color: rgb(162, 68, 174);
-    position: absolute;
-    z-index: 0;
-    margin-top: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;

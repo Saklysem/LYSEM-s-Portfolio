@@ -58,8 +58,8 @@
 .cover  {
   width: 100vw;
   height: fit-content;
-  z-index: 1;
-  background-color: #af27ee;
+  background-color: #303030;
+
 }
 .image {
   width: 100%;

@@ -20,11 +20,11 @@ export default{
         <div class="softwareScript">
             <h1>Softwares I Use Every Day in <br/> My Line of Work</h1>
             <div class="phrase">
-                <p>A. In Video's Work, I mainly use Adobe Premiere Pro for Drafting Footages, combine all audio systems and color grading together.
+                <p>I. In Video's Work, I mainly use Adobe Premiere Pro for Drafting Footages, combine all audio systems and color grading together.
                     And for Adobe After Effect, I use it for doing animations, add-on effects and combine motions and videos together.</p>
-                <p>B. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Color Grading, Retouching on Images and make adjust on vectors, 
+                <p>II. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Color Grading, Retouching on Images and make adjust on vectors, 
                     elements and other resouces.</p>
-                <p>C. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Color Grading, Retouching on Images and make adjust on vectors, 
+                <p>III. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Color Grading, Retouching on Images and make adjust on vectors, 
                     elements and other resouces. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Color Grading, Retouching on Images and make adjust on vectors, 
                     elements and other resouces.</p>
             </div>
@@ -117,13 +117,10 @@ export default{
 </template>
 <style lang="scss" scoped>
 .software {
-    width: 100vw ;
+    width: 100% ;
     height: fit-content;
     background-color: rgb(17, 24, 39);
-    //background-color: rgb(145, 145, 145);
-    position: absolute;
-    z-index: 0;
-    margin-top: auto;
+    //background-color: #817d6c;
     display: flex;
     flex-direction: column;
     justify-content: center;	
@@ -133,6 +130,7 @@ export default{
     height: auto;
     display: flex;
     justify-content: center;
+    //background-color: #ffd700;
 }       
 .softwareCov {
     width: 100%;
@@ -187,14 +185,15 @@ export default{
 // software descrition style
 .softwareTool {
     width: 100%;
-    height: 700px;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    //background-color: #ffd700;
 }
 .softwareScript {
     width: 550px;
-    height: 400px;
+    height: fit-content;
 
 }
 .softwareScript h1{
@@ -304,18 +303,16 @@ export default{
     margin-top: -20px;
     background-color: #ffd700;   
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .software {
         width: 100% ;
         height: fit-content;
         background-color: rgb(17, 24, 39);
         //background-color: rgb(145, 145, 145);	
-        margin-top: 4050px;
-        z-index: 1;
     }
     .softwareSt{
         width: 100%;
-        height: auto;
+        height: fit-content;
         display: flex;
         justify-content: center;
     }       
@@ -333,7 +330,7 @@ export default{
     }
     .sotfwareStyle {
         width: 100%;
-        height: auto;
+        height: fit-content;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -341,7 +338,7 @@ export default{
         color: #ffd700;
         font-family: sans-serif;
         font-weight: bold;
-        margin-top: 6%;
+        margin-top: 5%;
     }
     // line style below  About text
     .line_1 {
@@ -351,7 +348,7 @@ export default{
         // background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: 16%;
+        margin-top: 14%;
     
     }
     .longLine {

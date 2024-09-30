@@ -151,8 +151,6 @@ export default{
     height: fit-content;
     //background-color: rgb(17, 24, 39);
     background-color: rgb(17, 24, 39);
-    margin-top: auto;
-    
 }
 .About_2 {
     width: 100%;
@@ -321,12 +319,10 @@ export default{
         width: 100%;
         height: fit-content;
         background-color: rgb(17, 24, 39);
-        position: absolute;
-        margin-top: auto;
     }
     .About_2 {
         width: 100%;
-        height: auto;
+        height: fit-content;
         display: flex;
         justify-content: center;
         // background-color: #ffd700;
@@ -348,7 +344,7 @@ export default{
     }
     .aboutStyle {
         width: 100%;
-        height: auto;
+        height: fit-content;
         position: absolute;
         display: flex;
         justify-content: center;
@@ -367,7 +363,7 @@ export default{
         //background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: -29px;
+        margin-top: -6%;
     
     }
     .longLine {
