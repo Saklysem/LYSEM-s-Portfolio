@@ -37,7 +37,7 @@ export default{
         </div>
 <!-- Type of projects -->
  <!-- Type of projects  1-->
-  <div class="ProCard">
+    <div class="ProCard">
         <div class="ProjectTypeSt">
             <div class="image">
                 <img src="../assets/BG/BOBI3D.png" alt="Loading">
@@ -94,17 +94,14 @@ export default{
                 </div>
             </div>
         </div>
-        </div>
+    </div>
     </div>
 </template>
 <style lang="scss" scoped>
 .Portfolio{
     width: 100%;
-    height: 1500px;
+    height: fit-content;
     background-color: rgb(17, 24, 39);
-    position: absolute;
-    z-index: 1;
-    margin-top: 1550px;
 }
 .Portfolio_2 {
     width: 100%;
@@ -209,11 +206,12 @@ export default{
     width: 100%;
     height: fit-content;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 .ProjectTypeSt{
     width: 100%;
-    height: 300px;
+    height: fit-content;
     // background-color: #ffd700;
     display: flex;
     flex-direction: row;
@@ -288,9 +286,6 @@ export default{
         width: 100%;
         height: fit-content;
         background-color: rgb(17, 24, 39);
-        position: absolute;
-        z-index: 9;
-        margin-top: 6650px;
     }
     .Portfolio_2 {
         width: 100%;
@@ -397,6 +392,7 @@ export default{
         width: 100%;
         height: fit-content;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
     }
     .ProjectTypeSt{

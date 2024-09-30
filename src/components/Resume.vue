@@ -121,7 +121,7 @@ export default{
 
 .software {
     width: 100%;
-    height: 1000px;
+    height: fit-content;
     background-color: rgb(17, 24, 39);
     //background-color: rgb(162, 68, 174);
     display: flex;
@@ -131,7 +131,7 @@ export default{
 }
 .softwareSt{
     width: 100%;
-    height: auto;
+    height: fit-content;
     display: flex;
     justify-content: center;
 
@@ -491,9 +491,7 @@ export default{
         width: 100%;
         height: fit-content;
         background-color: rgb(17, 24, 39);
-        position: absolute;
         z-index: 5;
-        margin-top: 4850px;
         display: flex;
         flex-direction: column;      
         overflow: hidden; 
@@ -613,7 +611,7 @@ export default{
         display: flex;
         flex-direction: column;
         align-items: center;
-        z-index: 3;
+        z-index: 0;
         margin-top: -248%;
     }
     .circle1{
@@ -735,7 +733,7 @@ export default{
         display: flex;
         flex-direction: column; 
         align-items: center;
-        z-index: 5;
+        z-index: 0;
         margin-top: 100%;
         margin-left: 0%;
     }

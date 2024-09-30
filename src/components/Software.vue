@@ -338,7 +338,7 @@ export default{
         color: #ffd700;
         font-family: sans-serif;
         font-weight: bold;
-        margin-top: 5%;
+        margin-top: 6%;
     }
     // line style below  About text
     .line_1 {
@@ -348,7 +348,7 @@ export default{
         // background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: 14%;
+        margin-top: 16%;
     
     }
     .longLine {

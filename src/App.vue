@@ -44,9 +44,9 @@ export default{
     <!-- <div>
       <Test />
     </div> -->
-    <!-- <div>
+    <div>
       <Resume />
-    </div> -->
+    </div>
     <!-- <div>
       <Portfolio />
     </div>  -->

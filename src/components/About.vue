@@ -44,7 +44,6 @@ export default{
                     <p>Freelance : Available</p>
                 </div>
             </div>
-
         </div>
         <div class="download">
             <button id="downloadCV">Download CV</button>
@@ -348,7 +347,7 @@ export default{
         position: absolute;
         display: flex;
         justify-content: center;
-        margin-top: -70px;
+        margin-top: -18%;
         text-transform: uppercase;
         color: #ffd700;
         font-family: sans-serif;
@@ -363,7 +362,7 @@ export default{
         //background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: -6%;
+        margin-top: -7%;
     
     }
     .longLine {
