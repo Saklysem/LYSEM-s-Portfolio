@@ -20,13 +20,12 @@ export default{
         <div class="softwareScript">
             <h1>Softwares I Use Every Day in <br/> My Line of Work</h1>
             <div class="phrase">
-                <p>I. In Video's Work, I mainly use Adobe Premiere Pro for Drafting Footages, combine all audio systems and color grading together.
-                    And for Adobe After Effect, I use it for doing animations, add-on effects and combine motions and videos together.</p>
-                <p>II. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Color Grading, Retouching on Images and make adjust on vectors, 
-                    elements and other resouces.</p>
-                <p>III. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Color Grading, Retouching on Images and make adjust on vectors, 
-                    elements and other resouces. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Color Grading, Retouching on Images and make adjust on vectors, 
-                    elements and other resouces.</p>
+                <p>I. As A Video Editor, I mainly use Adobe Premiere Pro for Drafting Footages, combine all audio systems and color grading together.
+                    And for Adobe After Effect, I use it for doing animations, add-on effects and combine motions and videos together. If require 3D I'll use the blender.</p>
+                <p>II. I use Adobe Photoshop for doing Video's Thumbnails, Posters, Photo Color Grading I always use Adobe Lightroom.</p>
+                <p>III. As a Motion Graphic Designer, I always use the Figma and Photoshop for draft the motion and adobe After Effect and Blender for implement Motion Graphic.</p>
+                <p>IV. Ads Manager. I used to run own business since early 2019. So I familar with control and boosting post on facebook page.</p>
+                <p>V. Actualy I am a software Engineering, I also Developer my Own Portfolio by using Vue.js!</p>
             </div>
         </div>
         <div class="softwareStatus">

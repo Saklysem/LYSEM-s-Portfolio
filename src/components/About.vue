@@ -67,61 +67,55 @@ export default{
                 <div class="row-1">
                     <div class="card">
                         <div class="cardC1">
-                            <img src="../assets/icon/Video_editing.png" alt="">
+                            <img src="../assets/icon/Motion_Graphic.png" alt="Loading">
                         </div>
-                        <div class="cardC2"><h1>3D/Motion Graphics</h1></div>
-                        <div class="cardC3">Drafting a fully story telling videos base on Client's 
-                        requirements with smooth transitions, color grading,
-                         Sound EFX and background musics.
+                        <div class="cardC2"><h1>Motion Graphics/3D</h1></div>
+                        <div class="cardC3"> Converting a static artwork into an active video that 
+                            make gain engagement and attention from the audiences with 2D and 3D Animations. 
+                            Experience on motion graphic for 1 year in Tech Company.
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardC1">
-                            <img src="../assets/icon/Video_editing.png" alt="">
+                            <img src="../assets/icon/Video_Editor.png" alt="">
                         </div>
                         <div class="cardC2"><h1>Video Editing</h1></div>
-                        <div class="cardC3">Converting a static artwork into an active videoo that 
-                                make gain engagement and attention from the audiences with 2D Animations.
+                        <div class="cardC3">Drafted fully storytelling video base on product with smooth transition, 
+                            color grading, SFX and VFX. Tend to Cinematic shot and Feeling. 2 years Experience.
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardC1">
-                            <img src="../assets/icon/Video_editing.png" alt="">
+                            <img src="../assets/icon/Design.png" alt="">
                         </div>
                         <div class="cardC2"><h1>Graphic Design</h1></div>
-                        <div class="cardC3">Drafting a fully story telling videos base on Client's 
-                        requirements with smooth transitions, color grading,
-                         Sound EFX and background musics.
+                        <div class="cardC3">Creates visual content to deliver messages through typography, imagery, and color, often for branding, marketing, or digital platforms. 
+                            Enhance your your post look more attractive to audiences.
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardC1">
-                            <img src="../assets/icon/Video_editing.png" alt="">
+                            <img src="../assets/icon/Director.png" alt="">
                         </div>
                         <div class="cardC2"><h1>Director</h1></div>
-                        <div class="cardC3">Drafting a fully story telling videos base on Client's 
-                        requirements with smooth transitions, color grading,
-                         Sound EFX and background musics.
+                        <div class="cardC3">Enhance the imagination to visibility in filming, product demonstrate and lifestyle. Experience on directing short film for start up 
+                            project and my own content and vlog.
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardC1">
-                            <img src="../assets/icon/Video_editing.png" alt="">
+                            <img src="../assets/icon/Camera.png" alt="">
                         </div>
                         <div class="cardC2"><h1>Video/Photographer</h1></div>
-                        <div class="cardC3">Drafting a fully story telling videos base on Client's 
-                        requirements with smooth transitions, color grading,
-                         Sound EFX and background musics.
+                        <div class="cardC3">Capture the beautiful Action, Memories by techniques, lighting, and composition to tell stories or document events, often working in fields like media, advertising, or events.
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardC1">
-                            <img src="../assets/icon/Video_editing.png" alt="">
+                            <img src="../assets/icon/Web_Dev.png" alt="">
                         </div>
                         <div class="cardC2"><h1>Frontend Dev</h1></div>
-                        <div class="cardC3">Drafting a fully story telling videos base on Client's 
-                        requirements with smooth transitions, color grading,
-                         Sound EFX and background musics.
+                        <div class="cardC3">Passion to Develop my own Porfolio to embed my own project and every experience of my working life. 
                         </div>
                     </div>
                 </div>
@@ -530,23 +524,27 @@ export default{
     width: 160px;
     height: 160px;
     background-color: rgb(25, 34, 53);
+    //background-color: #ffd700;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 1px rgba(120, 120, 120, 0.5);
+    box-shadow: inset 0 0 30px rgba(255, 255, 255, 0.5);
     border-radius: 100%;
-
 }
-
+.cardC1:hover {
+    box-shadow: inset 0 0 30px rgba(0, 110, 184, 0.5);
+}
 .cardC1 img {
-    width: 60px;
-    height: 60px;
+    width: 180px;
+    height: 180px;
 
 
 }
 
 .cardC2 h1{
     font-family:sans-serif;
+    font-size: 25px;
+    color: white;
     // background-color: #ffd700;
 }
 
@@ -557,14 +555,14 @@ export default{
 .cardC3{
     width: 100%;
     height: 120px;
-    padding: 25px;
+    padding: 15px;
     // background-color: #7d4c4c;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .skills .row-2 .card{
@@ -636,7 +634,7 @@ export default{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 1px rgba(120, 120, 120, 0.5);
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.5);
     border-radius: 100%;
 
 }
