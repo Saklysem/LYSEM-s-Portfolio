@@ -148,8 +148,8 @@ export default{
 .About{
     width: 100%;
     height: fit-content;
-    //background-color: rgb(17, 24, 39);
     background-color: rgb(17, 24, 39);
+    
 }
 .About_2 {
     width: 100%;
@@ -317,6 +317,7 @@ export default{
     .About{
         width: 100%;
         height: fit-content;
+        //background-color: rgba(2, 82, 202, 0.53);
         background-color: rgb(17, 24, 39);
     }
     .About_2 {
@@ -333,8 +334,8 @@ export default{
     .aboutCov {
         font-family: sans-serif;
         font-weight: bold;
-        letter-spacing: 6px;
-        font-size: 60px;
+        letter-spacing: 5px;
+        font-size: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -347,11 +348,12 @@ export default{
         position: absolute;
         display: flex;
         justify-content: center;
-        margin-top: -18%;
+        margin-top: -15%;
         text-transform: uppercase;
         color: #ffd700;
         font-family: sans-serif;
         font-weight: bold;
+        font-size: 12px;
     }
     
     // line style below  About text
@@ -362,7 +364,7 @@ export default{
         //background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: -7%;
+        margin-top: -6%;
     
     }
     .longLine {
@@ -394,15 +396,15 @@ export default{
     }
     
     .briefdMe img {
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        height: 300px;
         margin: auto;
         //box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
     }
     .script {
         width: 100%;
         height: 600px;
-        font-size: 16px;
+        font-size: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -411,7 +413,7 @@ export default{
     }
     .hi {
         display: flex;
-        font-size: 16px;
+        font-size: 15px;
     }
     .hi .hiThere {
         color: white;
@@ -425,7 +427,7 @@ export default{
     
     .script h2{
         color: white;
-        font-size: 20px;
+        font-size: 16px;
     }
     
     .promo {
@@ -433,10 +435,10 @@ export default{
         text-align: justify;
         text-justify: inter-word;
         line-height: 20px;
-        font-size: 16px;
+        font-size: 15px;
     }
     .info {
-        line-height: 35px;
+        line-height: 30px;
         text-align: center;
         // color: white;
     }
@@ -445,7 +447,7 @@ export default{
         width: 100%;
         height: 50px;
         //background-color: #ffd700;
-        margin-top: -6%;
+        margin-top: -15%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -492,7 +494,7 @@ export default{
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
+    padding: 0px;
     margin-top: 0px;
 }
 .skills .row-2{
@@ -511,7 +513,7 @@ export default{
 }
 
 .skills .row-1 .card{
-    width: 310px;
+    width: 300px;
     height: 380px;
     border-radius: 15px;
     background-color: rgb(25, 34, 53);

@@ -103,15 +103,12 @@ export default{
 
 .Contact {
     max-width: 100%;
-    height: 700px;
+    height: fit-content;
     background-color: rgb(17, 24, 39);
     // background-color: #33492c;
     // opacity: 90%;
-    //position: absolute;
-    z-index: 10;
     display: flex;
     flex-direction: column;
-    margin-top: 3050px;
 }
 .ContactSt{
     width: 100%;
@@ -380,7 +377,7 @@ export default{
 // Copyright at the end of Porfolio
 .CopyRIght {
     width: 100%;
-    height: 90px;
+    height: 60px;
     background-color: rgb(12, 24, 49);
     display: flex;
     flex-direction: row;

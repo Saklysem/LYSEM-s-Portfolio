@@ -56,7 +56,7 @@
 <style lang="scss">
 
 .cover  {
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   background-color: #303030;
 
@@ -209,7 +209,7 @@
 // Responsive size
 @media (max-width: 500px){
   .cover  {
-    max-width: 600px;
+    width: 100%;
     height: 400px;
     margin: auto;
     z-index: -1;

@@ -129,8 +129,8 @@ li a:hover:not(.active){
 @media (max-width: 500px) {
   .navberCover{
     width: 100%;
-    margin:auto;
-    height: auto;
+    //margin:auto;
+    height: fit-content;
   }
   .nav {
     width: 100%;
@@ -156,7 +156,7 @@ li a:hover:not(.active){
     flex-direction: row;
     margin-top: -300px;
     padding: 0px;
-    margin-left: 350px;
+    margin-left: 300px;
   }
   .checkbtn svg{
     margin-top: -13px;
@@ -211,6 +211,7 @@ li a:hover:not(.active){
   justify-content: space-between 30px;
   align-items: center;
   margin-right: 5px;
+  overflow: hidden;
 }
 .contact p {
   margin-right: 10px;

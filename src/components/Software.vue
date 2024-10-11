@@ -322,7 +322,7 @@ export default{
         font-family: sans-serif;
         font-weight: bold;
         letter-spacing: 6px;
-        font-size: 60px;
+        font-size: 50px;
         display: flex;
         justify-content: center;
         text-transform: uppercase;
@@ -338,7 +338,7 @@ export default{
         color: #ffd700;
         font-family: sans-serif;
         font-weight: bold;
-        margin-top: 6%;
+        margin-top: 5%;
     }
     // line style below  About text
     .line_1 {
@@ -348,7 +348,7 @@ export default{
         // background-color: #ffd700;
         display: flex;
         justify-content: center;
-        margin-top: 16%;
+        margin-top: 14.5%;
     
     }
     .longLine {
@@ -377,9 +377,9 @@ export default{
         //background-color: #ffd700;
     }
     .softwareScript {
-        width: 400px;
+        width: 100%;
         height: fit-content;
-        padding: 20px;
+        padding: 30px;
         margin-top: -20%;
         display: flex;
         flex-direction: column;
@@ -409,7 +409,7 @@ export default{
     }
     // style on status skill
     .softwareStatus {
-        width: 400px;
+        width: 100%;
         height: fit-content;
         padding: 10px;
         //background-color: rgb(47, 96, 3);
@@ -423,7 +423,7 @@ export default{
     
     }
     .softwareStatus .AF{
-        width: 96%;
+        width: 90%;
         margin-left: 0px;
         //background-color: #ffd90051;
     }

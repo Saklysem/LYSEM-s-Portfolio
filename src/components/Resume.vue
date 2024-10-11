@@ -17,17 +17,11 @@ export default{
     </div>
 <!-- The Resume style  -->
     <div class="ResumeStyle">
+<!-- The Experience description style (left side)-->
 <!-- the left wall style -->
         <div class="leftWall">
-            <div class="circle1">
-                <div></div>
-            </div>
-            <div class="circle2">
-                <div></div>
-            </div>
             <div class="line1"></div>
         </div>
-<!-- The Experience description style (left side)-->
         <div class="left">
             <div class="title">
                 <div class="Ex">
@@ -43,7 +37,12 @@ export default{
             </div>
 <!-- Experience job 1 -->
             <div class="ex1">
-                <div class="exTitle1">Video Edtior & Motion Graphics</div>
+                <div class="exTitle1">
+                    <div class="circle1">
+                        <div></div>
+                    </div>
+                    <div class="Title1">Video Edtior & Motion Graphics1</div>
+                </div>
                 <div class="date">2023 - Present</div>
                 <div class="exTitle1s">Infinity Information & Apps Dev</div>
                 <div class="description">
@@ -56,9 +55,14 @@ export default{
             </div>
 <!-- Experience job 2 -->
             <div class="ex2">
-                <div class="exTitle2">Video Edtior & Motion Graphics</div>
+                <div class="exTitle2">
+                    <div class="circle2">
+                        <div></div>
+                    </div>
+                    <div class="Title2">Video Edtior & Motion Graphics1</div>
+                </div>
                 <div class="date">2023 - Present</div>
-                <div class="exTitle1s">Infinity Information & Apps Dev</div>
+                <div class="exTitle2s">Infinity Information & Apps Dev</div>
                 <div class="description">
                     <ul class="listEx2">
                         <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
@@ -83,13 +87,13 @@ export default{
             <div class="titleEd">
                 <div class="Ed">
                     <h1>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
                         Education</h1>
                 </div>
             </div>
 <!-- Education 1 -->
             <div class="Ed1">
-                <div class="EdTitle1">Video Edtior & Motion Graphics</div>
+                <div class="EdTitle1">Video Edtior & Motion Graphics3</div>
                 <div class="date">2023 - Present</div>
                 <div class="EdTitle1s">Infinity Information & Apps Dev</div>
                 <div class="description">
@@ -102,7 +106,7 @@ export default{
             </div>
 <!-- Education 2 -->
             <div class="Ed2">
-                <div class="EdTitle2">Video Edtior & Motion Graphics</div>
+                <div class="EdTitle2">Video Edtior & Motion Graphics4</div>
                 <div class="date">2023 - Present</div>
                 <div class="EdTitle1s">Infinity Information & Apps Dev</div>
                 <div class="description">
@@ -249,58 +253,17 @@ export default{
 // The left wall style
 .leftWall {
     width: 30px;
-    height: 700px;
+    height: 520px;
     // background-color: rgb(0, 68, 140);
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.circle1{
     position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color:rgb(81, 81, 81);
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.circle1 div{
-    width: 12px;
-    height: 12px;
-    background-color: rgba(17, 24, 39, 0.90);
-    border-radius: 100%;
-}
-.circle1 div:hover{
-    animation-duration: 1s;
-    background-color: #ffd700;
-
-}
-// Circle dot 2
-.circle2{
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color:rgb(81, 81, 81);
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 270px;
-}
-.circle2 div{
-    width: 12px;
-    height: 12px;
-    background-color: rgba(17, 24, 39, 0.90);
-    border-radius: 100%;
-}
-.circle2 div:hover{
-    animation-duration: 1s;
-    background-color: #ffd700;
-
+    z-index: 0;
+    margin-left: -1111px;
 }
 .line1{
-    width: 2px;
+    width: 3px;
     height: 100%;
     background-color: rgb(81, 81, 81);
     border-radius: 3px;
@@ -317,14 +280,45 @@ export default{
 }
 .ex1 {
     width: 100%;
-    height: auto;
-    // background-color: rgb(14, 45, 72);
+    height: fit-content;
 }
 // Experience job 1
-.ex1 .exTitle1{
+.exTitle1{
+    width: 470px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -42.5px;
+    z-index: 2;
+    position: relative;
+}
+.Title1{
     font-family: sans-serif;
     font-size: 30px;
     color: #ffd700;
+    //background-color: rgb(11, 95, 0);
+}
+.circle1{
+    width: 22px;
+    height: 22px;
+    background-color:rgb(81, 81, 81);
+    //background-color: #ff0000;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle1 div{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(17, 24, 39, 0.90);
+    border-radius: 100%;
+}
+.circle1 div:hover{
+    animation-duration: 1s;
+    background-color: #ffd700;
+
 }
 .ex1 .date{
     font-family: sans-serif;
@@ -345,17 +339,52 @@ export default{
     // animation-name: fadeInLeft;
 }
 // Experience job 2
-.ex2 .exTitle2{
+.ex2 {
+    width: 100%;
+    height: fit-content;
+}
+.exTitle2{
+    width: 470px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -42.5px;
+    z-index: 2;
+    position: relative;
+}
+.Title2{
     font-family: sans-serif;
     font-size: 30px;
     color: #ffd700;
-    margin-top: 30px;
+    //background-color: rgb(11, 95, 0);
+}
+.circle2{
+    width: 22px;
+    height: 22px;
+    background-color:rgb(81, 81, 81);
+    //background-color: #ff0000;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle2 div{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(17, 24, 39, 0.90);
+    border-radius: 100%;
+}
+.circle2 div:hover{
+    animation-duration: 1s;
+    background-color: #ffd700;
+
 }
 .ex2 .date{
     font-family: sans-serif;
     font-size: 20px;
 }
-.ex2 .exTitle1s{
+.ex2 .exTitle2s{
     font-family: sans-serif;
     font-size: 20px;
     color: #ffffff;
@@ -364,7 +393,15 @@ export default{
     font-family: sans-serif;
     font-size: 16px;
     margin-left: 30px;
+    // visibility: visible;
+    // animation-duration: 1.5s;
+    // animation-delay: 0.5s;
+    // animation-name: fadeInLeft;
 }
+
+
+
+
 // The right wall style
 .rightWall {
     width: 30px;
@@ -433,12 +470,13 @@ export default{
     display: flex;
     flex-direction: column;
     padding-left: 15px;
-    margin-top: -15px;
+    margin-top: -20px;
 }
 // Educaton description style
 .Ed1 {
     width: 100%;
     height: auto;
+    margin-top: 0px;
     // background-color: rgb(14, 45, 72);
 }
 // Experience job 1
@@ -470,7 +508,7 @@ export default{
     font-family: sans-serif;
     font-size: 30px;
     color: #ffd700;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .Ed2 .date{
     font-family: sans-serif;
@@ -574,8 +612,7 @@ export default{
     }
     .Ex h1{
         display: flex;
-        align-items: center;
-        
+        align-items: center; 
     }
     .Ex svg{
         margin-right: 10px;
@@ -612,7 +649,6 @@ export default{
         flex-direction: column;
         align-items: center;
         z-index: 0;
-        margin-top: -248%;
     }
     .circle1{
         position: absolute;
@@ -623,6 +659,7 @@ export default{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 50%;
     }
     .circle1 div{
         width: 12px;
@@ -645,7 +682,7 @@ export default{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 1035%;
+        margin-top: 1000%;
     }
     .circle2 div{
         width: 12px;
@@ -660,16 +697,16 @@ export default{
     }
     .line1{
         width: 2px;
-        height: 100%;
+        height: 80%;
         background-color: rgb(81, 81, 81);
         border-radius: 3px;
+        margin-top: 30px;
     }
     // The Experience description style at left side
     .left {
         width: 400px;
         height: fit-content;
         padding-left: 8%;
-        margin-top: -8%;
         //background-color: #696969;
         display: flex;
         flex-direction: column;
@@ -678,7 +715,8 @@ export default{
     .ex1 {
         width: 100%;
         height: fit-content;
-        // background-color: rgb(14, 45, 72);
+        margin-top: 10px;
+        //background-color: rgb(14, 45, 72);
     }
     // Experience job 1
     .ex1 .exTitle1{
@@ -705,6 +743,9 @@ export default{
         // animation-name: fadeInLeft;
     }
     // Experience job 2
+    .ex2{
+        margin-top: 0px;
+    }
     .ex2 .exTitle2{
         font-family: sans-serif;
         font-size: 25px;
@@ -734,8 +775,7 @@ export default{
         flex-direction: column; 
         align-items: center;
         z-index: 0;
-        margin-top: 100%;
-        margin-left: 0%;
+        margin-top: 0%;
     }
 //The right wall style
 .Edcircle1{
@@ -797,7 +837,6 @@ export default{
         flex-direction: column;
         padding-left: 15px;
         margin-left: 4%;
-        margin-top: -168%;
     }
     .Ed1 {
         width: 100%;
