@@ -518,6 +518,7 @@ export default{
     justify-content: space-around;
     padding: 10px;
     margin: 20px;
+    box-shadow: inset 2px 2px 20px rgba(255, 255, 255, 0.5);
 }
 
 .cardC1{
