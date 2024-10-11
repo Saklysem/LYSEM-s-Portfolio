@@ -34,6 +34,7 @@
                 </div>
                 <div>
                   <h3 class="skill">Motion Graphic | Video Editor | Cameraman | 3D Motion</h3>
+                  <h3 class="slogan">Lucky only for who keep fighting!</h3>
                 </div>
                 <!-- Icon -->
                 <div class="SMIcon">
@@ -169,12 +170,25 @@
 .skill {
   font-size: 25px;
   font-family: sans-serif;
+  text-align: center;
   //background: linear-gradient(45deg, #ffd700, #ffffff, #00939e);
   //-webkit-background-clip: text;
   //-webkit-text-fill-color: transparent;
   opacity: 100%;
   margin-top: -15px;
   color: white;
+}
+.slogan {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+  //background: linear-gradient(45deg, #ffd700, #ffffff, #00939e);
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
+  opacity: 100%;
+  margin-top: -15px;
+  color: #ffd700;
+  font-weight: bold;
 }
 // Icon style 
 .SMIcon {

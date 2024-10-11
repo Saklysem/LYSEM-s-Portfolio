@@ -4,10 +4,10 @@ export default{
 };
 </script>
 <template>
-<div class="software">
-    <div class="softwareSt">
-        <h1 class="softwareCov">Resume</h1>
-        <div class="sotfwareStyle">
+<div class="Resume">
+    <div class="ResumeSt">
+        <h1 class="ResumeCov">Resume</h1>
+        <div class="REStyle">
         <h1 >Resume</h1>
         </div>
         <div class="line_1">
@@ -18,10 +18,6 @@ export default{
 <!-- The Resume style  -->
     <div class="ResumeStyle">
 <!-- The Experience description style (left side)-->
-<!-- the left wall style -->
-        <div class="leftWall">
-            <div class="line1"></div>
-        </div>
         <div class="left">
             <div class="title">
                 <div class="Ex">
@@ -29,11 +25,6 @@ export default{
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase-business"><path d="M12 12h.01"/><path d="M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M22 13a18.15 18.15 0 0 1-20 0"/><rect width="20" height="14" x="2" y="6" rx="2"/></svg>
                         Experience</h1>
                 </div>
-                <!-- <div class="Ed">
-                    <h1>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
-                        Education</h1>
-                </div> -->
             </div>
 <!-- Experience job 1 -->
             <div class="ex1">
@@ -41,15 +32,15 @@ export default{
                     <div class="circle1">
                         <div></div>
                     </div>
-                    <div class="Title1">Video Edtior & Motion Graphics1</div>
+                    <div class="Title1">Motion Graphics</div>
                 </div>
-                <div class="date">2023 - Present</div>
-                <div class="exTitle1s">Infinity Information & Apps Dev</div>
+                <div class="date">2023-September - 2024-September</div>
+                <div class="exTitle1s">Experience 1 year in VTech Company</div>
                 <div class="description">
                     <ul class="listEx1">
-                        <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
-                        <li>Make Highlights Video, 2D Graphic Animations, Promotional Videos, Tutorial Videos ...</li>
-                        <li>manage fully on Video Productions within Deadline plus Client’s Requirement</li>
+                        <li>Design Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
+                        <li>Make Highlights Video, Promotional Videos(3D Motion_Graphic), 2D Graphic Animations, Tutorial Videos ...</li>
+                        <li>Manage fully on Video Productions within Deadline plus Manager’s Requirement</li>
                     </ul>
                 </div>
             </div>
@@ -59,71 +50,111 @@ export default{
                     <div class="circle2">
                         <div></div>
                     </div>
-                    <div class="Title2">Video Edtior & Motion Graphics1</div>
+                    <div class="Title2">Video Edtior</div>
                 </div>
-                <div class="date">2023 - Present</div>
-                <div class="exTitle2s">Infinity Information & Apps Dev</div>
+                <div class="date">2024-September - Present</div>
+                <div class="exTitle2s">Video editor & Graphic design in vKirirom Pine Resort</div>
                 <div class="description">
                     <ul class="listEx2">
-                        <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
-                        <li>Make Highlights Video, 2D Graphic Animations, Promotional Videos, Tutorial Videos ...</li>
-                        <li>manage fully on Video Productions within Deadline plus Client’s Requirement</li>
+                        <li>Direct and Edit video for Marketing Team.</li>
+                        <li>Design Poster for posting in Facebook page and support Manager on some design tasks.</li>
+                        <li>Preparing video story board.</li>
+                        <li>Fully manage and implement on my personal content in my Social Media.</li>
+                    </ul>
+                </div>
+            </div>
+<!-- Experience job 3 -->
+            <div class="ex2">
+                <div class="exTitle2">
+                    <div class="circle2">
+                        <div></div>
+                    </div>
+                    <div class="Title2">Freelancer E</div>
+                </div>
+                <div class="date">2024 - Present</div>
+                <div class="exTitle2s">Videographer & Video Editor for start up company</div>
+                <div class="description">
+                    <ul class="listEx2">
+                        <li>Shooting short filming and Editting with sound design.</li>
+                        <li>Create video motion graphic for advertisments</li>
+                        <li>Tend to Cinematic style.</li>
                     </ul>
                 </div>
             </div>
         </div>
-<!-- the right wall style -->
-        <div class="rightWall">
-            <div class="Edcircle1">
-                <div></div>
-            </div>
-            <div class="Edcircle2">
-                <div></div>
-            </div>
-            <div class="Edline1"></div>
+
+
+ <!-- The educ description style (right side)-->
+<div class="right">
+    <div class="titleEd">
+        <div class="Ed">
+            <h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
+                Education</h1>
         </div>
-<!-- The educ description style (right side)-->
-        <div class="right">
-            <div class="titleEd">
-                <div class="Ed">
-                    <h1>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></svg>
-                        Education</h1>
-                </div>
-            </div>
+    </div>
 <!-- Education 1 -->
-            <div class="Ed1">
-                <div class="EdTitle1">Video Edtior & Motion Graphics3</div>
-                <div class="date">2023 - Present</div>
-                <div class="EdTitle1s">Infinity Information & Apps Dev</div>
-                <div class="description">
-                    <ul class="listEd1">
-                        <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
-                        <li>Make Highlights Video, 2D Graphic Animations, Promotional Videos, Tutorial Videos ...</li>
-                        <li>manage fully on Video Productions within Deadline plus Client’s Requirement</li>
-                    </ul>
-                </div>
+    <div class="Ed1">
+        <div class="edTitle1">
+            <div class="edcircle1">
+                <div></div>
             </div>
-<!-- Education 2 -->
-            <div class="Ed2">
-                <div class="EdTitle2">Video Edtior & Motion Graphics4</div>
-                <div class="date">2023 - Present</div>
-                <div class="EdTitle1s">Infinity Information & Apps Dev</div>
-                <div class="description">
-                    <ul class="listEd2">
-                        <li>Make Graphic Animation, Assets to Support Developer for App and Web’s Publishment</li>
-                        <li>Make Highlights Video, 2D Graphic Animations, Promotional Videos, Tutorial Videos ...</li>
-                        <li>manage fully on Video Productions within Deadline plus Client’s Requirement</li>
-                    </ul>
-                </div>
-            </div>
+            <div class="EDTitle1">Primary school to high school</div>
         </div>
+        <div class="date">2006 - 2018</div>
+        <div class="EdTitle1s">Infinity Information</div>
+        <div class="description">
+            <ul class="listEd1">
+                <li>Primary school: Sre Ambel Primary school.</li>
+                <li>Secondary school: Sre Ambel Secondary school.</li>
+                <li>High school: Sre Ambel High school.</li>
+                <li>BACII Exam: Rank C+(570PT) I got Rank A in Math.Tend Technology!</li>
+            </ul>
+        </div>
+    </div>
+<!-- Education 2 -->
+    <div class="Ed2">
+        <div class="edTitle2">
+            <div class="edcircle1">
+                <div></div>
+            </div>
+            <div class="EDTitle1">Bachelor of Software Engineering</div>
+        </div>
+        <div class="date">2019 - 2023</div>
+        <div class="EdTitle2s">Kirirom Institute of Technology</div>
+        <div class="description">
+            <ul class="listEd2">
+                <li>I have learnt and explore all the basic knowledge in Software Engineering field, Team Work, Leadership also hard skill and soft skill</li>
+                <li>Practice in real internship with virtual company under university.</li>
+                <li>I have learn and practice the Extra skill in media field such as: Design skill, Video Editing and Motion Graphic</li>
+            </ul>
+        </div>
+    </div>
+<!-- Education 3 -->
+    <div class="Ed3">
+        <div class="edTitle3">
+            <div class="edcircle1">
+                <div></div>
+            </div>
+            <div class="EDTitle1">Extra Course</div>
+        </div>
+        <div class="date">2022 - Present</div>
+        <div class="EdTitle3s">Training Course & YouTube</div>
+        <div class="description">
+            <ul class="listEd3">
+                <li>I have been explore some specific skill from insternship about Media Field: Marketing strategy, Design skill and Motion graphic.</li>
+                <li>Skill I have been learnt: Adobe after effect, Adobe Premiere Pro, Adobe Photoshop, Blender, HTML, Css, Vue.js.</li>
+                <li>Social Media Management and Ads Boosting in App Training Store</li>
+            </ul>
+        </div>
+    </div>
+</div>
     </div>
 </div>
 </template>
 <style lang="scss" scoped>
 
-.software {
+.Resume {
     width: 100%;
     height: fit-content;
     background-color: rgb(17, 24, 39);
@@ -133,17 +164,17 @@ export default{
     justify-content: center;
         	
 }
-.softwareSt{
+.ResumeSt{
     width: 100%;
     height: fit-content;
     display: flex;
     justify-content: center;
 
 }       
-.softwareCov {
+.ResumeCov {
 
     width: 100%;
-    height: 120px;
+    height: fit-content;
     font-family: sans-serif;
     font-weight: bold;
     letter-spacing: 6px;
@@ -154,7 +185,7 @@ export default{
     opacity: 10%;
     
 }
-.sotfwareStyle {
+.REStyle {
     width: 100%;
     height: auto;
     position: absolute;
@@ -243,35 +274,23 @@ export default{
 // Resume descrition style
 .ResumeStyle {
     width: 100%;
-    height: 900px;
+    height: fit-content;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 60px;
+    //background-color: #6060606a;
 
 }
-// The left wall style
-.leftWall {
-    width: 30px;
-    height: 520px;
-    // background-color: rgb(0, 68, 140);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    z-index: 0;
-    margin-left: -1111px;
-}
-.line1{
-    width: 3px;
-    height: 100%;
-    background-color: rgb(81, 81, 81);
-    border-radius: 3px;
-}
+
 // The Experience description style at left side
+
+
+
 .left {
     width: 550px;
-    height: 700px;
+    height: fit-content;
     padding-left: 15px;
     margin-top: -15px;
     // background-color: #696969;
@@ -284,12 +303,12 @@ export default{
 }
 // Experience job 1
 .exTitle1{
-    width: 470px;
+    width: 280px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-left: -42.5px;
+    justify-content: space-around;
+    margin-left: -50px;
     z-index: 2;
     position: relative;
 }
@@ -310,8 +329,8 @@ export default{
     align-items: center;
 }
 .circle1 div{
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     background-color: rgba(17, 24, 39, 0.90);
     border-radius: 100%;
 }
@@ -320,6 +339,7 @@ export default{
     background-color: #ffd700;
 
 }
+
 .ex1 .date{
     font-family: sans-serif;
     font-size: 20px;
@@ -344,12 +364,12 @@ export default{
     height: fit-content;
 }
 .exTitle2{
-    width: 470px;
+    width: 220px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-left: -42.5px;
+    justify-content: space-around;
+    margin-left: -50px;
     z-index: 2;
     position: relative;
 }
@@ -370,8 +390,8 @@ export default{
     align-items: center;
 }
 .circle2 div{
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
     background-color: rgba(17, 24, 39, 0.90);
     border-radius: 100%;
 }
@@ -400,91 +420,68 @@ export default{
 }
 
 
+// The education description style at right side
 
 
-// The right wall style
-.rightWall {
-    width: 30px;
-    height: 700px;
-    // background-color: rgb(0, 68, 140);
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-}
-//The right wall
-.Edcircle1{
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color:rgb(81, 81, 81);
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.Edcircle1 div{
-    width: 12px;
-    height: 12px;
-    background-color: rgba(17, 24, 39, 0.90);
-    border-radius: 100%;
-}
-.Edcircle1 div:hover{
-    animation-duration: 1s;
-    background-color: #ffd700;
 
-}
-// Circle dot 2
-.Edcircle2{
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    background-color:rgb(81, 81, 81);
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 270px;
-}
-.Edcircle2 div{
-    width: 12px;
-    height: 12px;
-    background-color: rgba(17, 24, 39, 0.90);
-    border-radius: 100%;
-}
-.Edcircle2 div:hover{
-    animation-duration: 1s;
-    background-color: #ffd700;
-
-}
-.Edline1{
-    width: 2px;
-    height: 100%;
-    background-color: rgb(81, 81, 81);
-    border-radius: 3px;
-}
-// The Experience description style at right side
 .right {
-    width: 500px;
-    height: 700px;
-    // background-color: white;
+    width: 550px;
+    height: fit-content;
+    //background-color: white;
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
+    padding-left: 30px;
     margin-top: -20px;
 }
 // Educaton description style
+// Education  1
 .Ed1 {
     width: 100%;
-    height: auto;
+    height: fit-content;
     margin-top: 0px;
     // background-color: rgb(14, 45, 72);
 }
-// Experience job 1
-.Ed1 .EdTitle1{
+.edTitle1{
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -35px;
+    z-index: 2;
+    justify-content: space-between;
+    position: relative;
+    //background-color: #3300ff;
+
+}
+.edcircle1{
+    width: 22px;
+    height: 22px;
+    background-color:rgb(81, 81, 81);
+    //background-color: #ff0000;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edcircle1 div{
+    width: 14px;
+    height: 14px;
+    background-color: rgba(17, 24, 39, 0.90);
+    border-radius: 100%;
+}
+.edcircle1 div:hover{
+    animation-duration: 1s;
+    background-color: #ffd700;
+
+}
+.EDTitle1{
     font-family: sans-serif;
     font-size: 30px;
     color: #ffd700;
+    //background-color: rgb(11, 95, 0);
 }
+
+
 .Ed1 .date{
     font-family: sans-serif;
     font-size: 20px;
@@ -504,389 +501,442 @@ export default{
     // animation-name: fadeInLeft;
 }
 // Experience job 2
-.Ed2 .EdTitle2{
-    font-family: sans-serif;
-    font-size: 30px;
-    color: #ffd700;
-    margin-top: 0px;
+
+.edTitle2{
+    width: 480px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -35px;
+    z-index: 2;
+    justify-content: space-between;
+    position: relative;
+    //background-color: #3300ff;
 }
 .Ed2 .date{
     font-family: sans-serif;
     font-size: 20px;
 }
-.Ed2 .exTitle1s{
-    font-family: sans-serif;
+.Ed2 .EdTitle2s{
     font-size: 20px;
-    color: #ffffff;
+    color: white;
+    font-family: sans-serif;
 }
 .Ed2 .listEd2{
     font-family: sans-serif;
     font-size: 16px;
     margin-left: 30px;
 }
-@media (max-width: 500px) {
-    .software {
-        width: 100%;
-        height: fit-content;
-        background-color: rgb(17, 24, 39);
-        z-index: 5;
-        display: flex;
-        flex-direction: column;      
-        overflow: hidden; 
-    }
-    .softwareSt{
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        margin-top: 0%;
-    }       
-    .softwareCov {
-        width: 100%;
-        height: 120px;
-        font-family: sans-serif;
-        font-weight: bold;
-        letter-spacing: 6px;
-        font-size: 60px;
-        display: flex;
-        justify-content: center;
-        text-transform: uppercase;
-        opacity: 10%;
-        //background-color: #ffd700;
-        
-    }
-    .sotfwareStyle {
-        width: 100%;
-        height: auto;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        text-transform: uppercase;
-        color: #ffd700;
-        font-family: sans-serif;
-        font-weight: bold;
-        margin-top: 26px;
-    
-    }
-    // line style below  About text
-    .line_1 {
-        position: absolute;
-        width: 100%;
-        height: 6px;
-        // background-color: #ffd700;
-        display: flex;
-        justify-content: center;
-        margin-top: 15%;
-    
-    }
-    .longLine {
-        width: 200px;
-        height: 2px;
-        background-color: rgb(73, 73, 73);
-        display: flex;
-        border-radius: 100%;
-    }
-    .shortLine {
-        position: absolute;
-        width:  90px;
-        height: 2px;
-        background-color: #ffd700;
-        display: flex;
-        border-radius: 100%;
-    }
-    .title {
-        width: 100%;
-        height: 30px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top: -23.5%;
-        margin-left: -8.5%;
-        //background-color: aqua;
-    }
-    .title .Ex{
-        width: 400px;
-        color: white;
-        //background-color: #003a97;
-    }
-    .Ex h1{
-        display: flex;
-        align-items: center; 
-    }
-    .Ex svg{
-        margin-right: 10px;
-    }
-    .title .Ed {
-        width: 400px;
-        color: white;
-        margin-left: 4.5%;
-        //background-color: rgb(14, 70, 120);
-    }
-    .Ed h1{
-        display: flex;
-        align-items: center;
-    }
-    .Ed svg{
-        margin-left: 15px;
-    }
-    // Resume descrition style
-    .ResumeStyle {
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 90px;
-    }
-    // The left wall style
-    .leftWall {
-        width: 30px;
-        height: 700px;
-        position: absolute;
-        // background-color: rgb(0, 68, 140);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        z-index: 0;
-    }
-    .circle1{
-        position: absolute;
-        width: 16px;
-        height: 16px;
-        background-color:rgb(81, 81, 81);
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 50%;
-    }
-    .circle1 div{
-        width: 12px;
-        height: 12px;
-        background-color: rgba(17, 24, 39, 0.90);
-        border-radius: 100%;
-    }
-    .circle1 div:hover{
-        animation-duration: 1s;
-        background-color: #ffd700;
-    
-    }
-    // Circle dot 2
-    .circle2{
-        position: absolute;
-        width: 16px;
-        height: 16px;
-        background-color:rgb(81, 81, 81);
-        border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1000%;
-    }
-    .circle2 div{
-        width: 12px;
-        height: 12px;
-        background-color: rgba(17, 24, 39, 0.90);
-        border-radius: 100%;
-    }
-    .circle2 div:hover{
-        animation-duration: 1s;
-        background-color: #ffd700;
-    
-    }
-    .line1{
-        width: 2px;
-        height: 80%;
-        background-color: rgb(81, 81, 81);
-        border-radius: 3px;
-        margin-top: 30px;
-    }
-    // The Experience description style at left side
-    .left {
-        width: 400px;
-        height: fit-content;
-        padding-left: 8%;
-        //background-color: #696969;
-        display: flex;
-        flex-direction: column;
+// Education 3
+.edTitle3{
+    width: 215px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -35px;
+    z-index: 2;
+    justify-content: space-between;
+    position: relative;
+    //background-color: #3300ff;
+}
+.Ed3 .date{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.Ed3 .EdTitle3s{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.Ed3 .listEd3{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 30px;
+}
+//Responsive in width 500px
+@media (max-width: 500px){
+//Head Style
 
-    }
-    .ex1 {
-        width: 100%;
-        height: fit-content;
-        margin-top: 10px;
-        //background-color: rgb(14, 45, 72);
-    }
-    // Experience job 1
-    .ex1 .exTitle1{
-        font-family: sans-serif;
-        font-size: 25px;
-        color: #ffd700;
-    }
-    .ex1 .date{
-        font-family: sans-serif;
-        font-size: 20px;
-    }
-    .ex1 .exTitle1s{
-        font-family: sans-serif;
-        font-size: 20px;
-        color: #ffffff;
-    }
-    .ex1 .listEx1{
-        font-family: sans-serif;
-        font-size: 16px;
-        margin-left: 30px;
-        // visibility: visible;
-        // animation-duration: 1.5s;
-        // animation-delay: 0.5s;
-        // animation-name: fadeInLeft;
-    }
-    // Experience job 2
-    .ex2{
-        margin-top: 0px;
-    }
-    .ex2 .exTitle2{
-        font-family: sans-serif;
-        font-size: 25px;
-        color: #ffd700;
-        margin-top: 30px;
-    }
-    .ex2 .date{
-        font-family: sans-serif;
-        font-size: 20px;
-    }
-    .ex2 .exTitle1s{
-        font-family: sans-serif;
-        font-size: 20px;
-        color: #ffffff;
-    }
-    .ex2 .listEx2{
-        font-family: sans-serif;
-        font-size: 16px;
-        margin-left: px;
-    }
-    // The right wall style
-    .rightWall {
-        width: 30px;
-        height: 700px;
-        //background-color: rgb(0, 68, 140);
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-        z-index: 0;
-        margin-top: 0%;
-    }
-//The right wall style
-.Edcircle1{
+.ResumeSt{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+
+}       
+.ResumeCov {
+
+    width: 100%;
+    height: fit-content;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    opacity: 10%;
+    
+}
+.REStyle {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #ffd700;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+
+}
+// line style below  About text
+.line_1 {
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 100%;
+    height: 6px;
+    // background-color: #ffd700;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+
+}
+.longLine {
+    width: 200px;
+    height: 2px;
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    border-radius: 100%;
+}
+.shortLine {
+    position: absolute;
+    width:  90px;
+    height: 2px;
+    background-color: #ffd700;
+    display: flex;
+    border-radius: 100%;
+}
+.title {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    //background-color: aqua;
+    margin-top: 0%;
+    margin-left: 0px;
+}
+.titleEd {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    //background-color: aqua;
+    margin-top: 0%;
+    margin-left: 0px;
+
+}
+.title .Ex{
+    width: fit-content;
+    color: white;
+    //background-color: #003a97;
+}
+.Ex h1{
+    display: flex;
+    //align-items: center;
+}
+.Ex svg{
+    margin-right: 10px;
+}
+.titleEd .Ed {
+    width: fit-content;
+    color: white;
+    // background-color: rgb(14, 70, 120);
+}
+.Ed h1{
+    display: flex;
+    //align-items: center;
+}
+.Ed svg{
+    margin-right: 10px;
+}
+// Resume descrition style
+.ResumeStyle {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+    //background-color: #6060606a;
+
+}
+
+
+//Experience at Left side
+.left {
+    width: 100%;
+    height: fit-content;
+    padding-left: 15px;
+    margin-top: 0px;
+    // background-color: #696969;
+    display: flex;
+    flex-direction: column;
+}
+.ex1 {
+    width: 100%;
+    height: fit-content;
+}
+// Experience job 1
+.exTitle1{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -15px;
+    z-index: 2;
+}
+.Title1{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #ffd700;
+    //background-color: rgb(11, 95, 0);
+}
+.circle1{
+    width: 22px;
+    height: 22px;
     background-color:rgb(81, 81, 81);
+    //background-color: #ff0000;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.Edcircle1 div{
-    width: 12px;
-    height: 12px;
+.circle1 div{
+    width: 14px;
+    height: 14px;
     background-color: rgba(17, 24, 39, 0.90);
     border-radius: 100%;
 }
-.Edcircle1 div:hover{
+.circle1 div:hover{
     animation-duration: 1s;
     background-color: #ffd700;
 
 }
-// Circle dot 2
-.Edcircle2{
-    position: absolute;
-    width: 16px;
-    height: 16px;
+
+.ex1 .date{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.ex1 .exTitle1s{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+.ex1 .listEx1{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    padding: 6px;
+    // visibility: visible;
+    // animation-duration: 1.5s;
+    // animation-delay: 0.5s;
+    // animation-name: fadeInLeft;
+}
+// Experience job 2
+.ex2 {
+    width: 100%;
+    height: fit-content;
+}
+.exTitle2{
+    width: 155px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -15px;
+    z-index: 2;
+    position: relative;
+}
+.Title2{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #ffd700;
+    //background-color: rgb(11, 95, 0);
+}
+.circle2{
+    width: 22px;
+    height: 22px;
     background-color:rgb(81, 81, 81);
+    //background-color: #ff0000;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 67%;
 }
-.Edcircle2 div{
-    width: 12px;
-    height: 12px;
+.circle2 div{
+    width: 14px;
+    height: 14px;
     background-color: rgba(17, 24, 39, 0.90);
     border-radius: 100%;
 }
-.Edcircle2 div:hover{
+.circle2 div:hover{
     animation-duration: 1s;
     background-color: #ffd700;
 
 }
-.Edline1{
-    width: 2px;
-    height: 100%;
-    background-color: rgb(81, 81, 81);
-    border-radius: 3px;
+.ex2 .date{
+    font-family: sans-serif;
+    font-size: 12px;
 }
-    // The Education description style at right side
-    .right {
-        width: 400px;
-        height: 700px;
-        //background-color: white;
-        display: flex;
-        flex-direction: column;
-        padding-left: 15px;
-        margin-left: 4%;
-    }
-    .Ed1 {
-        width: 100%;
-        height: fit-content;
-        // background-color: rgb(14, 45, 72);
-    }
-    // Experience job 1
-    .Ed1 .EdTitle1{
-        font-family: sans-serif;
-        font-size: 25px;
-        color: #ffd700;
-    }
-    .Ed1 .date{
-        font-family: sans-serif;
-        font-size: 20px;
-    }
-    .Ed1 .exTitle1s{
-        font-family: sans-serif;
-        font-size: 20px;
-        color: #ffffff;
-    }
-    .Ed1 .listEd1{
-        font-family: sans-serif;
-        font-size: 16px;
-        margin-left: 30px;
-        // visibility: visible;
-        // animation-duration: 1.5s;
-        // animation-delay: 0.5s;
-        // animation-name: fadeInLeft;
-    }
-    // Experience job 2
-    .Ed2 .EdTitle2{
-        font-family: sans-serif;
-        font-size: 25px;
-        color: #ffd700;
-        margin-top: 30px;
-    }
-    .Ed2 .date{
-        font-family: sans-serif;
-        font-size: 20px;
-    }
-    .Ed2 .EdTitle1s{
-        font-family: sans-serif;
-        font-size: 20px;
-        color: #ffffff;
-    }
-    .Ed2 .listEd2{
-        font-family: sans-serif;
-        font-size: 16px;
-        margin-left: 30px;
-    }
+.ex2 .exTitle2s{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+.ex2 .listEx2{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    // visibility: visible;
+    // animation-duration: 1.5s;
+    // animation-delay: 0.5s;
+    // animation-name: fadeInLeft;
+}
+
+//Education at right side
+
+.right {
+    width: 100%;
+    height: fit-content;
+    //background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    margin-top: 0px;
+}
+// Educaton description style
+// Education  1
+.Ed1 {
+    width: 100%;
+    height: fit-content;
+    margin-top: 0px;
+    // background-color: rgb(14, 45, 72);
+}
+.edTitle1{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -15px;
+    z-index: 2;
+    justify-content: space-between;
+    position: relative;
+    //background-color: #3300ff;
+
+}
+.edcircle1{
+    width: 22px;
+    height: 22px;
+    background-color:rgb(81, 81, 81);
+    //background-color: #ff0000;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edcircle1 div{
+    width: 14px;
+    height: 14px;
+    background-color: rgba(17, 24, 39, 0.90);
+    border-radius: 100%;
+}
+.edcircle1 div:hover{
+    animation-duration: 1s;
+    background-color: #ffd700;
+
+}
+.EDTitle1{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #ffd700;
+    //background-color: rgb(11, 95, 0);
+}
+
+
+.Ed1 .date{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.Ed1 .EdTitle1s{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+.Ed1 .listEd1{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    // visibility: visible;
+    // animation-duration: 1.5s;
+    // animation-delay: 0.5s;
+    // animation-name: fadeInLeft;
+}
+// Experience job 2
+
+.edTitle2{
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -15px;
+    z-index: 2;
+    justify-content: space-between;
+    position: relative;
+    //background-color: #3300ff;
+}
+.Ed2 .date{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.Ed2 .EdTitle2s{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+.Ed2 .listEd2{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+}
+// Education 3
+.edTitle3{
+    width: 155px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -15px;
+    z-index: 2;
+    justify-content: space-between;
+    position: relative;
+    //background-color: #3300ff;
+}
+.Ed3 .date{
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.Ed3 .EdTitle3s{
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+}
+.Ed3 .listEd3{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+}
 }
 </style>
