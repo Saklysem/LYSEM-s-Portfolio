@@ -608,7 +608,7 @@ export default{
     border: 1.5px solid #ffd700;
 }
 .greeting{
-    line-height: 30px;
+    line-height: 20px;
     font-size: 14px;
     //background-color: #ffd700;
 }
@@ -616,31 +616,30 @@ export default{
 .AddSM {
     width: 100%;
     height: 30px;
-    font-size: 25px;
     display: flex;
     flex-direction: column;
-    // background-color: #004186;
+    //background-color: #429dff;
 }
-.InProfile {
+.InProfile p{
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 .SMIcon {
-    width: 300px;
+    width: 50%;
     height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    margin-top: 0px;
-    margin-left: -20px;
-    // background-color: #ffd90053;
+    //justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 0px;
+    //background-color: #ffd90053;
 }
 .SMIcon p{
-    width: 50px;
-    height: 50px;
-    font-size: 12px;
+    width: 45px;
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -649,7 +648,7 @@ export default{
     // background-color: #004186;   
 }
 .SMIcon P:hover{
-    width: 100%;
+    width: 50%;
     border-radius: 50px;
     border: 1.5px solid #ffd700;
 }
