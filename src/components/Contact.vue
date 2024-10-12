@@ -666,10 +666,9 @@ export default{
 .CopyRIght h1{
     text-transform: uppercase;
     font-size: 12px;
-    margin-left: 6px;
 }
 .CopyRIght .name{
-    margin-left: 50px;
+    margin-left: 0px;
 }
 .email_icon:hover{
     color: #ffd700;
