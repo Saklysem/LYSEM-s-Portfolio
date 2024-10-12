@@ -174,26 +174,30 @@ export default{
 }
 .ContactDetail {
     width: 100%;
-    height: 500px;
+    height: fit-content;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     // background-color: #696969;
 }
 .ContactDetail .ContactDetail1{
     width: 600px;
-    height: 500px;
+    height: fit-content;
     padding: 15px;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
+    //justify-content: center;
     // background-color: #565656;
 }
 // Chat With me style
 .inputSt {
     width: 100%;
     height: 380px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
     color: #ffffff;
     // background-color: #ffd700;
 }
@@ -394,6 +398,284 @@ export default{
 }
 .email_icon:hover{
     color: #ffd700;
+}
+
+
+//Responsive 500px
+@media (max-width: 500px){
+    .ContactSt{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        // margin-top: -880px;
+        // background-color: #003572;
+    
+    }       
+    .ContactCov {
+    
+        width: 100%;
+        height: fit-content;
+        font-family: sans-serif;
+        font-weight: bold;
+        letter-spacing: 6px;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        opacity: 10%;
+        
+    }
+    .ContactStyle {
+        width: 100%;
+        height: fit-content;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        color: #ffd700;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-top: 16px;
+    
+    }
+    // line style below  About text
+    .line_1 {
+        position: absolute;
+        width: 100%;
+        height: 6px;
+        // background-color: #ffd700;
+        display: flex;
+        justify-content: center;
+        margin-top: 55px;
+    
+    }
+//Contact me input text left side
+
+
+.ContactDetail {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    // background-color: #696969;
+}
+.ContactDetail .ContactDetail1{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: #565656;
+}
+// Chat With me style
+.inputSt {
+    width: 100%;
+    height: 380px;
+    display: inline-block;
+    color: #ffffff;
+    // background-color: #ffd700;
+}
+#name {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    border: 1.5px solid #cccccc1a;
+    background-color: rgb(17, 24, 39);
+}
+#name:focus{
+    border: 1.5px solid #ffd700;
+}
+#email {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    border: 1.5px solid #cccccc1a;
+    background-color: rgb(17, 24, 39);
+}
+#message {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1.5px solid #cccccc1a;
+    background-color: rgb(17, 24, 39);
+    color: #ffffff;
+}
+
+
+
+// Submit Message to me BTN
+.Detail {
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    display: flex;
+    //background-color: #ee0000;
+    align-items: center;
+    justify-content: center;
+}
+#ProjectDetail {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: #ffd700;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-family: Roboto;
+    color: rgb(22, 32, 58);
+    border-radius: 10px;        
+    cursor: pointer;
+}
+#ProjectDetail:hover {
+    background-color: white;
+    color: black;
+}
+#ProjectDetail:active {
+    padding: 13px 23px;
+    font-size: 14px;
+}
+//Contact info Style right side
+
+
+.ContactDetail .ContactDetail2{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // background-color: #565656;
+}
+.info {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    //background-color: #ffd700;
+}
+.info h1{
+    font-size: 16px;
+}
+.iEmail {
+    // background-color: #ffd700;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    
+}
+.iEmail .ScAddress1{
+    margin-left: 10px;
+}
+.iEmail .ScAddress1:hover{
+    color: #ffd700;
+}
+.iEmail .ScAddress2{
+    margin-left: 10px;
+}
+.iEmail .ScAddress2:hover{
+    color: #ffd700;
+}
+.iEmail .ScAddress3{
+    margin-left: 10px;
+}
+.iEmail .ScAddress3:hover{
+    color: #ffd700;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1.5px solid rgba(33, 44, 67, 0.7);
+    // background-color: #ffd700;
+}
+.icon:hover{
+    border: 1.5px solid #ffd700;
+}
+.greeting{
+    line-height: 30px;
+    font-size: 14px;
+    //background-color: #ffd700;
+}
+// Let's Connect with my social media profile
+.AddSM {
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    // background-color: #004186;
+}
+.InProfile {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.SMIcon {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    margin-left: -20px;
+    // background-color: #ffd90053;
+}
+.SMIcon p{
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1.5px solid rgba(33, 44, 67, 0.7);
+    // background-color: #004186;   
+}
+.SMIcon P:hover{
+    width: 100%;
+    border-radius: 50px;
+    border: 1.5px solid #ffd700;
+}
+// Copyright at the end of Porfolio
+.CopyRIght {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(12, 24, 49);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.CopyRIght h1{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.CopyRIght .name{
+    margin-left: 50px;
+}
+.email_icon:hover{
+    color: #ffd700;
+}
 }
 
 </style>

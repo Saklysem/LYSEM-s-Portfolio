@@ -50,9 +50,9 @@ export default{
     <!-- <div>
       <Portfolio />
     </div>  -->
-    <!-- <div>
+    <div>
       <Contact />
-    </div>  -->
+    </div> 
     <!-- <div class="rippleEffect">
       <RippleEffect />
     </div> -->
