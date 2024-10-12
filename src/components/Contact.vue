@@ -112,7 +112,7 @@ export default{
 }
 .ContactSt{
     width: 100%;
-    height: 120px;
+    height: fit-content;
     display: flex;
     justify-content: center;
     // margin-top: -880px;
@@ -174,7 +174,6 @@ export default{
 }
 .ContactDetail {
     width: 100%;
-    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -278,7 +277,7 @@ export default{
 // Contact Info Style
 .ContactDetail .ContactDetail2{
     width: 600px;
-    height: 500px;
+    height: 450px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -553,12 +552,11 @@ export default{
 
 .ContactDetail .ContactDetail2{
     width: 100%;
-    height: fit-content;
     padding: 10px;
     display: flex;
     flex-direction: column;
     // justify-content: center;
-    // background-color: #565656;
+    //background-color: #565656;
 }
 .info {
     width: 100%;
