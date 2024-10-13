@@ -232,7 +232,6 @@ export default{
     justify-content: center;
     align-items: center;
     //background-color: aqua;
-    margin-top: -5.5%;
     margin-left: -45px;
 }
 .titleEd {
@@ -243,7 +242,6 @@ export default{
     justify-content: center;
     align-items: center;
     //background-color: aqua;
-    margin-top: -5.5%;
     margin-left: -45px;
 
 }
@@ -279,7 +277,6 @@ export default{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 60px;
     //background-color: #6060606a;
 
 }
@@ -292,7 +289,7 @@ export default{
     width: 550px;
     height: fit-content;
     padding-left: 15px;
-    margin-top: -15px;
+    margin-top: 0px;
     // background-color: #696969;
     display: flex;
     flex-direction: column;
@@ -431,14 +428,14 @@ export default{
     display: flex;
     flex-direction: column;
     padding-left: 30px;
-    margin-top: -20px;
+    margin-top: 0px;
 }
 // Educaton description style
 // Education  1
 .Ed1 {
     width: 100%;
     height: fit-content;
-    margin-top: 0px;
+    margin-top: 10px;
     // background-color: rgb(14, 45, 72);
 }
 .edTitle1{

@@ -91,12 +91,12 @@ export default{
             </div>
         </div>
     </div>
-    <div class="CopyRIght">
+ <div class="CopyRIght">
         <i class="fa fa-bank" style="font-size:24px"></i>
         <h1 class="name">Sak Lysem -</h1>
         <h1 class="Port">Portfolio Site!</h1>
 
-    </div>
+</div>
 </div>
 </template>
 <style lang="scss" scoped>
@@ -277,7 +277,7 @@ export default{
 // Contact Info Style
 .ContactDetail .ContactDetail2{
     width: 600px;
-    height: 450px;
+    height: fit-content;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -552,7 +552,6 @@ export default{
 
 .ContactDetail .ContactDetail2{
     width: 100%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     // justify-content: center;

@@ -213,6 +213,7 @@ export default{
     height: fit-content;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     overflow: hidden;
@@ -232,7 +233,7 @@ export default{
     height: 420px;
     font-size: 20px;
     margin-right: -2%;
-    padding: 0;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;

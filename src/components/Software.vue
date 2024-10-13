@@ -187,6 +187,7 @@ export default{
     height: fit-content;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     //background-color: #ffd700;
 }

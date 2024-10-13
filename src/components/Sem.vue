@@ -34,7 +34,7 @@
                 </div>
                 <div>
                   <h3 class="skill">Motion Graphic | Video Editor | Cameraman | 3D Motion</h3>
-                  <h3 class="slogan">Lucky only for who keep fighting!</h3>
+                  <h3 class="slogan">Start your day one to deserve one day!</h3>
                 </div>
                 <!-- Icon -->
                 <div class="SMIcon">
