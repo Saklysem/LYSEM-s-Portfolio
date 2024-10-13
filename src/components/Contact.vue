@@ -91,12 +91,11 @@ export default{
             </div>
         </div>
     </div>
- <div class="CopyRIght">
+    <div class="CopyRIght">
         <i class="fa fa-bank" style="font-size:24px"></i>
         <h1 class="name">Sak Lysem -</h1>
         <h1 class="Port">Portfolio Site!</h1>
-
-</div>
+    </div>
 </div>
 </template>
 <style lang="scss" scoped>
@@ -282,14 +281,13 @@ export default{
     display: flex;
     flex-direction: column;
     // justify-content: center;
-    // background-color: #565656;
+    //background-color: #565656;
 }
 .info {
     width: 100%;
-    height: 380px;
-    display: inline-block;
+    height: 400px;
     padding-top: 11px;
-    // background-color: #ffd700;
+    //background-color: #ffd700;
 }
 .info h1{
     font-size: 20px;
@@ -339,27 +337,26 @@ export default{
 }
 // Let's Connect with my social media profile
 .AddSM {
-    width: 100%;
-    height: 30px;
+    width: 80%;
+    height: 40px;
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    // background-color: #004186;
+    //background-color: #004186;
 }
 .InProfile {
     display: flex;
     align-items: center;
 }
 .SMIcon {
-    width: 300px;
+    width: 200px;
     height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 0px;
-    margin-left: -20px;
-    // background-color: #ffd90053;
+    margin-left: 1px;
+    //background-color: #ffd90053;
 }
 .SMIcon p{
     width: 50px;
@@ -373,7 +370,7 @@ export default{
     // background-color: #004186;   
 }
 .SMIcon P:hover{
-    width: 100px;
+    width: 90px;
     border-radius: 50px;
     border: 1.5px solid #ffd700;
 }
@@ -559,10 +556,7 @@ export default{
 }
 .info {
     width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    margin-top: 5px;
+    //margin-top: 5px;
     //background-color: #ffd700;
 }
 .info h1{
@@ -627,7 +621,7 @@ export default{
 }
 .SMIcon {
     width: 50%;
-    height: 60px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -655,11 +649,7 @@ export default{
 .CopyRIght {
     width: 100%;
     height: 60px;
-    background-color: rgb(12, 24, 49);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    //background-color: rgb(12, 24, 49);
 }
 .CopyRIght h1{
     text-transform: uppercase;

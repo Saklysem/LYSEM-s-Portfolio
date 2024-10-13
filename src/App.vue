@@ -7,9 +7,6 @@ import About from"./components/About.vue";
 import SEM from "./components/Sem.vue";
 import NavBar from "./components/NavBar.vue";
 import RippleEffect from "./components/RippleEffect.vue";
-import Portfolie_slideshow from "./components/Portfolie_slideshow.vue";
-import Test from "./components/Test.vue";
-
 export default{
   name: "App",
   components: {
@@ -21,8 +18,6 @@ export default{
     Portfolio,
     Contact,
     RippleEffect,
-    Portfolie_slideshow,
-    Test,
   },
 };
   
@@ -44,18 +39,12 @@ export default{
     <div>
       <Software />
     </div> 
-    <!-- <div>
-      <Test />
-    </div> -->
     <div>
       <Resume />
     </div>
     <!-- <div>
       <Portfolio />
     </div>  -->
-    <!-- <div>
-      <Portfolie_slideshow/>
-    </div> -->
     <div>
       <Contact />
     </div> 
