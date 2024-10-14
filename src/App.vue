@@ -1,4 +1,5 @@
 <script>
+import PortfolioTab from "./components/PortfolioTab.vue";
 import Contact from"./components/Contact.vue";
 import Portfolio from"./components/Portfolio.vue";
 import Resume from"./components/Resume.vue";
@@ -16,6 +17,7 @@ export default{
     Software,
     Resume,
     Portfolio,
+    PortfolioTab,
     Contact,
     RippleEffect,
   },
@@ -45,6 +47,9 @@ export default{
     <!-- <div>
       <Portfolio />
     </div>  -->
+    <div>
+      <PortfolioTab />
+    </div> 
     <div>
       <Contact />
     </div> 
