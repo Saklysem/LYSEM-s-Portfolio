@@ -175,18 +175,18 @@
   //-webkit-background-clip: text;
   //-webkit-text-fill-color: transparent;
   opacity: 100%;
-  margin-top: -15px;
+  margin-top: -11px;
   color: white;
 }
 .slogan {
-  font-size: 25px;
+  font-size: 22px;
   font-family: sans-serif;
   text-align: center;
   //background: linear-gradient(45deg, #ffd700, #ffffff, #00939e);
   //-webkit-background-clip: text;
   //-webkit-text-fill-color: transparent;
   opacity: 100%;
-  margin-top: -15px;
+  margin-top: 1px;
   color: #ffd700;
   font-weight: bold;
 }
