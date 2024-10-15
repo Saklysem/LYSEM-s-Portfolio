@@ -44,7 +44,7 @@ export default{
                 <img src="../assets/BG/BOBI3D.png" alt="Loading">
             </div>
             <div class="MTitle">
-                <h1>Motion Graphic</h1>
+                <h1>Video Editor</h1>
                 <p>Experience on motion graphic for 1 year in Tech Company.
                     Converting a static artwork into an active video.
                     I mostly working on icon Motion in online game Mobile App.
@@ -61,7 +61,7 @@ export default{
                 <img src="../assets/BG/BOBI3D.png" alt="Loading">
             </div>
             <div class="MTitle">
-                <h1>Motion Graphic</h1>
+                <h1>Graphic Designer</h1>
                 <p>Experience on motion graphic for 1 year in Tech Company.
                     Converting a static artwork into an active video.
                     I mostly working on icon Motion in online game Mobile App.
@@ -78,7 +78,7 @@ export default{
                 <img src="../assets/BG/BOBI3D.png" alt="Loading">
             </div>
             <div class="MTitle">
-                <h1>Motion Graphic</h1>
+                <h1>Videographer</h1>
                 <p>Experience on motion graphic for 1 year in Tech Company.
                     Converting a static artwork into an active video.
                     I mostly working on icon Motion in online game Mobile App.
