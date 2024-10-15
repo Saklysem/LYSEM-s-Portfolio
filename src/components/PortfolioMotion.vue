@@ -90,6 +90,12 @@ export default{
             </div>
         </div>
     </div>
+    
+</div>
+<div class="CopyRIght">
+    <i class="fa fa-bank" style="font-size:24px"></i>
+    <h1 class="name">Sak Lysem -</h1>
+    <h1 class="Port">Portfolio Site!</h1>
 </div>
 </template>
 <style lang="scss" scoped>
@@ -243,10 +249,37 @@ export default{
 .more:hover{
     color: #ffd700;
 }
+//Mark
+
+.CopyRIght {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(12, 24, 49);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.CopyRIght h1{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 6px;
+}
+.CopyRIght .name{
+    margin-left: 0px;
+}
 //Responsive site 500px
 
 @media (max-width: 500px){
-
+    .portfolioBig {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px 30px 0px;
+        background-color: rgb(17, 24, 39);
+    }
     //Title style
     .Portfolio_2 {
         width: 100%;
@@ -387,5 +420,24 @@ export default{
         justify-content: center;
         align-items: center;
         }
+ //Mark
+
+.CopyRIght {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(12, 24, 49);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.CopyRIght h1{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.CopyRIght .name{
+    margin-left: 0px;
+}
 }
 </style>
