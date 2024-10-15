@@ -1,25 +1,10 @@
 <script>
-import PortfolioTab from "./components/PortfolioTab.vue";
-import Contact from"./components/Contact.vue";
-import Portfolio from"./components/Portfolio.vue";
-import Resume from"./components/Resume.vue";
-import Software from"./components/Software.vue";
-import About from"./components/About.vue";
-import SEM from "./components/Sem.vue";
 import NavBar from "./components/NavBar.vue";
-import RippleEffect from "./components/RippleEffect.vue";
 export default{
   name: "App",
   components: {
     NavBar,
-    SEM,
-    About,
-    Software,
-    Resume,
-    Portfolio,
-    PortfolioTab,
-    Contact,
-    RippleEffect,
+
   },
 };
   
@@ -32,30 +17,7 @@ export default{
     <div>
       <NavBar/>
     </div>
-      <div>
-        <SEM />
-      </div>
-      <div>
-        <About />
-      </div>
-    <div>
-      <Software />
-    </div> 
-    <div>
-      <Resume />
-    </div>
-    <!-- <div>
-      <Portfolio />
-    </div>  -->
-    <div>
-      <PortfolioTab />
-    </div> 
-    <div>
-      <Contact />
-    </div> 
-    <!-- <div class="rippleEffect">
-      <RippleEffect />
-    </div> -->
+    <router-view />
   </div>
 </template>
 

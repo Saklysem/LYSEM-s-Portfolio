@@ -99,6 +99,7 @@ export default{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
     background-color: rgb(17, 24, 39);
 }
 //Title Style

@@ -22,7 +22,7 @@ export default{
         <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <router-link to="/new-page">
+                <router-link to="/portfolio">
                     <img src="../assets/BG/BOBI3D.png" alt="Loading" />
                   </router-link>
             </div>
