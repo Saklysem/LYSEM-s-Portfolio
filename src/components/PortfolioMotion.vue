@@ -246,12 +246,14 @@ export default{
 //Responsive site 500px
 
 @media (max-width: 500px){
+
     //Title style
     .Portfolio_2 {
         width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
+        margin-top: 30px;
         // background-color: #ffd700;
     }
     .PortfolioSt {
