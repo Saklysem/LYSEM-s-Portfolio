@@ -22,7 +22,7 @@ export default{
         <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <router-link to="/new-page">
+                <router-link to="./PortfolioMotion.vue">
                     <img src="../assets/BG/BOBI3D.png" alt="Loading" />
                   </router-link>
             </div>
@@ -191,11 +191,11 @@ export default{
     height: 330px;
     border-radius: 15px;
     overflow: hidden;
-
 }
 .Thumnail1 img{
     width: 100%;
     height: 300px;
+    cursor: pointer;
 }
 //Title style
 .MTitle {
@@ -237,6 +237,7 @@ export default{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    cursor: pointer;
 }
 .more:hover{
     color: #ffd700;
