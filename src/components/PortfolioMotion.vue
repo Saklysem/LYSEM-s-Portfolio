@@ -22,9 +22,9 @@ export default{
         <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <a href="./PortfolioMotion.vue" target="_blank">
+                <router-link to="./PortfolioMotion.vue">
                     <img src="../assets/BG/BOBI3D.png" alt="Loading" />
-                </a>
+                </router-link>
             </div>
             <div class="MTitle">
                 <h1>Motion Graphic</h1>
