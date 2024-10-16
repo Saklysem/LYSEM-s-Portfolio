@@ -41,13 +41,12 @@ export default{
         <!-- Tab 2 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <img src="../assets/BG/Video_Thumbnail.png" alt="Loading">
             </div>
             <div class="MTitle">
-                <h1>Motion Graphic</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <h1>Video Editor</h1>
+                <p>2 Experience in video editing for Eco Resort, Personal vlog and content for posting in socail medai.
+                    Mostly I edited classic video with SFX and smoothly Transition. 
                 </p>
                 <div class="btnTab">
                     <div class="amount">3 Videos</div>
@@ -58,13 +57,13 @@ export default{
         <!-- Tab 3 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <img src="../assets/BG/Graphic_Design.png" alt="Loading">
             </div>
             <div class="MTitle">
-                <h1>Motion Graphic</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <h1>Graphic Designer</h1>
+                <p>Work as Graphic Designer I Mostly using Adobe Photoshop for designing poster and artwork.
+                    I need some requirment that client want to deliver to audiences.
+                    I drafting the concept, Then I start gathering asset and starting designing.
                 </p>
                 <div class="btnTab">
                     <div class="amount">3 Videos</div>
@@ -75,13 +74,12 @@ export default{
         <!-- Tab 4 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <img src="../assets/BG/Cameraman.jpg" alt="Loading">
             </div>
             <div class="MTitle">
-                <h1>Motion Graphic</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <h1>Videographer</h1>
+                <p>Shooting the video with smoothly movement and Creative Transition.
+                      I have Experience on using Camera Sony, Gimbal Stabilizer DJI RS3 and mobile Phone.
                 </p>
                 <div class="btnTab">
                     <div class="amount">3 Videos</div>

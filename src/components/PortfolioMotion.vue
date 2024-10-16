@@ -1,6 +1,5 @@
 <script>
 export default{
-
 }
 </script>
 <template>
@@ -22,12 +21,12 @@ export default{
         <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <router-link to="./PortfolioMotion.vue">
-                    <img src="../assets/BG/BOBI3D.png" alt="Loading" />
-                </router-link>
+                <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <!-- <video src="../assets/Video/1.mp4" type="video/mp4" alt="Loading">
+                </video> -->
             </div>
             <div class="MTitle">
-                <h1>Motion Graphic</h1>
+                <h1>3D UI Demo BOBI Recharge</h1>
                 <p>Experience on motion graphic for 1 year in Tech Company.
                     Converting a static artwork into an active video.
                     I mostly working on icon Motion in online game Mobile App.
@@ -42,9 +41,11 @@ export default{
         <div class="MotionTab">
             <div class="Thumnail1">
                 <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <!-- <video src="../assets/Video/2.mp4" type="video/mp4" alt="Loading">
+                </video> -->
             </div>
             <div class="MTitle">
-                <h1>Video Editor</h1>
+                <h1>2D UI Demo Vatanak Bank</h1>
                 <p>Experience on motion graphic for 1 year in Tech Company.
                     Converting a static artwork into an active video.
                     I mostly working on icon Motion in online game Mobile App.
@@ -59,9 +60,11 @@ export default{
         <div class="MotionTab">
             <div class="Thumnail1">
                 <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
+                </video> -->
             </div>
             <div class="MTitle">
-                <h1>Graphic Design</h1>
+                <h1>Recreate Hunuman ADS</h1>
                 <p>Experience on motion graphic for 1 year in Tech Company.
                     Converting a static artwork into an active video.
                     I mostly working on icon Motion in online game Mobile App.
@@ -76,9 +79,11 @@ export default{
         <div class="MotionTab">
             <div class="Thumnail1">
                 <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
+                </video> -->
             </div>
             <div class="MTitle">
-                <h1>Videographer</h1>
+                <h1>2D UI Demo on 3D Stage</h1>
                 <p>Experience on motion graphic for 1 year in Tech Company.
                     Converting a static artwork into an active video.
                     I mostly working on icon Motion in online game Mobile App.
@@ -90,6 +95,12 @@ export default{
             </div>
         </div>
     </div>
+    
+</div>
+<div class="CopyRIght">
+    <i class="fa fa-bank" style="font-size:24px"></i>
+    <h1 class="name">Sak Lysem -</h1>
+    <h1 class="Port">Portfolio Site!</h1>
 </div>
 </template>
 <style lang="scss" scoped>
@@ -243,10 +254,37 @@ export default{
 .more:hover{
     color: #ffd700;
 }
+//Mark
+
+.CopyRIght {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(12, 24, 49);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.CopyRIght h1{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 6px;
+}
+.CopyRIght .name{
+    margin-left: 0px;
+}
 //Responsive site 500px
 
 @media (max-width: 500px){
-
+    .portfolioBig {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px 30px 0px;
+        background-color: rgb(17, 24, 39);
+    }
     //Title style
     .Portfolio_2 {
         width: 100%;
@@ -387,5 +425,24 @@ export default{
         justify-content: center;
         align-items: center;
         }
+ //Mark
+
+.CopyRIght {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(12, 24, 49);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.CopyRIght h1{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.CopyRIght .name{
+    margin-left: 0px;
+}
 }
 </style>
