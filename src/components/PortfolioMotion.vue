@@ -40,7 +40,7 @@ export default{
         <!-- Tab 2 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <img src="../assets/Video/2.png" alt="Loading">
                 <!-- <video src="../assets/Video/2.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -59,7 +59,7 @@ export default{
         <!-- Tab 3 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <img src="../assets/Video/3.png" alt="Loading">
                 <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -78,7 +78,7 @@ export default{
         <!-- Tab 4 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <img src="../assets/Video/4.png" alt="Loading">
                 <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -206,7 +206,7 @@ export default{
 }
 .Thumnail1 img{
     width: 100%;
-    height: 300px;
+    height: fit-content;
     cursor: pointer;
 }
 //Title style
