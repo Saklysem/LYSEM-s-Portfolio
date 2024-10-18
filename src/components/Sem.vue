@@ -11,7 +11,7 @@
         perturbance: 0.03,
       });
     },
-    beforeDestroy() {
+    beforeUnmount() {
       $(this.$refs.rippleContainer).ripples('destroy');
     },
   };
@@ -153,7 +153,7 @@
 .greeting {
   display: flex;
   flex-direction: row;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
 .greeting .hi{
@@ -227,7 +227,7 @@
     height: 400px;
     margin: auto;
     z-index: -1;
-    background-color: #006db1;
+    //background-color: #006db1;
   }
 
   .image {
@@ -373,6 +373,12 @@
       // width: 100px;
       // border-radius: 50px;
       border: 1.5px solid #ffd700;
+  }
+  .slogan {
+    font-size: 20px;
+  }
+  .skill {
+    font-size: 14px;
   }
 }
 </style>
