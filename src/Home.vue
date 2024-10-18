@@ -14,9 +14,11 @@ export default{
     About,
     Software,
     Resume,
+    // eslint-disable-next-line vue/no-unused-components
     Portfolio,
     PortfolioTab,
     Contact,
+    // eslint-disable-next-line vue/no-unused-components
     RippleEffect,
   },
 };
