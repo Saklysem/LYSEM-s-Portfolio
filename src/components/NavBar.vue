@@ -7,13 +7,39 @@ export default{
   },
 
   methods: {
+    ScrollInToSEM(){
+      const contactSection = document.getElementById("SEM");
+      if (contactSection){
+        contactSection.scrollIntoView({behavior: "smooth"})
+      }
+    },
+    ScrollInToAbout(){
+      const contactSection = document.getElementById("About");
+      if (contactSection){
+        contactSection.scrollIntoView({behavior: "smooth"})
+      }
+    },
+    ScrollInToResume(){
+      const contactSection = document.getElementById("Resume");
+      if (contactSection){
+        contactSection.scrollIntoView({behavior: "smooth"})
+      }
+    },
+    ScrollInToPortfolio(){
+      const contactSection = document.getElementById("PortfolioTab");
+      if (contactSection){
+        contactSection.scrollIntoView({behavior: "smooth"})
+      }
+    },
     ScrollInToContact(){
       const contactSection = document.getElementById("contact");
       if (contactSection){
         contactSection.scrollIntoView({behavior: "smooth"})
       }
-    }
+    },
+    
   },
+
 };
 </script>
 
@@ -26,10 +52,10 @@ export default{
       <div :class="['menu', {'menu-open':checked}]">
         <ul>
           <!-- <li><a class="active" href="#">Home</a></li> -->
-          <li><a href="#">SEM</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="#" @click="ScrollInToSEM">SEM</a></li>
+          <li><a href="#" @click="ScrollInToAbout">About</a></li>
+          <li><a href="#" @click="ScrollInToResume">Resume</a></li>
+          <li><a href="#" @click="ScrollInToPortfolio">Portfolio</a></li>
           <li><a href="#" @click="ScrollInToContact">contact</a></li>
         </ul>
       </div>
@@ -52,10 +78,6 @@ export default{
 
 
 <style lang="scss" scoped>
-#contact {
-  padding-top: 1500px;
-}
-
 .nav{
   background-color:  rgb(17, 24, 39);
   //background-color:  rgb(0, 113, 142);
