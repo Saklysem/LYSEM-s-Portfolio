@@ -11,7 +11,7 @@
         perturbance: 0.03,
       });
     },
-    beforeDestroy() {
+    beforeUnmount() {
       $(this.$refs.rippleContainer).ripples('destroy');
     },
   };
@@ -19,7 +19,7 @@
 <template>
     <div class="cover">
         <div ref="rippleContainer" class="image">
-          <!-- <img src="../assets/BG/Cover.png" alt="Cover"> -->
+          <img src="../assets/BG/Cover.png" alt="Cover">
           <!-- <div id="bgEffect"></div> -->
            <!-- <div class="content"></div> -->
           <div class="profile">
@@ -71,7 +71,7 @@
   align-items: center;  
   background: url('../assets/BG/Cover.png') no-repeat center center;
   //background-size: cover;
-  //overflow: hidden;
+  overflow: hidden;
 } 
 // Apply water wave effect on cover 
 #bgEffect {
@@ -227,7 +227,7 @@
     height: 400px;
     margin: auto;
     z-index: -1;
-    //background-color: #006db1;
+    background-color: #006db1;
   }
 
   .image {
