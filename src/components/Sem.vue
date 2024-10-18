@@ -19,7 +19,7 @@
 <template>
     <div class="cover">
         <div ref="rippleContainer" class="image">
-          <img src="../assets/BG/Cover.png" alt="Cover">
+          <img class="ReplaceImg" src="../assets/BG/Cover.png" alt="Cover">
           <!-- <div id="bgEffect"></div> -->
            <!-- <div class="content"></div> -->
           <div class="profile">
@@ -73,6 +73,9 @@
   //background-size: cover;
   overflow: hidden;
 } 
+.ReplaceImg {
+  opacity: 0%;
+}
 // Apply water wave effect on cover 
 #bgEffect {
   position: absolute;
@@ -190,6 +193,7 @@
   color: #ffd700;
   font-weight: bold;
 }
+
 // Icon style 
 .SMIcon {
     width: 250px;
@@ -229,7 +233,9 @@
     z-index: -1;
     background-color: #006db1;
   }
-
+  .ReplaceImg {
+    opacity: 90%;
+  }
   .image {
     margin: auto;
     width: 100%; 
