@@ -33,7 +33,7 @@ export default{
                     I mostly working on icon Motion in online game Mobile App.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">3 Videos</div>
+                    <div class="amount">6 Videos</div>
                     <div class="more">More Video</div>
                 </div>
             </div>
@@ -50,7 +50,7 @@ export default{
                     I mostly working on icon Motion in online game Mobile App.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">3 Videos</div>
+                    <div class="amount">9 Videos</div>
                     <div class="more">More Video</div>
                 </div>
             </div>
@@ -67,7 +67,7 @@ export default{
                     I mostly working on icon Motion in online game Mobile App.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">3 Videos</div>
+                    <div class="amount">10 Videos</div>
                     <div class="more">More Video</div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ export default{
                     I mostly working on icon Motion in online game Mobile App.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">3 Videos</div>
+                    <div class="amount">9 Videos</div>
                     <div class="more">More Video</div>
                 </div>
             </div>

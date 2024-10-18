@@ -59,7 +59,8 @@ export default{
         <!-- Tab 3 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/Video/3.png" alt="Loading">
+                <video src="../assets/Video/recreate_Hunuman_ads.mp4"></video>
+                <!-- <img src="../assets/Video/3.png" alt="Loading"> -->
                 <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -205,6 +206,11 @@ export default{
     overflow: hidden;
 }
 .Thumnail1 img{
+    width: 100%;
+    height: fit-content;
+    cursor: pointer;
+}
+.Thumnail1 video{
     width: 100%;
     height: fit-content;
     cursor: pointer;
