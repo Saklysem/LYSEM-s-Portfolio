@@ -7,7 +7,7 @@ export default{
 };
 </script>
 <template>
-<div class="Contact">
+<div class="Contact" id="Contact">
 <!-- Contact Title style -->
     <div class="ContactSt">
         <h1 class="ContactCov">Contact</h1>
@@ -34,7 +34,9 @@ export default{
                 </form>
             </div>
             <div class="Detail">
+                <a href="https://www.facebook.com/lysem.sak.3">
                 <button id="ProjectDetail">Send Message</button>
+                </a>
             </div>
         </div>
         <div class="ContactDetail2">

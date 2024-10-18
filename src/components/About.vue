@@ -46,7 +46,9 @@ export default{
             </div>
         </div>
         <div class="download">
-            <button id="downloadCV">Download CV</button>
+            <a href="https://drive.google.com/file/d/17M4M9Aa8ezcDsEp6P3aVajT7XYCWGiy-/view?usp=drive_link">
+                <button id="downloadCV" hreff >Download CV</button>
+            </a>
         </div>
 <!-- Detail about my skill -->
         <div class="skil">

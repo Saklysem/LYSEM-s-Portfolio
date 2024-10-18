@@ -4,7 +4,16 @@ export default{
     return{
       checked: false
     };
-  }
+  },
+
+  methods: {
+    ScrollInToContact(){
+      const contactSection = document.getElementById("contact");
+      if (contactSection){
+        contactSection.scrollIntoView({behavior: "smooth"})
+      }
+    }
+  },
 };
 </script>
 
@@ -21,7 +30,7 @@ export default{
           <li><a href="#">About</a></li>
           <li><a href="#">Resume</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">contact</a></li>
+          <li><a href="#" @click="ScrollInToContact">contact</a></li>
         </ul>
       </div>
       <div class="contact">
@@ -43,6 +52,9 @@ export default{
 
 
 <style lang="scss" scoped>
+#contact {
+  padding-top: 1500px;
+}
 
 .nav{
   background-color:  rgb(17, 24, 39);
@@ -125,6 +137,14 @@ li a:hover:not(.active){
 #check {
   display: none;
 }
+
+
+
+//Scroll to section
+#Contact {
+  margin-top: 1500px;
+}
+
 //Nav bar Responsive 
 @media (max-width: 500px) {
   .navberCover{

@@ -32,25 +32,25 @@ export default{
     <div id="Navbar">
       <NavBar/>
     </div>
-      <div>
+      <div id="SEM">
         <SEM />
       </div>
-      <div>
+      <div id="About">
         <About />
       </div>
-    <div>
+    <div id="Software">
       <Software />
     </div> 
-    <div>
+    <div id="Resume">
       <Resume />
     </div>
     <!-- <div>
       <Portfolio />
     </div>  -->
-    <div>
+    <div id="PortfolioTab">
       <PortfolioTab />
     </div> 
-    <div>
+    <div id="contact">
       <Contact />
     </div> 
     <!-- <div class="rippleEffect">

@@ -22,7 +22,7 @@ export default{
         <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <router-link to="/portfolio">
+                <router-link to="/portfolioMotionGraphic">
                     <img src="../assets/BG/BOBI3D.png" alt="Loading" />
                   </router-link>
             </div>
@@ -59,7 +59,9 @@ export default{
         <!-- Tab 3 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/BG/Graphic_Design.png" alt="Loading">
+                <router-link to="/PortfolioGraphicDesign">
+                    <img src="../assets/BG/Graphic_Design.png" alt="Loading">
+                </router-link>
             </div>
             <div class="MTitle">
                 <h1>Graphic Designer</h1>
