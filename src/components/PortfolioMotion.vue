@@ -59,8 +59,8 @@ export default{
         <!-- Tab 3 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <video src="../assets/Video/recreate_Hunuman_ads.mp4"></video>
-                <!-- <img src="../assets/Video/3.png" alt="Loading"> -->
+                <!-- <video src="../assets/Video/recreate_Hunuman_ads.mp4"></video> -->
+                <img src="../assets/Video/3.png" alt="Loading">
                 <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
