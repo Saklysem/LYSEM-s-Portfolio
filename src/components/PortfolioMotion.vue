@@ -407,7 +407,7 @@ export default{
         width: 99%;
         height: auto;
         border-radius: 9px;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+        //box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
         overflow: hidden;
     }
     .Thumnail1 {
@@ -420,6 +420,13 @@ export default{
     .Thumnail1 img{
         width: 100%;
         height: 210px;
+    }
+    .Thumnail1 iframe{
+        width: 100%;
+        height: 200px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center; 
     }
 //Title style
     .MTitle {

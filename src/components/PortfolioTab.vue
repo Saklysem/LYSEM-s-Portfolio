@@ -41,7 +41,7 @@ export default{
         <!-- Tab 2 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fjobify.works%2Fvideos%2F6306950019355493%2F&show_text=false&width=560&t=5" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>                
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fjobify.works%2Fvideos%2F6306950019355493%2F&show_text=false&width=560&t=5" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>                
                 <!-- <img src="../assets/BG/Video_Thumbnail.png" alt="Loading"> -->
             </div>
             <div class="MTitle">
@@ -198,6 +198,13 @@ export default{
     width: 100%;
     height: 300px;
 }
+.Thumnail1 iframe{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; 
+}
 //Title style
 .MTitle {
     color: white;
@@ -331,7 +338,7 @@ export default{
         width: 99%;
         height: auto;
         border-radius: 9px;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+        //box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
         overflow: hidden;
     }
     .Thumnail1 {
@@ -344,6 +351,13 @@ export default{
     .Thumnail1 img{
         width: 100%;
         height: 210px;
+    }
+    .Thumnail1 iframe{
+        width: 100%;
+        height: 200px;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center; 
     }
 //Title style
     .MTitle {
