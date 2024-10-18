@@ -21,7 +21,9 @@ export default{
         <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/BG/BOBI3D.png" alt="Loading">
+                <!-- <iframe src="https://www.behance.net/embed/project/209796529?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
+                <iframe src="https://www.youtube.com/embed/v6YZ3nPlPrw" title="(Lysem-លីសែម) The 3D Video Demo!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <img src="../assets/BG/BOBI3D.png" alt="Loading"> -->
                 <!-- <video src="../assets/Video/1.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -40,7 +42,8 @@ export default{
         <!-- Tab 2 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/Video/2.png" alt="Loading">
+                <iframe src="https://www.behance.net/embed/project/210483769?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                <!-- <img src="../assets/Video/2.png" alt="Loading"> -->
                 <!-- <video src="../assets/Video/2.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -59,8 +62,8 @@ export default{
         <!-- Tab 3 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <!-- <video src="../assets/Video/recreate_Hunuman_ads.mp4"></video> -->
-                <img src="../assets/Video/3.png" alt="Loading">
+                <iframe src="https://www.behance.net/embed/project/210483529?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                <!-- <img src="../assets/Video/3.png" alt="Loading"> -->
                 <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -79,7 +82,8 @@ export default{
         <!-- Tab 4 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <img src="../assets/Video/4.png" alt="Loading">
+                <iframe src="https://www.behance.net/embed/project/210484073?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+                <!-- <img src="../assets/Video/4.png" alt="Loading"> -->
                 <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -95,8 +99,26 @@ export default{
                 </div>
             </div>
         </div>
+        <!-- Tab 5 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <!-- <img src="../assets/Video/4.png" alt="Loading"> -->
+                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
+                </video> -->
+            </div>
+            <div class="MTitle">
+                <h1>3D Product Demo</h1>
+                <p>Experience on motion graphic for 1 year in Tech Company.
+                    Converting a static artwork into an active video.
+                    I mostly working on icon Motion in online game Mobile App.
+                </p>
+                <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div>
+            </div>
+        </div>
     </div>
-    
 </div>
 <div class="CopyRIght">
     <i class="fa fa-bank" style="font-size:24px"></i>
@@ -204,6 +226,13 @@ export default{
     height: 330px;
     border-radius: 15px;
     overflow: hidden;
+}
+.Thumnail1 iframe{
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; 
 }
 .Thumnail1 img{
     width: 100%;
