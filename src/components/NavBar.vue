@@ -5,7 +5,7 @@ export default{
       checked: false
     };
   },
-
+// Scroll Method
   methods: {
     ScrollInToSEM(){
       const contactSection = document.getElementById("SEM");

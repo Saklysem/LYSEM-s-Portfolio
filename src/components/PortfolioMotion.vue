@@ -199,7 +199,7 @@ export default{
 }
 //Portfolio card
 .portfolio {
-    width: 1150px;
+    max-width: 1150px;
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
