@@ -180,6 +180,26 @@ export default{
                 </div> -->
             </div>
         </div>
+        <!-- Tab 8 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+              <img src="../assets/Poster/Pre_wedding.png" alt="Loading">
+                <!-- <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <img src="../assets/Video/4.png" alt="Loading"> -->
+                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
+                </video> -->
+            </div>
+            <div class="MTitle">
+                <h1>3D Product Demo</h1>
+                <p>Experience on motion graphic for 1 year in Tech Company.
+                    Converting a static artwork into an active video.
+                    I mostly working on icon Motion in online game Mobile App.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
     </div>
 </div>
 <div class="CopyRIght">
