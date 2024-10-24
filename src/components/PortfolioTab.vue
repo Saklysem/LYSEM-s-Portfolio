@@ -24,7 +24,7 @@ export default{
             <div class="Thumnail1">
                 <router-link to="/portfolioMotionGraphic">
                     <img src="../assets/BG/BOBI3D.png" alt="Loading" />
-                  </router-link>
+                </router-link>
             </div>
             <div class="MTitle">
                 <h1>Motion Graphic</h1>
@@ -230,26 +230,36 @@ export default{
     //background-color: rgb(91, 91, 91);
 }
 .amount{
-    width: 30%;
+    width:50%;
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
+
 .amount:hover{
     color: #ffd700;
 }
 .more{
-    width: 30%;
+    width: 50%;
     height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    color: white;
 }
 .more:hover{
     color: #ffd700;
+}
+.moreClick{
+    position: absolute;
+    z-index: 3;
+    width: 15%;
+    height: 3%;
+    margin-top: -1.5%;
+    margin-left: -10%;
 }
 //Responsive site 500px
 

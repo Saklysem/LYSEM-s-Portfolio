@@ -34,7 +34,7 @@ export default{
                     </div>
                     <div class="Title1">Motion Graphics</div>
                 </div>
-                <div class="date">2023-September - 2024-September</div>
+                <div class="date">2023-September - 2024-September: 1 Year</div>
                 <div class="exTitle1s">Experience 1 year in VTech Company</div>
                 <div class="description">
                     <ul class="listEx1">
@@ -52,7 +52,7 @@ export default{
                     </div>
                     <div class="Title2">Video Edtior</div>
                 </div>
-                <div class="date">2024-September - Present</div>
+                <div class="date">2024-September - Present: On Going</div>
                 <div class="exTitle2s">Video editor & Graphic design in vKirirom Pine Resort</div>
                 <div class="description">
                     <ul class="listEx2">
@@ -69,9 +69,9 @@ export default{
                     <div class="circle2">
                         <div></div>
                     </div>
-                    <div class="Title2">Freelancer E</div>
+                    <div class="Title2">Freelancer 1</div>
                 </div>
-                <div class="date">2024 - Present</div>
+                <div class="date">2024 - Present: On Going</div>
                 <div class="exTitle2s">Videographer & Video Editor for start up company</div>
                 <div class="description">
                     <ul class="listEx2">

@@ -23,7 +23,7 @@ export default{
             <div class="Thumnail1">
                 <!-- <iframe src="https://www.behance.net/embed/project/209796529?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
                 <!-- <iframe src="https://www.youtube.com/embed/v6YZ3nPlPrw" title="(Lysem-លីសែម) The 3D Video Demo!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                <img src="../assets/Poster/Pre_wedding.png" alt="Loading">
+                <img src="../assets/Poster/Welcome_to_Cambodia.jpg" alt="Loading">
                 <!-- <video src="../assets/Video/1.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -43,7 +43,7 @@ export default{
         <div class="MotionTab">
             <div class="Thumnail1">
                 <!-- <iframe src="https://www.behance.net/embed/project/210483769?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
-                <img class="Mid" src="../assets/Poster/Welcome_to_Cambodia.jpg" alt="Loading">
+                <img src="../assets/Poster/King_coronation.png" alt="Loading">
                 <!-- <video src="../assets/Video/2.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -64,6 +64,27 @@ export default{
             <div class="Thumnail1">
                 <!-- <iframe src="https://www.behance.net/embed/project/210483529?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
                 <img  src="../assets/Poster/3.png" alt="Loading">
+                <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
+                </video> -->
+            </div>
+            <div class="MTitle">
+                <h1>Recreate Hunuman ADS</h1>
+                <p>Experience on motion graphic for 1 year in Tech Company.
+                    Converting a static artwork into an active video.
+                    I mostly working on icon Motion in online game Mobile App.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        
+        <!-- Tab 3a -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <!-- <iframe src="https://www.behance.net/embed/project/210483529?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
+                <img  src="../assets/Poster/Resort_Flag.png" alt="Loading">
                 <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
                 </video> -->
             </div>
@@ -103,6 +124,46 @@ export default{
         <div class="MotionTab">
             <div class="Thumnail1">
               <img src="../assets/Poster/Pchum.png" alt="Loading">
+                <!-- <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <img src="../assets/Video/4.png" alt="Loading"> -->
+                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
+                </video> -->
+            </div>
+            <div class="MTitle">
+                <h1>3D Product Demo</h1>
+                <p>Experience on motion graphic for 1 year in Tech Company.
+                    Converting a static artwork into an active video.
+                    I mostly working on icon Motion in online game Mobile App.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 6 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+              <img src="../assets/Poster/Chefs_Ass.png" alt="Loading">
+                <!-- <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <img src="../assets/Video/4.png" alt="Loading"> -->
+                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
+                </video> -->
+            </div>
+            <div class="MTitle">
+                <h1>3D Product Demo</h1>
+                <p>Experience on motion graphic for 1 year in Tech Company.
+                    Converting a static artwork into an active video.
+                    I mostly working on icon Motion in online game Mobile App.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+         <!-- Tab 7 -->
+         <div class="MotionTab">
+            <div class="Thumnail1">
+              <img src="../assets/Poster/Food_Challenge.png" alt="Loading">
                 <!-- <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <img src="../assets/Video/4.png" alt="Loading"> -->
                 <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
                 </video> -->
@@ -224,7 +285,7 @@ export default{
 }
 .Thumnail1 {
     width: 99%;
-    height: 330px;
+    height: fit-content;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -240,13 +301,7 @@ export default{
     height: fit-content;
     cursor: pointer;
 }
-.Mid{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -220px;
-  scale: 0.8;
-}
+
 .Thumnail1 video{
     width: 100%;
     height: fit-content;
@@ -332,7 +387,7 @@ export default{
     //Title style
     .Portfolio_2 {
         width: 100%;
-        height: auto;
+        height: fit-content;
         display: flex;
         justify-content: center;
         margin-top: 30px;
@@ -414,21 +469,12 @@ export default{
     }
     .Thumnail1 {
         width: 99%;
-        height: auto;
-        border-radius: 9px;
-        //box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
-        overflow: hidden;
-    }
-    .Thumnail1 {
-        width: 99%;
-        height: 200px;
-        border-radius: 9px;
-        overflow: hidden;
-    
+        height: fit-content;
+        border-radius: 9px;    
     }
     .Thumnail1 img{
         width: 100%;
-        height: 210px;
+        height: fit-content;
     }
     .Thumnail1 iframe{
         width: 100%;
