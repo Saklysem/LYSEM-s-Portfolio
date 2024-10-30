@@ -34,7 +34,7 @@ export default{
                 </form>
             </div>
             <div class="Detail">
-                <a href="https://www.facebook.com/lysem.sak.3">
+                <a href="https://www.linkedin.com/in/lysem-sak-892069205/">
                 <button id="ProjectDetail">Send Message</button>
                 </a>
             </div>
