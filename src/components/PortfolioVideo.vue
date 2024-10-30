@@ -21,18 +21,13 @@ export default{
         <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <!-- <iframe src="https://www.behance.net/embed/project/209796529?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
-                <!-- <iframe src="https://www.youtube.com/embed/v6YZ3nPlPrw" title="(Lysem-លីសែម) The 3D Video Demo!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                <img src="../assets/Poster/Welcome_to_Cambodia.jpg" alt="Loading">
-                <!-- <video src="../assets/Video/1.mp4" type="video/mp4" alt="Loading">
-                </video> -->
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fjobify.works%2Fvideos%2F6306950019355493%2F&show_text=false&width=560&t=5" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>                
             </div>
             <div class="MTitle">
-                <!-- <h1>3D UI Demo BOBI Recharge</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
+                <h1>Jobify Short film</h1>
+                <p>This short film got more engagment in facebook(Organic Reach).
+                    I work as a freelancer and closed to Jobify's Digital marketing Team.
+                </p>
                 <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
                     <div class="more">More Video</div>
@@ -42,17 +37,12 @@ export default{
         <!-- Tab 2 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <!-- <iframe src="https://www.behance.net/embed/project/210483769?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
-                <img src="../assets/Poster/King_coronation.png" alt="Loading">
-                <!-- <video src="../assets/Video/2.mp4" type="video/mp4" alt="Loading">
-                </video> -->
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F379240855245357%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>            
             </div>
             <div class="MTitle">
-                <!-- <h1>2D UI Demo Vatanak Bank</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
+                <h1>Shuttle Bus Promotional</h1>
+                <p>This Project I work as Videographer and editor. Camera offer by vKirirom Resort (Sonny a6200 and Gimbal DJI Ronin 3).
+                </p>
                 <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
                     <div class="more">More Video</div>
@@ -62,38 +52,12 @@ export default{
         <!-- Tab 3 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <!-- <iframe src="https://www.behance.net/embed/project/210483529?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
-                <img  src="../assets/Poster/3.png" alt="Loading">
-                <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
-                </video> -->
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F734531408855332%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
             </div>
             <div class="MTitle">
-                <!-- <h1>Recreate Hunuman ADS</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
-                <!-- <div class="btnTab">
-                    <div class="amount">3 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        
-        <!-- Tab 3a -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-                <!-- <iframe src="https://www.behance.net/embed/project/210483529?ilo0=1"  allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
-                <img  src="../assets/Poster/Resort_Flag.png" alt="Loading">
-                <!-- <video src="../assets/Video/3.mp4" type="video/mp4" alt="Loading">
-                </video> -->
-            </div>
-            <div class="MTitle">
-                <!-- <h1>Recreate Hunuman ADS</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
+                <h1>Classic Demo</h1>
+                <p>This Project I work as Videographer and editor. Camera offer by vKirirom Resort (Sonny a6200, Gimbal DJI Ronin 3 and Drone DJI mini 3).
+                </p>
                 <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
                     <div class="more">More Video</div>
@@ -103,17 +67,12 @@ export default{
         <!-- Tab 4 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <!-- <iframe src="https://www.behance.net/embed/project/210484073?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
-                <img src="../assets/Poster/Entrance_Banner.png" alt="Loading">
-                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
-                </video> -->
+                <iframe class="PersonalC1" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F103223139058154%2Fvideos%2F1172116836676510%2F&show_text=false&width=456&t=0" width="456" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
             </div>
             <div class="MTitle">
-                <!-- <h1>2D UI Demo on 3D Stage</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
+                <h1>My Personal content</h1>
+                <p>This is the first popular in my personal Facebook Page. I Prepare everting for creating this post.
+                </p>
                 <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
                     <div class="more">More Video</div>
@@ -123,17 +82,12 @@ export default{
         <!-- Tab 5 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-              <img src="../assets/Poster/Pchum.png" alt="Loading">
-                <!-- <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <img src="../assets/Video/4.png" alt="Loading"> -->
-                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
-                </video> -->
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F742399314043438%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
             </div>
             <div class="MTitle">
-                <!-- <h1>3D Product Demo</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
+                <h1>My Personal Vlog!</h1>
+                <p>Just record the memory for the future. I use Samsung Galaxy S10 record the footage.
+                </p>
                 <!-- <div class="btnTab">
                     <div class="amount">1 Videos</div>
                     <div class="more">More Video</div>
@@ -143,57 +97,12 @@ export default{
         <!-- Tab 6 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-              <img src="../assets/Poster/Chefs_Ass.png" alt="Loading">
-                <!-- <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <img src="../assets/Video/4.png" alt="Loading"> -->
-                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
-                </video> -->
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F697443911875805%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
             <div class="MTitle">
-                <!-- <h1>3D Product Demo</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
-                <!-- <div class="btnTab">
-                    <div class="amount">1 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-         <!-- Tab 7 -->
-         <div class="MotionTab">
-            <div class="Thumnail1">
-              <img src="../assets/Poster/Food_Challenge.png" alt="Loading">
-                <!-- <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <img src="../assets/Video/4.png" alt="Loading"> -->
-                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
-                </video> -->
-            </div>
-            <div class="MTitle">
-                <!-- <h1>3D Product Demo</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
-                <!-- <div class="btnTab">
-                    <div class="amount">1 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        <!-- Tab 8 -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-              <img src="../assets/Poster/Pre_wedding.png" alt="Loading">
-                <!-- <iframe src="https://www.behance.net/embed/project/210484309?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                <img src="../assets/Video/4.png" alt="Loading"> -->
-                <!-- <video src="../assets/Video/4.mp4" type="video/mp4" alt="Loading">
-                </video> -->
-            </div>
-            <div class="MTitle">
-                <!-- <h1>3D Product Demo</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
-                </p> -->
+                <h1>The Portal Effect!</h1>
+                <p>I use Adobe after effect and Premiere Pro for this video. Just make fun with in my facebook page.
+                </p>
                 <!-- <div class="btnTab">
                     <div class="amount">1 Videos</div>
                     <div class="more">More Video</div>
@@ -292,7 +201,7 @@ export default{
 }
 .MotionTab {
     width: 550px;
-    height: fit-content;
+    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -305,7 +214,7 @@ export default{
 }
 .Thumnail1 {
     width: 99%;
-    height: fit-content;
+    height: 330px;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -321,7 +230,6 @@ export default{
     height: fit-content;
     cursor: pointer;
 }
-
 .Thumnail1 video{
     width: 100%;
     height: fit-content;
@@ -331,7 +239,6 @@ export default{
 .MTitle {
     color: white;
     font-family: sans-serif;
-    padding-bottom: 15px;
 
 }
 .MTitle h1:hover{
@@ -407,7 +314,7 @@ export default{
     //Title style
     .Portfolio_2 {
         width: 100%;
-        height: fit-content;
+        height: auto;
         display: flex;
         justify-content: center;
         margin-top: 30px;
@@ -489,12 +396,21 @@ export default{
     }
     .Thumnail1 {
         width: 99%;
-        height: fit-content;
-        border-radius: 9px;    
+        height: auto;
+        border-radius: 9px;
+        //box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+        overflow: hidden;
+    }
+    .Thumnail1 {
+        width: 99%;
+        height: 200px;
+        border-radius: 9px;
+        overflow: hidden;
+    
     }
     .Thumnail1 img{
         width: 100%;
-        height: fit-content;
+        height: 210px;
     }
     .Thumnail1 iframe{
         width: 100%;

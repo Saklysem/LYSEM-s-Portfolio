@@ -29,14 +29,13 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>3D UI Demo BOBI Recharge</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <p>This project I use Blender for modeling and motion and after effect for sound design.
+                This is the project in my first company that I work for 1 year. There many project, But I can't show more here.
                 </p>
-                <div class="btnTab">
+                <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
                     <div class="more">More Video</div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Tab 2 -->
@@ -49,14 +48,12 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>2D UI Demo Vatanak Bank</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <p>This project is the testing task for my previous job. I use after Adobe after effect for motion and Adobe Premiere Pro for sound design.
                 </p>
-                <div class="btnTab">
+                <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
                     <div class="more">More Video</div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Tab 3 -->
@@ -69,14 +66,12 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>Recreate Hunuman ADS</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <p>This is the self training, I use the blender for modeling and motion.
                 </p>
-                <div class="btnTab">
+                <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
                     <div class="more">More Video</div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Tab 4 -->
@@ -89,14 +84,12 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>2D UI Demo on 3D Stage</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <p>This is the first try in blender for 3D demo on stage.
                 </p>
-                <div class="btnTab">
+                <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
                     <div class="more">More Video</div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Tab 5 -->
@@ -108,14 +101,12 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>3D Product Demo</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <p>This is a product demo just the short feature testing in blender.
                 </p>
-                <div class="btnTab">
+                <!-- <div class="btnTab">
                     <div class="amount">1 Videos</div>
                     <div class="more">More Video</div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -133,7 +124,7 @@ export default{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding-top: 30px;
     background-color: rgb(17, 24, 39);
 }
 //Title Style
@@ -210,7 +201,7 @@ export default{
 }
 .MotionTab {
     width: 550px;
-    height: 500px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;

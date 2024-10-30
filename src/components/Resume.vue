@@ -108,7 +108,7 @@ export default{
                 <li>Primary school: Sre Ambel Primary school.</li>
                 <li>Secondary school: Sre Ambel Secondary school.</li>
                 <li>High school: Sre Ambel High school.</li>
-                <li>BACII Exam: Rank C+(570PT) I got Rank A in Math.Tend Technology!</li>
+                <li>BACII Exam: Rank C(570PT) I got Rank A in Math.Tend Technology!</li>
             </ul>
         </div>
     </div>

@@ -1,4 +1,6 @@
 <script>
+import router from '@/router';
+
 export default{
 
 }
@@ -28,13 +30,17 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>Motion Graphic</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
+                <p>Experience 1 year in Tech Company. Bringing visual to life with smooth animations and dynamic transition,
+                    Skilled in Adobe after effect and Blender creating engaging content for commercials, socail media.
                     Converting a static artwork into an active video.
                     I mostly working on icon Motion in online game Mobile App.
                 </p>
                 <div class="btnTab">
                     <div class="amount">5 Videos</div>
-                    <div class="more">More Video</div>
+                    <router-link to="/portfolioMotionGraphic">
+                        <div class="more">More...</div>
+                    </router-link>    
+                    
                 </div>
             </div>
         </div>
@@ -46,13 +52,17 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>Video Editor</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <p>Bringing creative vision to life through 
+                    smooth transition, color grading and sound design. 
+                    Proficient in industry standard Software like Adobe Premiere Pro and 
+                    After effect additional blender. Experience 2 years in crafting engaging content otimized 
+                    for socail media.
                 </p>
                 <div class="btnTab">
                     <div class="amount">9 Videos</div>
-                    <div class="more">More Video</div>
+                    <router-link to="/portfolioVideo">
+                        <div class="more">More...</div>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -65,13 +75,15 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>Graphic Designer</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <p>Experienced graphic designer with a strong foundation in visual storytelling, 
+                    combining typography, color theory, and layout to create compelling designs. 
+                    Skilled in Adobe Photoshop and proficient in brand identity development and digital media assets. 
                 </p>
                 <div class="btnTab">
-                    <div class="amount">10 Videos</div>
-                    <div class="more">More Video</div>
+                    <div class="amount">9 Posters</div>
+                    <router-link to="/PortfolioGraphicDesign">
+                        <div class="more">More...</div>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -82,13 +94,14 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>Videographer</h1>
-                <p>Experience on motion graphic for 1 year in Tech Company.
-                    Converting a static artwork into an active video.
-                    I mostly working on icon Motion in online game Mobile App.
+                <p>Experienced in Videographer with a sharp eyye for composition,
+                    lighting and framing, capture high quality footage that enhance the story.
+                    Skilled in operating a varity of cameras, gimbal(DJI Ronin3) and Drone(DJi Mini 3 Pro). Adept at adjusting to 
+                    different shooting environments and collaborating with team to bring creative visions to life.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">9 Videos</div>
-                    <div class="more">More Video</div>
+                    <!-- <div class="amount">9 Videos</div>
+                    <div class="more">More Video</div> -->
                 </div>
             </div>
         </div>
@@ -178,7 +191,7 @@ export default{
 }
 .MotionTab {
     width: 550px;
-    height: 500px;
+    height: 530px;
     display: flex;
     flex-direction: column;
     justify-content: center;
