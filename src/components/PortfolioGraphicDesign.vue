@@ -283,11 +283,14 @@ export default{
 .portfolio {
     max-width: 1150px;
     height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-between;
-    row-gap: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    //display: flex;
+    //flex-wrap: wrap;
+    //justify-content: center;
+    //justify-content: space-between;
+    //row-gap: 30px;
     //background-color: rgb(21, 118, 179);
 }
 .MotionTab {
@@ -297,8 +300,8 @@ export default{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 10px 0px 10px;
-    border-radius: 3%;
+    padding: 0;
+    border-radius: 0%;
     overflow: hidden;
     background-color: rgb(25, 34, 53);
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
@@ -306,7 +309,7 @@ export default{
 .Thumnail1 {
     width: 99%;
     height: fit-content;
-    border-radius: 15px;
+    //border-radius: 15px;
     overflow: hidden;
 }
 .Thumnail1 iframe{
@@ -331,7 +334,7 @@ export default{
 .MTitle {
     color: white;
     font-family: sans-serif;
-    padding-bottom: 15px;
+    //padding-bottom: 15px;
 
 }
 .MTitle h1:hover{
