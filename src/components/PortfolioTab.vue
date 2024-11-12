@@ -58,7 +58,7 @@ export default{
                     for socail media.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">9 Videos</div>
+                    <div class="amount">6 Videos</div>
                     <router-link to="/portfolioVideo">
                         <div class="more">More...</div>
                     </router-link>
@@ -79,7 +79,7 @@ export default{
                     Skilled in Adobe Photoshop and proficient in brand identity development and digital media assets. 
                 </p>
                 <div class="btnTab">
-                    <div class="amount">9 Posters</div>
+                    <div class="amount">10 Posters</div>
                     <router-link to="/PortfolioGraphicDesign">
                         <div class="more">More...</div>
                     </router-link>
