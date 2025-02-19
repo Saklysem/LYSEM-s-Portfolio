@@ -30,7 +30,7 @@
             <div class="about">
                 <div class="greeting">
                   <h1 class="hi">Hi! I am </h1>
-                  <h1 class="name">LYSEM!</h1>
+                  <h1 class="name">SAK LYSEM!</h1>
                 </div>
                 <div>
                   <h3 class="skill">Motion Graphic | Video Editor | Cameraman | 3D Motion</h3>

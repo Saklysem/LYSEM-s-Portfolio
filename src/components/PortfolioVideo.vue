@@ -64,6 +64,17 @@ export default{
                 </div> -->
             </div>
         </div>
+        <!-- Tab 3a -->
+        <!-- <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F734531408855332%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Classic Demo</h1>
+                <p>This Project I work as Videographer and editor. Camera offer by vKirirom Resort (Sonny a6200, Gimbal DJI Ronin 3 and Drone DJI mini 3).
+                </p>
+            </div>
+        </div> -->
         <!-- Tab 4 -->
         <div class="MotionTab">
             <div class="Thumnail1">
