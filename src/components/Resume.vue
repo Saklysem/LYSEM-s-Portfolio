@@ -1,3 +1,5 @@
+<!-- eslint-disable vue/multi-word-component-names -->
+<!-- eslint-disable no-mixed-spaces-and-tabs -->
 <script>
 export default{
 
@@ -162,7 +164,6 @@ export default{
     display: flex;
     flex-direction: column;
     justify-content: center;
-        	
 }
 .ResumeSt{
     width: 100%;

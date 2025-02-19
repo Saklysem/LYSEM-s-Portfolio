@@ -1,3 +1,5 @@
+<!-- eslint-disable vue/multi-word-component-names -->
+// eslint-disable-next-line vue/multi-word-component-names
 <script>
 // import { faSitemap } from '@fortawesome/free-solid-svg-icons';
 export default{
