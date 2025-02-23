@@ -8,7 +8,7 @@ export default{
         <div class="PortfolioSt">
             <h1 class="PortfolioCov">Portfolios</h1>
             <div class="PortfolioStyle">
-                <h1 >Motion Graphic</h1>
+                <h1 >Videos</h1>
             </div>
             <div class="line_1">
                     <div class="longLine"></div>
