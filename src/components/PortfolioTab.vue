@@ -58,7 +58,7 @@ export default{
                     for socail media.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">6 Videos</div>
+                    <div class="amount">7 Videos</div>
                     <router-link to="/portfolioVideo">
                         <div class="more">More...</div>
                     </router-link>

@@ -1,3 +1,5 @@
+<!-- eslint-disable vue/no-parsing-error -->
+<!-- eslint-disable vue/no-parsing-error -->
 <script>
 export default{
 }
@@ -27,6 +29,21 @@ export default{
                 <h1>Jobify Short film</h1>
                 <p>This short film got more engagment in facebook(Organic Reach).
                     I work as a freelancer and closed to Jobify's Digital marketing Team.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 1A -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F424693250695771%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Trending Content</h1>
+                <p>This video created as follow the Social Media Trending and we got around 100K+ Views on Facebook Page.
                 </p>
                 <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
