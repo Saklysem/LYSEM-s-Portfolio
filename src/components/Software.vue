@@ -483,7 +483,7 @@ export default{
         background-color: #ffd700;   
     }
     .status .line-7{
-        width: 75%;
+        width: 50%;
         height: 3px;
         margin-top: -20px;
         background-color: #ffd700;   
