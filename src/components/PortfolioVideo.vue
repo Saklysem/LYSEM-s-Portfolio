@@ -137,6 +137,22 @@ export default{
                 </div> -->
             </div>
         </div>
+        <!-- Tab 7 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fgrandphnompenhgolfclub%2Fvideos%2F1589136355088720%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>App Feature Demo Promoted!</h1>
+                <p>I use Beldner & Adobe after effect for 3D model and mock up the screen,
+                   Premiere Pro for this video. Just make fun with in my facebook page.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
     </div>
 </div>
 <div class="CopyRIght">

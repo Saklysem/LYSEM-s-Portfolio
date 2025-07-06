@@ -21,8 +21,9 @@ export default{
         <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
+                <iframe src="https://www.behance.net/embed/project/209796529?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
                 <!-- <iframe src="https://www.behance.net/embed/project/209796529?ilo0=1" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe> -->
-                <iframe src="https://www.youtube.com/embed/v6YZ3nPlPrw" title="(Lysem-លីសែម) The 3D Video Demo!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <iframe src="https://www.youtube.com/embed/v6YZ3nPlPrw" title="(Lysem-លីសែម) The 3D Video Demo!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
                 <!-- <img src="../assets/BG/BOBI3D.png" alt="Loading"> -->
                 <!-- <video src="../assets/Video/1.mp4" type="video/mp4" alt="Loading">
                 </video> -->
