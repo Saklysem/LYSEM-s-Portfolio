@@ -145,7 +145,39 @@ export default{
             <div class="MTitle">
                 <h1>App Feature Demo Promoted!</h1>
                 <p>I use Beldner & Adobe after effect for 3D model and mock up the screen,
-                   Premiere Pro for this video. Just make fun with in my facebook page.
+                   Premiere Pro for this video. Video shooting by Iphnone 16 Pro Max.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+                <!-- Tab 8 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fgrandphnompenhgolfclub%2Fvideos%2F719329434278330%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>App 40% Discount Demo!</h1>
+                <p>I use Beldner & Adobe after effect for 3D model and mock up the screen,
+                   Premiere Pro for this video. Video shooting by Iphnone 16 Pro Max.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+                <!-- Tab 9 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F2392951501076475%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Solo Trip To Kompot Province!</h1>
+                <p>Video shooting by Iphnone 16 Pro Max.
+                    Editing: Cap Cut.
                 </p>
                 <!-- <div class="btnTab">
                     <div class="amount">1 Videos</div>
