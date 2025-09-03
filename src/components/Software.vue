@@ -1,11 +1,11 @@
 <script>
 export default{
-
+    name: "softwareMain"
 };
 </script>
 
 <template>
-<div class="software">
+<div class="softwareMain">
     <div class="softwareSt">
         <h1 class="softwareCov">Software</h1>
         <div class="sotfwareStyle">
@@ -115,7 +115,7 @@ export default{
 </div>
 </template>
 <style lang="scss" scoped>
-.software {
+.softwareMain {
     width: 100% ;
     height: fit-content;
     background-color: rgb(17, 24, 39);
@@ -303,8 +303,9 @@ export default{
     margin-top: -20px;
     background-color: #ffd700;   
 }
-@media (max-width: 500px) {
-    .software {
+
+@media(max-width: 500px) {
+    .softwareMain {
         width: 100% ;
         height: fit-content;
         background-color: rgb(17, 24, 39);

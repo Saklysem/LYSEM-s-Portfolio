@@ -20,124 +20,7 @@ export default{
     </div>
 <!-- Portfolio Card -->
     <div class="portfolio">
-        <!-- Tab 1 -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fjobify.works%2Fvideos%2F6306950019355493%2F&show_text=false&width=560&t=5" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>                
-            </div>
-            <div class="MTitle">
-                <h1>Jobify Short film</h1>
-                <p>This short film got more engagment in facebook(Organic Reach).
-                    I work as a freelancer and closed to Jobify's Digital marketing Team.
-                </p>
-                <!-- <div class="btnTab">
-                    <div class="amount">3 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        <!-- Tab 1A -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F424693250695771%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            </div>
-            <div class="MTitle">
-                <h1>Trending Content</h1>
-                <p>This video created as follow the Social Media Trending and we got around 100K+ Views on Facebook Page.
-                </p>
-                <!-- <div class="btnTab">
-                    <div class="amount">3 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        <!-- Tab 2 -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F379240855245357%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>            
-            </div>
-            <div class="MTitle">
-                <h1>Shuttle Bus Promotional</h1>
-                <p>This Project I work as Videographer and editor. Camera offer by vKirirom Resort (Sonny a6200 and Gimbal DJI Ronin 3).
-                </p>
-                <!-- <div class="btnTab">
-                    <div class="amount">3 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        <!-- Tab 3 -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F734531408855332%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
-            </div>
-            <div class="MTitle">
-                <h1>Classic Demo</h1>
-                <p>This Project I work as Videographer and editor. Camera offer by vKirirom Resort (Sonny a6200, Gimbal DJI Ronin 3 and Drone DJI mini 3).
-                </p>
-                <!-- <div class="btnTab">
-                    <div class="amount">3 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        <!-- Tab 3a -->
-        <!-- <div class="MotionTab">
-            <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F734531408855332%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
-            </div>
-            <div class="MTitle">
-                <h1>Classic Demo</h1>
-                <p>This Project I work as Videographer and editor. Camera offer by vKirirom Resort (Sonny a6200, Gimbal DJI Ronin 3 and Drone DJI mini 3).
-                </p>
-            </div>
-        </div> -->
-        <!-- Tab 4 -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-                <iframe class="PersonalC1" src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F103223139058154%2Fvideos%2F1172116836676510%2F&show_text=false&width=456&t=0" width="456" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
-            </div>
-            <div class="MTitle">
-                <h1>My Personal content</h1>
-                <p>This is the first popular in my personal Facebook Page. I Prepare everting for creating this post.
-                </p>
-                <!-- <div class="btnTab">
-                    <div class="amount">3 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        <!-- Tab 5 -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F742399314043438%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
-            </div>
-            <div class="MTitle">
-                <h1>My Personal Vlog!</h1>
-                <p>Just record the memory for the future. I use Samsung Galaxy S10 record the footage.
-                </p>
-                <!-- <div class="btnTab">
-                    <div class="amount">1 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        <!-- Tab 6 -->
-        <div class="MotionTab">
-            <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F697443911875805%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-            </div>
-            <div class="MTitle">
-                <h1>The Portal Effect!</h1>
-                <p>I use Adobe after effect and Premiere Pro for this video. Just make fun with in my facebook page.
-                </p>
-                <!-- <div class="btnTab">
-                    <div class="amount">1 Videos</div>
-                    <div class="more">More Video</div>
-                </div> -->
-            </div>
-        </div>
-        <!-- Tab 7 -->
+                <!-- Tab 1 -->
         <div class="MotionTab">
             <div class="Thumnail1">
                 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fgrandphnompenhgolfclub%2Fvideos%2F1589136355088720%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
@@ -153,7 +36,7 @@ export default{
                 </div> -->
             </div>
         </div>
-                <!-- Tab 8 -->
+                <!-- Tab 2 -->
         <div class="MotionTab">
             <div class="Thumnail1">
                 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fgrandphnompenhgolfclub%2Fvideos%2F719329434278330%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
@@ -169,9 +52,71 @@ export default{
                 </div> -->
             </div>
         </div>
-                <!-- Tab 9 -->
+        <!-- Tab 3 -->
+         <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fjobify.works%2Fvideos%2F6306950019355493%2F&show_text=false&width=560&t=5" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>                
+            </div>
+            <div class="MTitle">
+                <h1>Jobify Short film</h1>
+                <p>This short film got more engagment in facebook(Organic Reach).
+                    I work as a freelancer and closed to Jobify's Digital marketing Team.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 4 -->
+         <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F734531408855332%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Classic Demo</h1>
+                <p>This Project I work as Videographer and editor. Camera offer by vKirirom Resort (Sonny a6200, Gimbal DJI Ronin 3 and Drone DJI mini 3).
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 5 -->
         <div class="MotionTab">
             <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F379240855245357%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>            
+            </div>
+            <div class="MTitle">
+                <h1>Shuttle Bus Promotional</h1>
+                <p>This Project I work as Videographer and editor. Camera offer by vKirirom Resort (Sonny a6200 and Gimbal DJI Ronin 3).
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+                <!-- Tab 6 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F742399314043438%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>My Personal Vlog!</h1>
+                <p>Just record the memory for the future. I use Samsung Galaxy S10 record the footage.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+         <!-- Tab 7 -->
+        
+        <div class="MotionTab">
+            <div class="Thumnail2">
                 <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F2392951501076475%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
             <div class="MTitle">
@@ -185,6 +130,84 @@ export default{
                 </div> -->
             </div>
         </div>
+        <!-- Tab 8 -->
+        <div class="MotionTab">
+            <div class="Thumnail2">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fvkirirom%2Fvideos%2F424693250695771%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Trending Content</h1>
+                <p>This video created as follow the Social Media Trending and we got around 100K+ Views on Facebook Page.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+            <!-- Tab 8.1 -->
+        <div class="MotionTab">
+            <div class="Thumnail2a">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F745348308445774%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Trending Content</h1>
+                <p>This video created as follow the Social Media Trending and we got around 100K+ Views on Facebook Page.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 8.2 -->
+        <div class="MotionTab">
+            <div class="Thumnail2a">
+                 <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F574383025627054%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Trending Content</h1>
+                <p>This video created as follow the Social Media Trending and we got around 100K+ Views on Facebook Page.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 9 -->
+        <div class="MotionTab">
+            <div class="Thumnail3">
+                <iframe  src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F103223139058154%2Fvideos%2F1172116836676510%2F&show_text=false&width=456&t=0" width="456" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>My Personal content</h1>
+                <p>This is the first popular in my personal Facebook Page. I Prepare everting for creating this post.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">3 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- Tab 10 -->
+        <div class="MotionTab">
+            <div class="Thumnail3">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F697443911875805%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>The Portal Effect!</h1>
+                <p>I use Adobe after effect and Premiere Pro for this video. Just make fun with in my facebook page.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+
+
     </div>
 </div>
 <div class="CopyRIght">
@@ -277,22 +300,61 @@ export default{
 }
 .MotionTab {
     width: 550px;
-    height: 480px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 10px 0px 10px;
-    border-radius: 3%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
     overflow: hidden;
     background-color: rgb(25, 34, 53);
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
 }
 .Thumnail1 {
     width: 99%;
-    height: 330px;
+    height: auto;
     border-radius: 15px;
     overflow: hidden;
+}
+.Thumnail2 {
+    width: 99%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.Thumnail2 iframe{
+    width: 100%;
+    height: 900px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; 
+}
+.Thumnail2a {
+    width: 99%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.Thumnail2a iframe{
+    width: 100%;
+    height: 950px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; 
+}
+.Thumnail3 {
+    width: 99%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.Thumnail3 iframe{
+    width: 100%;
+    height: 550px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; 
 }
 .Thumnail1 iframe{
     width: 100%;
@@ -301,6 +363,7 @@ export default{
     justify-content: center;
     align-items: center; 
 }
+
 .Thumnail1 img{
     width: 100%;
     height: fit-content;
