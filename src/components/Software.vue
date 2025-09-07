@@ -86,7 +86,7 @@ export default{
             <div class="AF">
                 <div class="level">
                     <h1>Digital Marketing</h1>
-                    <h1>50%</h1>
+                    <h1>60%</h1>
                 </div>
                 <div class="status">
                     <div class="line-7"></div>
@@ -484,7 +484,7 @@ export default{
         background-color: #ffd700;   
     }
     .status .line-7{
-        width: 50%;
+        width: 60%;
         height: 3px;
         margin-top: -20px;
         background-color: #ffd700;   
