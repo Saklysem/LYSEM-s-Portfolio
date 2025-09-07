@@ -47,7 +47,7 @@ export default{
             </div>
         </div>
         <div class="download">
-            <a href="https://drive.google.com/file/d/160eycU2uF2cMNZaVcBL707GiRfAzqLUN/view?usp=drive_link">
+            <a href="https://drive.google.com/drive/folders/1xBXFP1vhVaT4unhgyYhuL4dvzOVxPafm?usp=drive_link">
                 <button id="downloadCV" hreff >Download CV</button>
             </a>
         </div>
