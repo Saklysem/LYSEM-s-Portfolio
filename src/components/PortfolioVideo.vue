@@ -616,5 +616,14 @@ export default{
 .CopyRIght .name{
     margin-left: 0px;
 }
+.Thumnail2 iframe{
+    height: 700px;
+}
+.Thumnail2a iframe{
+    height: 700px;
+}
+.Thumnail3 iframe{
+    height: 400px;
+}
 }
 </style>
