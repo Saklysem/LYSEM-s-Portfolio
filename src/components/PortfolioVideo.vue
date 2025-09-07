@@ -121,8 +121,7 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>Solo Trip To Kompot Province!</h1>
-                <p>Video shooting by Iphnone 16 Pro Max.
-                    Editing: Cap Cut.
+                <p>Video shooting by Iphnone 16 Pro Max, Capcut for editing and I got 60K Views on my personal Facebook Page.
                 </p>
                 <!-- <div class="btnTab">
                     <div class="amount">1 Videos</div>
@@ -151,8 +150,8 @@ export default{
                 <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F745348308445774%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
             </div>
             <div class="MTitle">
-                <h1>Trending Content</h1>
-                <p>This video created as follow the Social Media Trending and we got around 100K+ Views on Facebook Page.
+                <h1>Gym Vlog</h1>
+                <p>Video shooting by Iphnone 16 Pro Max, Capcut for editing. This video created For sharing the gym experience to my fan.
                 </p>
                 <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
@@ -167,7 +166,7 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>Trending Content</h1>
-                <p>This video created as follow the Social Media Trending and we got around 100K+ Views on Facebook Page.
+                <p>Video shooting by Iphnone 16 Pro Max, Capcut for editing. Dramatic and Cinematic But just for fun.
                 </p>
                 <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
@@ -182,7 +181,7 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>My Personal content</h1>
-                <p>This is the first popular in my personal Facebook Page. I Prepare everting for creating this post.
+                <p>This is the first Viral Video in my personal Facebook Page. I Prepare everting for creating this post.
                 </p>
                 <!-- <div class="btnTab">
                     <div class="amount">3 Videos</div>
@@ -198,7 +197,7 @@ export default{
             </div>
             <div class="MTitle">
                 <h1>The Portal Effect!</h1>
-                <p>I use Adobe after effect and Premiere Pro for this video. Just make fun with in my facebook page.
+                <p>I use Adobe after effect and Premiere Pro for this Editing video. Just make fun with in my facebook page.
                 </p>
                 <!-- <div class="btnTab">
                     <div class="amount">1 Videos</div>
@@ -562,6 +561,7 @@ export default{
     .MTitle {
         color: white;
         font-family: sans-serif;
+        text-align: left;
     }
     .MTitle h1{
         font-size: 25px;
@@ -617,13 +617,13 @@ export default{
     margin-left: 0px;
 }
 .Thumnail2 iframe{
-    height: 680px;
+    height: 660px;
 }
 .Thumnail2a iframe{
-    height: 680px;
+    height: 650px;
 }
 .Thumnail3 iframe{
-    height: 400px;
+    height: 370px;
 }
 }
 </style>
