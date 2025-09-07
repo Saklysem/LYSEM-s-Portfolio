@@ -46,7 +46,7 @@ export default{
         <!-- Tab 2 -->
         <div class="MotionTab">
             <div class="Thumnail1">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fjobify.works%2Fvideos%2F6306950019355493%2F&show_text=false&width=560&t=5" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>                
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fgrandphnompenhgolfclub%2Fvideos%2F1589136355088720%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>            
                 <!-- <img src="../assets/BG/Video_Thumbnail.png" alt="Loading"> -->
             </div>
             <div class="MTitle">
