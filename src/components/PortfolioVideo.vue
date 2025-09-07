@@ -617,10 +617,10 @@ export default{
     margin-left: 0px;
 }
 .Thumnail2 iframe{
-    height: 700px;
+    height: 680px;
 }
 .Thumnail2a iframe{
-    height: 700px;
+    height: 680px;
 }
 .Thumnail3 iframe{
     height: 400px;
