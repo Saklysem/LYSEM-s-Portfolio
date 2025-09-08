@@ -113,19 +113,110 @@ export default{
                 </div> -->
             </div>
         </div>
-         <!-- Tab 7 -->
-        
+        <!-- Tab 6.1 -->
         <div class="MotionTab">
-            <div class="Thumnail2">
-                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F2392951501076475%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=362&href=https%3A%2F%2Fwww.facebook.com%2Fgrandphnompenhgolfclub%2Fvideos%2F1192029609008845%2F&show_text=false&width=560&t=0" width="560" height="362" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
             </div>
             <div class="MTitle">
-                <h1>Solo Trip To Kompot Province!</h1>
-                <p>Video shooting by Iphnone 16 Pro Max, Capcut for editing and I got 60K Views on my personal Facebook Page.
+                <h1>Cinematic Video Style</h1>
+                <p>This Video shooting by Iphone 16 Pro Max. Editing in Adobe Premiere Pro Since the first day at Grand Phnom Penh Golf Club.
                 </p>
                 <!-- <div class="btnTab">
                     <div class="amount">1 Videos</div>
                     <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 6.2 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fgrandphnompenhgolfclub%2Fvideos%2F1235910761235085%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Grand Phnom Penh Golf Club</h1>
+                <p>This Video Shooting by Drone DJI Mavic 2 (Oldest Model). Editing in Cap Cut Pro.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 6.3 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Froyalphnompenhgolfclub%2Fvideos%2F734915235610815%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Hole demonstrate</h1>
+                <p>This video shooting by Drone DJI Mavic 2 (Oldest Model). Editing in Adobe After Effect and Adobe Premiere Pro.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 6.4 -->
+        <div class="MotionTab">
+            <div class="Thumnail1">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Froyalphnompenhgolfclub%2Fvideos%2F2141952076248050%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Royal Phnom Penh Golf Club</h1>
+                <p>This Video Shooting by Drone DJI Mavic 2 (Oldest Model). Editing in Cap Cut Pro.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+         <!-- Tab 7.1 -->
+        <div class="MotionTab">
+            <div class="Thumnail2">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Froyalphnompenhgolfclub%2Fvideos%2F805671335126020%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Event Reminding</h1>
+                <p>This Video Shooting by iPhone 16 Pro Max. Editing in Cap Cut Pro (The Trending Content Concept)
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Tab 7.2 -->
+        <div class="MotionTab">
+            <div class="Thumnail2">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fgrandphnompenhgolfclub%2Fvideos%2F1528446608490776%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Sunset Views</h1>
+                <p>This Video Shooting by iPhone 16 Pro Max. Editing in Cap Cut Pro (The Trending Content Concept)
+                
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                    </div> -->
+            </div>
+        </div>
+        <!-- Tab 7.3 -->
+        <div class="MotionTab">
+            <div class="Thumnail2">
+                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2F100083211016907%2Fvideos%2F2392951501076475%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" ></iframe>
+            </div>
+            <div class="MTitle">
+                <h1>Solo Trip To Kompot Province!</h1>
+                <p>Video shooting by Iphnone 16 Pro Max, Capcut for editing and I got more than 60K Views on my personal Facebook Page.
+                </p>
+                <!-- <div class="btnTab">
+                    <div class="amount">1 Videos</div>
+                    <div class="more">More Video</div>
+                    
                 </div> -->
             </div>
         </div>
@@ -617,13 +708,13 @@ export default{
     margin-left: 0px;
 }
 .Thumnail2 iframe{
-    height: 680px;
+    height: 700px;
 }
 .Thumnail2a iframe{
-    height: 680px;
+    height: 700px;
 }
 .Thumnail3 iframe{
-    height: 400px;
+    height: 420px;
 }
 }
 </style>

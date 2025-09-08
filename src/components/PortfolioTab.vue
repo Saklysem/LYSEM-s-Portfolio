@@ -35,7 +35,7 @@ export default{
                     I mostly working on icon Motion in online game Mobile App.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">5 Videos</div>
+                    <div class="amount">Videos</div>
                     <router-link to="/portfolioMotionGraphic">
                         <div class="more">More...</div>
                     </router-link>    
@@ -58,7 +58,7 @@ export default{
                     for socail media.
                 </p>
                 <div class="btnTab">
-                    <div class="amount">7 Videos</div>
+                    <div class="amount">Videos</div>
                     <router-link to="/portfolioVideo">
                         <div class="more">More...</div>
                     </router-link>
@@ -79,7 +79,7 @@ export default{
                     Skilled in Adobe Photoshop and proficient in brand identity development and digital media assets. 
                 </p>
                 <div class="btnTab">
-                    <div class="amount">10 Posters</div>
+                    <div class="amount">Posters</div>
                     <router-link to="/PortfolioGraphicDesign">
                         <div class="more">More...</div>
                     </router-link>
@@ -99,8 +99,8 @@ export default{
                     different shooting environments and collaborating with team to bring creative visions to life.
                 </p>
                 <div class="btnTab">
-                    <!-- <div class="amount">9 Videos</div>
-                    <div class="more">More Video</div> -->
+                    <div class="amount">Photos</div>
+                    <div class="more">More Photos</div> 
                 </div>
             </div>
         </div>
