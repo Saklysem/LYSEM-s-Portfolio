@@ -54,7 +54,7 @@ export default{
                     </div>
                     <div class="Title2">Video Edtior</div>
                 </div>
-                <div class="date">2024-September - Present: On Going</div>
+                <div class="date">2024-September - 2024-December</div>
                 <div class="exTitle2s">Video editor & Graphic design in vKirirom Pine Resort</div>
                 <div class="description">
                     <ul class="listEx2">
@@ -80,6 +80,23 @@ export default{
                         <li>Shooting short filming and Editting with sound design.</li>
                         <li>Create video motion graphic for advertisments</li>
                         <li>Tend to Cinematic style.</li>
+                    </ul>
+                </div>
+            </div>
+<!-- Experience job 4 -->
+            <div class="ex2">
+                <div class="exTitle2">
+                    <div class="circle2">
+                        <div></div>
+                    </div>
+                    <div class="Title2">Seior Media</div>
+                </div>
+                <div class="date">January-2025 - Present: On Going</div>
+                <div class="exTitle2s">Seior Media Productions</div>
+                <div class="description">
+                    <ul class="listEx2">
+                        <li>Responsibility Produce Video Content and Photos for Company's Social Media Account, Tik Tok, Facebook.</li>
+                        <li>Create and prepare Story of the video content</li>
                     </ul>
                 </div>
             </div>
