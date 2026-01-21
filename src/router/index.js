@@ -4,7 +4,7 @@ import Home from "@/Home.vue";
 import PortfolioMotion from "@/components/PortfolioMotion.vue";
 import PortfolioGraphicDesign from "@/components/PortfolioGraphicDesign.vue";
 import PortfolioVideo from "@/components/PortfolioVideo.vue";
-import PortfolioPhoto from "@/components/Portfoliophoto.vue";
+import PortfolioPhoto from "@/components/Portfolio-photo.vue";
 const routes = [
   {
     path: "/",
