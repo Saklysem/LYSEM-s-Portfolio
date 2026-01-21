@@ -100,7 +100,9 @@ export default{
                 </p>
                 <div class="btnTab">
                     <div class="amount">Photos</div>
-                    <div class="more">More Photos</div> 
+                    <router-link to="/PortfolioPhoto">
+                        <div class="more">More...</div>
+                    </router-link> 
                 </div>
             </div>
         </div>
