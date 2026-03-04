@@ -23,10 +23,10 @@ export default{
             <img src="../assets/BG/Profile_2.png" alt="Loading">
             <div class="script">
                 <div class="hi">
-                    <h1 class="hiThere">Hi There! I am </h1>
+                    <h1 class="hiThere">Hi There! I'm </h1>
                     <h1 class="name">Sak Lysem </h1>
                 </div> 
-                <h2>Motion Graphic | Video Editor | 3D Motion</h2>
+                <h2>Media Production | Video Editor | Cameraman | Motion Graphic </h2>
                 <p class="promo"> 
                    As a Software Engineering graduate who has completed a 4-year
                    bachelor’s degree, I’ve gained skills in design, branding, creativity, 
@@ -226,7 +226,7 @@ export default{
 .briefdMe img {
     width: 440px;
     height: 440px;
-    margin-top: -60px;
+    margin-top: 0px;
     margin-right: 30px;
     // box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
 }
@@ -248,7 +248,8 @@ export default{
     height: fit-content;
     display: flex;
     font-size: 20px;
-    margin-top: 0px;
+    margin-top: -30px;
+    margin-bottom: 10px;
 }
 .hi .hiThere {
     color: white;
@@ -264,6 +265,8 @@ export default{
 .script h2{
     color: white;
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .promo {

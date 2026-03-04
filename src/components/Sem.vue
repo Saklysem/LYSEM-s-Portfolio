@@ -33,8 +33,8 @@
                   <h1 class="name">SAK LYSEM!</h1>
                 </div>
                 <div>
-                  <h3 class="skill">Motion Graphic | Video Editor | Cameraman | 3D Motion</h3>
-                  <h3 class="slogan">Start your day one to deserve one day!</h3>
+                  <h3 class="skill">Media Production|Video Editor|Cameraman|Motion Graphic</h3>
+                  <h3 class="slogan">Start day one to deserve one day!</h3>
                 </div>
                 <!-- Icon -->
                 <div class="SMIcon">
