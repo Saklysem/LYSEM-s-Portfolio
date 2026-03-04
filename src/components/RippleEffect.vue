@@ -17,7 +17,7 @@
         perturbance: 0.06,
       });
     },
-    beforeDestroy() {
+    beforeUnmount() {
       $(this.$refs.rippleContainer).ripples('destroy');
     },
   };
